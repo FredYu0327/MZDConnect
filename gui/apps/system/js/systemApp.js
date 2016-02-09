@@ -568,7 +568,7 @@ systemApp.prototype.appInit = function()
 	
 	// Array containing the appName of the list which supports Speed Restriction. 
 	//@appName = appName of the item , @status = default value of disabled property for particular appName
-	this._SpeedRestrictedApps = [ {appName : "vdt_settings",status : true}];	
+	this._SpeedRestrictedApps = [ {appName : "vdt_settings",status : false}];	
 };
 
 /**************************
@@ -652,16 +652,16 @@ systemApp.prototype._initApplicationsDataList = function()
     var items = [];
 
     items.push(
-        { appData : { appName : 'hdtrafficimage', isVisible : false, mmuiEvent : 'SelectHDTrafficImage'         }, text1Id : 'HDTrafficItem',               disabled : true,  itemStyle : 'style01', hasCaret : false },
-        { appData : { appName : 'idm',            isVisible : false, mmuiEvent : 'SelectIntelligentDriveMaster' }, text1Id : 'IntelligentDriveMasterItem',  disabled : true,  itemStyle : 'style01', hasCaret : false },
-        { appData : { appName : 'ecoenergy',      isVisible : true,  mmuiEvent : 'SelectEcoEnergy'              }, text1Id : 'EcoenergyApp',                disabled : true,  itemStyle : 'style01', hasCaret : false },
-        { appData : { appName : 'driverid',       isVisible : false, mmuiEvent : 'SelectDriverIdentification'   }, text1Id : 'DriverIDItem',                disabled : true,  itemStyle : 'style01', hasCaret : false },
-        { appData : { appName : 'schedmaint',     isVisible : true,  mmuiEvent : 'SelectSchedMaint'             }, text1Id : 'SchedMaintenanceApp',         disabled : true,  itemStyle : 'style22', hasCaret : false, image2: '', label1: "" },
-        { appData : { appName : 'warnguide',      isVisible : true,  mmuiEvent : 'SelectWarnGuide'              }, text1Id : 'WarnGuidanceApp',             disabled : true,  itemStyle : 'style22', hasCaret : false, image2: '', label1: "" },
-        { appData : { appName : 'vdt_settings',   isVisible : false, mmuiEvent : 'SelectVehicleTelemetryTransfer'}, text1Id : 'VehicleTelemetryTransfer',   disabled : true,  itemStyle : 'style01', hasCaret : false },
-        { appData : { appName : 'vdt',            isVisible : false, mmuiEvent : 'SelectDriveRecord'    		}, text1Id : 'DriveRecord',                 disabled : true,  itemStyle : 'style01', hasCaret : false },
-		{ appData : { appName : 'carplay',        isVisible : false, mmuiEvent : 'SelectCarPlay'   			    }, text1Id : 'CarPlay',   	     		    disabled : true,  itemStyle : 'style01', hasCaret : false },
-        { appData : { appName : 'androidauto',    isVisible : false, mmuiEvent : 'SelectAndroidAuto'   			}, text1Id : 'AndroidAuto',     			disabled : true,  itemStyle : 'style01', hasCaret : false }
+        { appData : { appName : 'hdtrafficimage', isVisible : true, mmuiEvent : 'SelectHDTrafficImage'         }, text1Id : 'HDTrafficItem',               disabled : false,  itemStyle : 'style01', hasCaret : false },
+        { appData : { appName : 'idm',            isVisible : true, mmuiEvent : 'SelectIntelligentDriveMaster' }, text1Id : 'IntelligentDriveMasterItem',  disabled : false,  itemStyle : 'style01', hasCaret : false },
+        { appData : { appName : 'ecoenergy',      isVisible : true,  mmuiEvent : 'SelectEcoEnergy'              }, text1Id : 'EcoenergyApp',                disabled : false,  itemStyle : 'style01', hasCaret : false },
+        { appData : { appName : 'driverid',       isVisible : true, mmuiEvent : 'SelectDriverIdentification'   }, text1Id : 'DriverIDItem',                disabled : false,  itemStyle : 'style01', hasCaret : false },
+        { appData : { appName : 'schedmaint',     isVisible : true,  mmuiEvent : 'SelectSchedMaint'             }, text1Id : 'SchedMaintenanceApp',         disabled : false,  itemStyle : 'style22', hasCaret : false, image2: '', label1: "" },
+        { appData : { appName : 'warnguide',      isVisible : true,  mmuiEvent : 'SelectWarnGuide'              }, text1Id : 'WarnGuidanceApp',             disabled : false,  itemStyle : 'style22', hasCaret : false, image2: '', label1: "" },
+        { appData : { appName : 'vdt_settings',   isVisible : true, mmuiEvent : 'SelectVehicleTelemetryTransfer'}, text1Id : 'VehicleTelemetryTransfer',   disabled : false,  itemStyle : 'style01', hasCaret : false },
+        { appData : { appName : 'vdt',            isVisible : true, mmuiEvent : 'SelectDriveRecord'    		}, text1Id : 'DriveRecord',                 disabled : false,  itemStyle : 'style01', hasCaret : false },
+	 { appData : { appName : 'carplay',        isVisible : true, mmuiEvent : 'SelectCarPlay'   			    }, text1Id : 'CarPlay',   	     		    disabled : false,  itemStyle : 'style01', hasCaret : false },
+        { appData : { appName : 'androidauto',    isVisible : true, mmuiEvent : 'SelectAndroidAuto'   			}, text1Id : 'AndroidAuto',     			disabled : false,  itemStyle : 'style01', hasCaret : false }
 
     );
 
@@ -682,13 +682,13 @@ systemApp.prototype._initCommunicationsDataList = function()
     items.push(
         { appData : { appName : '',            isVisible : false, mmuiEvent : 'SelectActiveCall'    }, text1Id : 'ActiveCallItem',        disabled : false, itemStyle : 'style01', hasCaret : false},
         { appData : { appName : '',            isVisible : true,  mmuiEvent : 'SelectNotifications' }, text1Id : 'Notifications',         disabled : true,  itemStyle : 'style06', hasCaret : false, label1 : '' },
-        { appData : { appName : 'favorites',   isVisible : true,  mmuiEvent : 'SelectFavoritesComm' }, text1Id : 'FavoritesItem',         disabled : true,  itemStyle : 'style01', hasCaret : false },
+        { appData : { appName : 'favorites',   isVisible : true,  mmuiEvent : 'SelectFavoritesComm' }, text1Id : 'FavoritesItem',         disabled : false,  itemStyle : 'style01', hasCaret : false },
         { appData : { appName : 'contacts',    isVisible : true,  mmuiEvent : 'SelectContacts'      }, text1Id : 'Contacts',              disabled : true,  itemStyle : 'style01', hasCaret : false },
         { appData : { appName : 'phone',       isVisible : true,  mmuiEvent : 'SelectCallHistory'   }, text1Id : 'CallHistory',           disabled : true,  itemStyle : 'style06', hasCaret : false, label1 : '' },
         { appData : { appName : 'phone',       isVisible : true,  mmuiEvent : 'SelectPhone'         }, text1Id : 'DialPhone',             disabled : true,  itemStyle : 'style01', hasCaret : false },
-        { appData : { appName : 'sms',         isVisible : true,  mmuiEvent : 'SelectSms'           }, text1Id : 'Sms',                   disabled : true,  itemStyle : 'style06', hasCaret : false, label1 : '' },
-        { appData : { appName : 'email',       isVisible : false, mmuiEvent : 'SelectEmail'         }, text1Id : 'Email',                 disabled : true,  itemStyle : 'style06', hasCaret : false, label1 : '' },
-        { appData : { appName : 'syssettings', isVisible : true,  mmuiEvent : 'SelectSettings'      }, text1Id : 'SettingsCommunication', disabled : true,  itemStyle : 'style01', hasCaret : false }
+        { appData : { appName : 'sms',         isVisible : true,  mmuiEvent : 'SelectSms'           }, text1Id : 'Sms',                   disabled : false,  itemStyle : 'style06', hasCaret : false, label1 : '' },
+        { appData : { appName : 'email',       isVisible : true, mmuiEvent : 'SelectEmail'         }, text1Id : 'Email',                 disabled : false,  itemStyle : 'style06', hasCaret : false, label1 : '' },
+        { appData : { appName : 'syssettings', isVisible : true,  mmuiEvent : 'SelectSettings'      }, text1Id : 'SettingsCommunication', disabled : false,  itemStyle : 'style01', hasCaret : false }
     );
 
     // All Communication list items are kept in _masterCommunicationDataList, including items that may or may not be present on a specific vehicle. 
@@ -2014,7 +2014,7 @@ systemApp.prototype._disclaimerTimedout = function()
 	if (this._disclaimerTime.reset)
     {
         this._disclaimerTime.reset = false;
-        this._disclaimerTime.remaining = 3500;
+        this._disclaimerTime.remaining = 100;
     }
 
     if (this._disclaimerTime.remaining < 0)

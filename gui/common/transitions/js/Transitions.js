@@ -45,6 +45,7 @@ log.addSrcFile("Transitions.js", "common");
  */
 function Transitions()
 { 
+ /*
     log.debug("browser version " + window.opera.version());
      
     if (window.opera)
@@ -62,7 +63,7 @@ function Transitions()
     {
         log.fatal("The GUI can only run in the Opera Browser. Please re-open the GUI using Opera 12.10+");
     }
-
+*/
     this._prevApp = null;        // (String) UIA ID of the App associated with the context leaving the screen
     this._prevCtxtId = null;     // (String) Context ID of the context leaving the screen
     this._prevTmpltInst = null;  // (Object) Instance of the template leaving the screen

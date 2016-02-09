@@ -36,7 +36,7 @@ function GuiConfig()
      * Should always be FALSE when checking into Dimensions and when integrating GUI with MMUI
      * Setting debugMode to false will disable all Test.js files (fake MMUI messages will not occur)
      */ 
-    this.debugMode = false;
+    this.debugMode = true;
     
     /*
      * Should always be FALSE when checking into Dimensions
@@ -57,13 +57,13 @@ function GuiConfig()
      * Setting debugPanelEnabled to false will disable the right-side debug panel and freeze its log messages.
      * This does NOT disable Test.js files.
      */
-    this.debugPanelEnabled = false;    
+    this.debugPanelEnabled = true;    
     
     /*
      * Should always be FALSE when checking into Dimensions.
      * Setting to true will display the GUI Framework's current context as a named label on screen.
      */
-    this.screenNameLabelEnabled = false; 
+    this.screenNameLabelEnabled = true; 
     
     /*
      * Set to TRUE or FALSE based on the need. 
@@ -81,7 +81,7 @@ function GuiConfig()
      * Set to TRUE for logging in PC browser, FALSE in Target hardware
      * PC Logging displays console lines in a different format than Target logging
      */
-    this.pcLogging = false;
+    this.pcLogging = true;
     
      /*
      * If TRUE GUI will not return error if few language dictionaries failed to load and vice-versa when FALSE     

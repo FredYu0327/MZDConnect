@@ -373,8 +373,19 @@ MainMenuCtrl.prototype._invokeSelectCallback = function(index)
         }
         else
         {
-            log.info("_invokeSelectCallback: Select callback delayed because coin is not fully highlighted yet.");
+            log.info("_invokeSelectCallback: Select callback delayed because coin is not fully highlighted yet. index==" + index);
             this._pendingInvokeSelectIndex = index;
+	     if(index == 0) {
+	          framework.sendEventToMmui("common", "SelectApplications");
+	     } else if( index == 1 ){
+	          framework.sendEventToMmui("common", "SelectEntertainment");
+	     } else if( index == 2 ){
+	          framework.sendEventToMmui("common", "SelectCommunication");
+	     } else if( index == 3 ){
+	          framework.sendEventToMmui("common", "SelectNavigation");
+	     } else if( index == 4 ){
+	          framework.sendEventToMmui("common", "SelectSettings");
+	     }
         }
     }
 }
@@ -387,11 +398,11 @@ MainMenuCtrl.prototype._offsetFocus = function(direction)
 
     if (index < 0)
     {
-        index = 0;
+        index = 4;
     }
     if (index > 4)
     {
-        index = 4;
+        index = 0;
     }
 
     if (index !== this._getFocus())

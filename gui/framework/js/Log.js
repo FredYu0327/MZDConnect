@@ -117,7 +117,7 @@ Log.prototype._log = function(level, msgArray)
         source = "undefined";
     }
     
-    var permisLevel = this._logLevels[source];
+    var permisLevel = this._DEBUG;
     
     // Note: permisLevel cannot be 0. Lowest level is 1.
     if (!permisLevel)

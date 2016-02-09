@@ -14,27 +14,27 @@
  * systemApp to only report "error" and "fatal" log lines
  */
 var logDefaults = {
-    "__global__": "info", // global log gate must be turned down before any levels below will be checked
+    "__global__": "debug", // global log gate must be turned down before any levels below will be checked
     
     //Apps ordered alpha-numeric by uiaId    
-    "backupcam" : "info",
+    "backupcam" : "debug",
     
-    "contacts" : "info",
+    "contacts" : "debug",
     
-    "emnavi" : "info",
+    "emnavi" : "debug",
     
-    "pandora" : "info",
-    "phone" : "info",
+    "pandora" : "debug",
+    "phone" : "debug",
     
-    "screenrep" : "info",
-    "syssettings" : "info",
-    "system" : "info",
-    "radio" : "info",
+    "screenrep" : "debug",
+    "syssettings" : "debug",
+    "system" : "debug",
+    "radio" : "debug",
     
-    "usbaudio" : "info",
+    "usbaudio" : "debug",
     
     //Other sources
-    "framework" : "info",
-    "common" : "info"
+    "framework" : "debug",
+    "common" : "debug"
 
 };
