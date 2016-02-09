@@ -1,0 +1,18 @@
+@import "commonVariables";
+
+/* Declare variables */
+$fontFamily: $common-fontFamily;
+$ctrlTitleFontSize: $common-fontSizeA;
+$audioTitleFontSize: $common-fontSizeB;
+$HdSubstNumFontSize: $common-fontSizeD;
+$detailLine1FontSize: $common-fontSizeB;
+$detailLine2FontSize: $common-fontSizeB;
+$detailLine3FontSize: $common-fontSizeB;
+$trackDisplayFontSize: $common-fontSizeC;
+$phoneNumberFontSize: $common-fontSizeC;
+$distanceDirectionFontSize: $common-fontSizeC;
+$controlTop: 0px;
+$controlLeft: 0px;
+$controlWidth: $screenWidth;
+$controlHeight: $screenHeight - $statusBarHeight;
+$umpHeight: 98px;

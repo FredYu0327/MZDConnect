@@ -1,0 +1,352 @@
+/* CSS Document */
+/* Declare variables */
+.EcoEffectCtrl {
+  position: inherit;
+  top: 0px;
+  left: 10px;
+  width: 780px; 
+  height: 421px;
+  font-family: Tipperary, Arial, Helvetica, sans-serif;
+  background: url("../images/Effectiveness_Bg.png") center no-repeat;
+}
+
+.UmpPanelDivDisable 
+{
+	position: inherit;
+  	top: 0px;
+  	left: 0px;
+	width: 780px; 
+  	height: 100px;
+	background: none;
+}
+
+.UmpPanelDivEnable
+{
+	position: inherit;
+  	top: 0px;
+  	left: 0px;
+	width: 780px; 
+  	height: 100px;
+	background: none;
+}
+
+
+.EcoEffectCtrlHidden {
+  display: none;
+}
+
+.iStopValues
+{
+    margin: 0px;
+    margin-left:150px;
+    float:left;
+    width:120px;
+    height:210px;
+}
+
+.timeValues
+{
+    margin: 0px;
+    float:left;
+    width:510px;
+    height:210px;
+}
+
+.totalTime
+{
+    width:450px;
+    height:30px;
+    margin-top: 145px;
+    margin-left:110px;
+    text-align:center;
+  /*  background: url("../images/TotalTimeBg.png") center no-repeat;*/
+} 
+
+.totalTimeText
+{
+    width:120px;
+    height:30px;
+    color:  #fff;
+    font-size: 20px; 
+    font-weight:normal;
+    margin-top:0px;
+    margin-left:-260px;
+    float:left;
+    text-align:left;
+      	overflow:hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    white-space:nowrap; 
+}
+
+.totalTimeValue
+{
+    color:  #ccc;
+    width:130px;
+    height:30px;
+    font-size: 20px; 
+    margin-top:0px;
+    line-height:150%;
+    float:right;
+    text-align:left;
+    margin-right:-20px;
+}
+
+.iStopText
+{
+    position:absolute;
+    color:  #fff;
+    font-size: 35px; 
+    text-align:left;
+	font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+	width:421px;
+    height:45px;
+    top:15px;
+    left:100px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+.iStopValue
+{
+    margin: 0px;
+    width:90px;
+    height:127px;
+    font-size: 38px; 
+    line-height: 125px;
+    text-align:center;
+    font-weight:700;
+    margin-top:50px;
+    margin-left:20px;
+}
+
+.actualTime
+{
+    position:absolute;
+    width:150px;
+    height:31px;
+    color:  #fff;
+    font-size: 28px; 
+    top: 100px;
+    left: 324px;
+    text-align:left;
+overflow:hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+.actualTimeValue
+{
+	position:absolute;
+    width:210px;
+    height: 45px;
+    color:  #fff;
+    font-size: 40px;
+    font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+    text-align:right;
+    line-height:150%;
+    top: 82px;
+    left: 509px;
+   overflow:hidden;
+}
+
+.stopTime
+{
+	position:absolute;
+	width:180px;
+	height:31px;
+    color:  #fff;
+    font-size: 28px; 
+    top:155px;
+    left:324px;
+    text-align:left;
+overflow:hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+.stopTimeValue
+{
+	position:absolute;
+    width:210px;
+    height:45px;
+    color:  #fff;
+    font-size: 40px; 
+    font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+    text-align:right;
+    line-height:150%;
+    top:137px;
+    left:509px;
+    overflow:hidden;
+}
+
+.switchElementBtn
+{
+	position: absolute;
+    height: 70px;
+    width: 60px;
+    left: 1px;
+    top: 340px;
+    cursor:pointer;
+    background: url("../images/AdjustBtn3_Focus.png") center no-repeat;
+    text-indent: -9999px;
+}
+
+.switchElementBtnHit
+{
+    position: absolute;
+    height: 70px;
+    width: 60px;
+    left: 1px;
+    top: 340px;
+    cursor:pointer;
+    background: url("../images/AdjustBtn3_Focus.png") center no-repeat;
+    text-indent: -9999px;
+}
+
+.plantControl
+{
+    position:absolute;
+}
+
+.treeWithTwoLeaves
+{
+	position:absolute;
+    width: 91px;
+    height:98px;
+    left :176px;
+    top:291px;
+    background: url('../images/Tree_01.png') center no-repeat;
+}
+
+.treeWithThreeLeaves
+{
+	position:absolute;
+    width: 125px;
+    height:135px;
+    left :167px;
+    top:253px;
+    background: url('../images/Tree_02.png') center no-repeat;
+}
+
+.fullBlownTree
+{
+	position:absolute;
+    width: 92px;
+    height:144px;
+    left :181px;
+    top:244px;
+    background: url('../images/Tree_03.png') center no-repeat;
+}
+
+
+.tree
+{
+    position:absolute;
+    width:48px;
+    height:74px;
+    background: url("../images/Tree_03_sm.png") center no-repeat;
+    top:286px;
+    left:317px;
+}
+
+.treeValue
+{
+    position:absolute;
+    width:100px;
+    height:45px;
+    color: #ffffff;
+    font-size: 40px; 
+    top:322px;
+    left:370px;
+    font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+}
+
+.treeBackground
+{
+	position:absolute;
+	width: 148px;
+	height: 85px;
+	background: url('../images/SmallTree_Bg.png')center no-repeat;
+	top: 283px;
+	left: 309px;
+	
+}
+
+.treeValue span
+{
+	font-size: 40px;
+}
+
+.iStopBoostText
+{
+	position:absolute;
+    color:  #fff;
+    font-size: 28px; 
+    text-align:left;
+    width:230px;
+    height:70px;
+    top:250px;
+    left:506px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+}
+.iStopBoostValue
+{
+	position:absolute;
+    width:230px;
+    height:45px;
+    color: #fff;
+    font-size: 40px;
+    top:322px;
+    left:505px;
+    font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+    text-align:center;
+    overflow:hidden;
+}
+
+#EcoIstopEffectiveRateDrawingCanvas
+{
+	position:absolute;
+	margin: 0px;
+    width:123px;
+    height:148px;
+    color:  #2d2d2d;
+    font-size: 38px; 
+    line-height: 125px;
+    text-align:center;
+    font-weight:700;
+    top:60px;
+    left:164px;
+ 	background: url("../images/MeterWheel.png") center no-repeat;
+	z-index:9998;
+}
+.percentDiv
+{
+	position:absolute;
+    width:24px;
+    height:26px;
+    color: #fff;
+    font-size: 20px; 
+    top:125px;
+    left:250px;
+    font-family: Tipperary, arial;
+    text-align:center;
+    background: url('../images/MeterWheel_Percentage.png') center no-repeat;
+	z-index:10;
+}
+
+.EcoEffectCtrl_timeUnit {
+	font-family: 'Tipperary Semibold', Arial, Helvetica, sans-serif;
+	font-size: 27px;
+}
+
+.EcoEffectBoostUnit {
+	font-family: 'Tipperary Semibold', Arial, Helvetica, sans-serif;
+	font-size: 28px;
+}

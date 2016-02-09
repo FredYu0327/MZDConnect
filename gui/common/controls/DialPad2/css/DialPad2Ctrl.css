@@ -1,0 +1,388 @@
+/* DialPad2Ctrl.css */
+.DialPad2Ctrl {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  direction: ltr;
+}
+.DialPad2Ctrl .inputDiv {
+  height: 80px;
+  line-height: 80px;
+  font-size: 57px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  position: absolute;
+  overflow: hidden;
+  top: 11px;
+  left: 16px;
+  padding: 0;
+  text-align: center;
+}
+.DialPad2Ctrl .inputDiv .inputFade {
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  z-index: 1;
+  width: 20px;
+  background-image: -o-linear-gradient(left, #272727, rgba(39, 39, 39, 0));
+  height: 78px;
+}
+.DialPad2Ctrl .inputDiv .caret {
+  position: absolute;
+  width: 2px;
+  background: #8c8c8c;
+  left: 18px;
+  height: 72px;
+  top: 4px;
+  visibility: hidden;
+}
+.DialPad2Ctrl .inputDiv .inputSpan {
+  position: absolute;
+  left: 16px;
+  white-space: nowrap;
+}
+.DialPad2Ctrl .btn {
+  width: 126px;
+  height: 79px;
+  line-height: 57px;
+  text-align: center;
+  background: url("../images/DialKey.png") center center no-repeat;
+  position: absolute;
+  font-size: 40px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.DialPad2Ctrl .btn img {
+  vertical-align: middle;
+}
+.DialPad2Ctrl .btn span {
+  display: block;
+  margin-top: -26px;
+  font-size: 28px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-shadow: 1px 1px 0px #000000;
+}
+.DialPad2Ctrl .btn.active {
+  background: url("../images/Key_Hit.png") center center no-repeat, url("../images/DialKey.png") center center no-repeat !important;
+}
+.DialPad2Ctrl .btn.focused {
+  background: url("../images/Key_Focus.png") center center no-repeat, url("../images/DialKey.png") center center no-repeat !important;
+}
+.DialPad2Ctrl .btn.leftBtn {
+  position: absolute;
+  width: 69px;
+  height: 88px;
+  background: url("../images/BtnLeft_En.png") center center no-repeat;
+}
+.DialPad2Ctrl .btn.leftBtn.focused {
+  background: url("../images/BtnLeft_Focus.png") center center no-repeat !important;
+}
+.DialPad2Ctrl .btn.leftBtn.active {
+  background: url("../images/BtnLeft_Press.png") center center no-repeat !important;
+}
+.DialPad2Ctrl .btn.clear {
+  line-height: 79px;
+}
+.DialPad2Ctrl .btn.disabled {
+  opacity: 0.5 !important;
+}
+.DialPad2Ctrl.DialpadStyle01 {
+  width: 572px;
+  height: 416px;
+  left: 114px;
+  top: 0;
+}
+.DialPad2Ctrl.DialpadStyle01 .ctrlBackground {
+  background-image: url("../images/DialPadStyle01_Bkgd.png");
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.DialPad2Ctrl.DialpadStyle01 .inputDiv {
+  width: 538px;
+  top: 11px;
+  left: 17px;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn.closeDtmf {
+  height: 72px;
+  width: 116px;
+  left: 571px;
+  top: 343px;
+  line-height: 72px;
+  border: none;
+  background: none !important;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn.closeDtmf img {
+  position: absolute;
+  top: 8px;
+  left: 35px;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn.closeDtmf.focused {
+  background: url("../images/DialPadCloseDTMF_Focus.png") center center no-repeat !important;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn.closeDtmf.active {
+  background: url("../images/DialPadCloseDTMF_Hit.png") center center no-repeat !important;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn.leftBtn {
+  left: -96px;
+  top: 181px;
+}
+.DialPad2Ctrl.DialpadStyle01 .DialPadFakeUmp {
+  background-image: url("../images/UMP_Bg.png");
+  width: 799px;
+  height: 97px;
+  position: absolute;
+  left: -114px;
+  top: 318px;
+}
+.DialPad2Ctrl.DialpadStyle01 .DialPadFakeUmpArc {
+  background-image: url("../images/UMP_Bg_Arch.png");
+  width: 800px;
+  height: 30px;
+  position: absolute;
+  left: -114px;
+  top: 309px;
+}
+.DialPad2Ctrl.DialpadStyle01 .btnAsterisk {
+  left: 95px;
+  top: 332px;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn0 {
+  left: 222px;
+  top: 332px;
+}
+.DialPad2Ctrl.DialpadStyle01 .btnSharp {
+  left: 349px;
+  top: 332px;
+  font-size: 30px;
+  line-height: 44px;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn1 {
+  left: 95px;
+  top: 92px;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn2 {
+  left: 222px;
+  top: 92px;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn3 {
+  left: 349px;
+  top: 92px;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn4 {
+  left: 95px;
+  top: 172px;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn5 {
+  left: 222px;
+  top: 172px;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn6 {
+  left: 349px;
+  top: 172px;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn7 {
+  left: 95px;
+  top: 252px;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn8 {
+  left: 222px;
+  top: 252px;
+}
+.DialPad2Ctrl.DialpadStyle01 .btn9 {
+  left: 349px;
+  top: 252px;
+}
+.DialPad2Ctrl.DialpadStyle02 {
+  width: 643px;
+  height: 416px;
+  left: 78px;
+  top: 0;
+}
+.DialPad2Ctrl.DialpadStyle02 .ctrlBackground {
+  background-image: url("../images/DialPadStyle02_Bkgd.png");
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.DialPad2Ctrl.DialpadStyle02 .inputDiv {
+  width: 506px;
+  top: 11px;
+  left: 5px;
+}
+.DialPad2Ctrl.DialpadStyle02 .btnAsterisk {
+  left: 131px;
+  top: 332px;
+}
+.DialPad2Ctrl.DialpadStyle02 .btn0 {
+  left: 258px;
+  top: 332px;
+}
+.DialPad2Ctrl.DialpadStyle02 .btnSharp {
+  left: 385px;
+  top: 332px;
+  font-size: 30px;
+  line-height: 44px;
+}
+.DialPad2Ctrl.DialpadStyle02 .btn1 {
+  left: 131px;
+  top: 92px;
+}
+.DialPad2Ctrl.DialpadStyle02 .btn2 {
+  left: 258px;
+  top: 92px;
+}
+.DialPad2Ctrl.DialpadStyle02 .btn3 {
+  left: 385px;
+  top: 92px;
+}
+.DialPad2Ctrl.DialpadStyle02 .btn4 {
+  left: 131px;
+  top: 172px;
+}
+.DialPad2Ctrl.DialpadStyle02 .btn5 {
+  left: 258px;
+  top: 172px;
+}
+.DialPad2Ctrl.DialpadStyle02 .btn6 {
+  left: 385px;
+  top: 172px;
+}
+.DialPad2Ctrl.DialpadStyle02 .btn7 {
+  left: 131px;
+  top: 252px;
+}
+.DialPad2Ctrl.DialpadStyle02 .btn8 {
+  left: 258px;
+  top: 252px;
+}
+.DialPad2Ctrl.DialpadStyle02 .btn9 {
+  left: 385px;
+  top: 252px;
+}
+.DialPad2Ctrl.DialpadStyle02 .callBtn {
+  width: 126px;
+  height: 318px;
+  top: 92px;
+  left: 512px;
+  background: url("../images/DialPad_CallIcon.png") center center no-repeat, url("../images/DialPad_CallBtn.png") center center no-repeat !important;
+}
+.DialPad2Ctrl.DialpadStyle02 .callBtn.active {
+  background: url("../images/DialPad_CallIcon.png") center center no-repeat, url("../images/DialPad_CallBtn_Press.png") center center no-repeat !important;
+}
+.DialPad2Ctrl.DialpadStyle02 .callBtn.focused {
+  background: url("../images/DialPad_CallIcon.png") center center no-repeat, url("../images/DialPad_CallBtn_Focus.png") center center no-repeat !important;
+}
+.DialPad2Ctrl.DialpadStyle02 .btn.clear {
+  top: 12px;
+  left: 512px;
+}
+.DialPad2Ctrl.DialpadStyle02 .btn.leftBtn {
+  left: -70px;
+  top: 181px;
+}
+.DialPad2Ctrl.DialpadStyle03 {
+  width: 800px;
+  height: 416px;
+  top: 0;
+}
+.DialPad2Ctrl.DialpadStyle03 .ctrlBackground {
+  background-image: url("../images/DialPadKeystyle03_Bkgd.png");
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.DialPad2Ctrl.DialpadStyle03 .pinStyleInput {
+  width: 381px;
+  height: 80px;
+  top: 10px;
+  left: 208px;
+  position: absolute;
+  text-align: center;
+}
+.DialPad2Ctrl.DialpadStyle03 .pinStyleInput .caret {
+  position: absolute;
+  width: 2px;
+  background: #8c8c8c;
+  left: 126px;
+  height: 72px;
+  top: 2px;
+  visibility: hidden;
+}
+.DialPad2Ctrl.DialpadStyle03 .pinStyleInput .pinHolder {
+  width: 94px;
+  height: 76px;
+  line-height: 76px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 40px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.DialPad2Ctrl.DialpadStyle03 .btn.clear {
+  top: 12px;
+  left: 590px;
+}
+.DialPad2Ctrl.DialpadStyle03 .btn.leftBtn {
+  left: -8px;
+  top: 181px;
+}
+.DialPad2Ctrl.DialpadStyle03 .btnCancel {
+  left: 209px;
+  top: 332px;
+  line-height: 79px;
+}
+.DialPad2Ctrl.DialpadStyle03 .btn0 {
+  left: 336px;
+  top: 332px;
+}
+.DialPad2Ctrl.DialpadStyle03 .btnOK {
+  left: 463px;
+  top: 332px;
+  line-height: 79px;
+}
+.DialPad2Ctrl.DialpadStyle03 .btnOK.disabled {
+  opacity: 0.5;
+}
+.DialPad2Ctrl.DialpadStyle03 .btn1 {
+  left: 209px;
+  top: 92px;
+}
+.DialPad2Ctrl.DialpadStyle03 .btn2 {
+  left: 336px;
+  top: 92px;
+}
+.DialPad2Ctrl.DialpadStyle03 .btn3 {
+  left: 463px;
+  top: 92px;
+}
+.DialPad2Ctrl.DialpadStyle03 .btn4 {
+  left: 209px;
+  top: 172px;
+}
+.DialPad2Ctrl.DialpadStyle03 .btn5 {
+  left: 336px;
+  top: 172px;
+}
+.DialPad2Ctrl.DialpadStyle03 .btn6 {
+  left: 463px;
+  top: 172px;
+}
+.DialPad2Ctrl.DialpadStyle03 .btn7 {
+  left: 209px;
+  top: 252px;
+}
+.DialPad2Ctrl.DialpadStyle03 .btn8 {
+  left: 336px;
+  top: 252px;
+}
+.DialPad2Ctrl.DialpadStyle03 .btn9 {
+  left: 463px;
+  top: 252px;
+}

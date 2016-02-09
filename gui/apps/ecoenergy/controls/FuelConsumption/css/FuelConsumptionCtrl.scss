@@ -1,0 +1,334 @@
+/* CSS Document */
+
+// Declare variables
+
+/*
+ * Numerical values that are also used in setting CSS styles programmatically
+ * NOTE: Changing these values requires matching changes in JS source file!
+ */
+
+// CDFE Graph constants
+$TotalCDFEBars: 16;
+$CDFEGraphBarWidth: 28px;
+$CDFEGraphBarSpacing: 5px;
+$CDFEGraphBarMargin: 5px;
+
+/* $CDFEGraphVisibleWidth: 500px; */
+$CDFEGraphVisibleWidth: ((($TotalCDFEBars - 1) * $CDFEGraphBarWidth) +          /* Bars */
+                            (($TotalCDFEBars - 2) * $CDFEGraphBarSpacing) +     /* Space between bars */
+                            (2 * $CDFEGraphBarMargin));                         /* Left & right margins */
+$CDFEGraphVisibleHeight: 150px;
+
+/* $CDFEGraphActiveWidth: 533px; */
+$CDFEGraphActiveWidth: ($CDFEGraphVisibleWidth + ($CDFEGraphBarWidth + $CDFEGraphBarSpacing));
+
+// CFER Graph constants
+$TotalCFERBars: 7;
+$CFERGraphBarWidth: 50px;
+$CFERGraphBarSpacing: 30px;
+$CFERGraphBarMargin: 25px;
+
+/* $CFERGraphVisibleWidth: 500px; */
+$CFERGraphVisibleWidth: ((($TotalCFERBars - 1) * $CFERGraphBarWidth) +          /* Bars */
+                            (($TotalCFERBars - 2) * $CFERGraphBarSpacing) +     /* Space between bars */
+                            (2 * $CFERGraphBarMargin));                         /* Left & right margins */
+$CFERGraphVisibleHeight: 150px;
+
+/* $CFERGraphActiveWidth: 580px; */
+$CFERGraphActiveWidth: ($CFERGraphVisibleWidth + ($CFERGraphBarWidth + $CFERGraphBarSpacing));
+
+/*
+ * End JS-matching values
+ */
+
+$fontFamily: Tipperary-Regular, Arial, Helvetica, sans-serif;
+$buttonFontSize: 18px;
+$titleFontSize: 20px;
+$fuelEffValueFontSize: 35px;
+$fuelEffUnitFontSize: 15px;
+
+$controlWidth: 740px;
+$controlHeight: 420px;
+
+$graphAreaWidth: 590px;
+$graphFuelEffBorderWidth: 2px;
+$fuelEffAreaWidth: ($controlWidth - $graphAreaWidth - $graphFuelEffBorderWidth);
+
+$graphLeftMargin: 44px;
+$graphTitleHeight: 30px;
+$graphTitleLeftMargin: 6px;
+$graphToTextVerticalSpacing: 4px;
+$graphToTextHorizontalSpacing: 10px;
+$graphYAxisLabelWidth: 30px;
+
+$overallCDFEGraphWidth: ($graphAreaWidth - $graphLeftMargin + $graphFuelEffBorderWidth);
+$overallCDFEGraphHeight: ($controlHeight / 2);
+$CDFEGraphXAxisLabelTop: ($graphTitleHeight + $CDFEGraphVisibleHeight + $graphToTextVerticalSpacing);
+$CDFEGraphYAxisLabelLeft: ($CDFEGraphVisibleWidth + $graphToTextHorizontalSpacing);
+
+$overallCFERGraphWidth: $overallCDFEGraphWidth;
+$overallCFERGraphHeight: $overallCDFEGraphHeight;
+$CFERGraphXAxisLabelTop: ($graphTitleHeight + $CFERGraphVisibleHeight + $graphToTextVerticalSpacing);
+$CFERGraphYAxisLabelLeft: ($CFERGraphVisibleWidth + $graphToTextHorizontalSpacing);
+
+$switchViewButtonWidth: 130px;
+$switchViewButtonHeight: 55px;
+$switchViewButtonSideMargin: ($fuelEffAreaWidth - $switchViewButtonWidth) / 2;
+$switchViewButtonTopMargin: ($controlHeight - $switchViewButtonHeight - $switchViewButtonSideMargin);
+
+// End variable declarations
+
+
+// Control
+
+.FuelConsumptionCtrl {
+    position: relative;
+    top: 0px;
+    left: 0px;
+	width: $controlWidth;
+	height: $controlHeight;
+	background: #ddd;
+}
+
+
+// Areas
+
+.FuelConsumptionCtrlGraphsArea {
+    margin: 0px;
+    float: left;
+    width: $graphAreaWidth;
+    height: $controlHeight;
+    border-right: $graphFuelEffBorderWidth solid #666666;
+    background-color: #eee;
+}
+
+.FuelConsumptionCtrlFuelEfficiencyArea {
+	float: right;
+    width: $fuelEffAreaWidth;
+    height: $controlHeight;
+    background-color: #eee;
+}
+
+
+/********************** Average fuel economy display **********************/
+
+h2.FuelConsumptionCtrlFuelEfficiencyTitle {
+	position: absolute;
+	top: 150px;
+	text-align: center;
+	line-height: 130%;
+    font-family: $fontFamily;
+	font-size: $titleFontSize;
+	font-weight: bold;
+	color: #2d2d2d;
+}
+
+h2.FuelConsumptionCtrlFuelEfficiencyValue {
+	position: absolute;
+	top: 220px;
+	width: $fuelEffAreaWidth;
+	text-align: center;
+	line-height: 120%;
+    font-family: $fontFamily;
+	font-size: $fuelEffValueFontSize;
+	font-weight: bold;
+	color: #2d2d2d;
+}
+
+h2 span {
+	font-size: $fuelEffUnitFontSize;
+}
+
+.FuelConsumptionCtrlSwitchView {
+	float: left;
+	width: $switchViewButtonWidth;
+	height: $switchViewButtonHeight;
+	margin-top: $switchViewButtonTopMargin;
+	margin-left: $switchViewButtonSideMargin;
+	text-align: center;
+	line-height: $switchViewButtonHeight;
+    font-family: $fontFamily;
+	font-size: $buttonFontSize;
+	font-weight: 500;
+	border-radius: 5px;
+	cursor: pointer;
+	background: -o-linear-gradient(top, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+}
+
+.FuelConsumptionCtrlSwitchViewDown {
+	float: left;
+	width: $switchViewButtonWidth;
+	height: $switchViewButtonHeight;
+	margin-top: $switchViewButtonTopMargin;
+	margin-left: $switchViewButtonSideMargin;
+	border-radius: 5px;
+	text-align: center;
+	line-height: $switchViewButtonHeight;
+    font-family: $fontFamily;
+	font-size: $buttonFontSize;
+	font-weight: 500;
+	border-radius: 5px;
+	cursor: pointer;
+	background: -o-linear-gradient(top, #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%);
+}
+
+
+/********************** Graph for current drive fuel economy **********************/
+
+.FuelConsumptionCtrlCDFEGraph {
+	position: absolute;
+	top: 0px;
+	left: $graphLeftMargin;
+	width: $overallCDFEGraphWidth;
+	height: $overallCDFEGraphHeight;
+}
+
+.FuelConsumptionCtrlCDFEGraphClipMask {
+	position: absolute;
+	top: $graphTitleHeight;
+	left: 4px;
+	width: $CDFEGraphVisibleWidth;
+	height: $CDFEGraphVisibleHeight;
+	border: 2px solid #ccc;
+	overflow: hidden;
+}
+
+.FuelConsumptionCtrlCDFEGraphArea {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: $CDFEGraphActiveWidth;    /* include 16th "hidden" bar & spacer for new values */
+	height: $CDFEGraphVisibleHeight;
+	background: url('../images/graph_bg.png') repeat-x;
+}
+
+#FuelConsumptionCtrlCDFELineGraphCanvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: $CDFEGraphActiveWidth;    /* include 16th "hidden" bar & spacer for new values */
+	height: $CDFEGraphVisibleHeight;
+	background: rgba(0,0,0,0);
+}
+
+.FuelConsumptionCtrlHiddenCDFELineGraphCanvas {
+	opacity: 0;
+}
+
+.FuelConsumptionCtrlVisibleCDFELineGraphCanvas {
+	opacity: 1;
+}
+
+h2.FuelConsumptionCtrlCDFEGraphTitle {
+	position: absolute;
+	left: $graphTitleLeftMargin;
+    line-height: $graphTitleHeight;
+    font-family: $fontFamily;
+	font-size: $titleFontSize;
+	font-weight: 600;
+	color: #2d2d2d;
+}
+
+.FuelConsumptionCtrlCDFEGraphXAxisLabel {
+	position: absolute;
+	top: $CDFEGraphXAxisLabelTop;
+	left: 5px;
+	width: $overallCFERGraphWidth;
+	text-align: center;
+	font-weight: bold;
+	color: #2d2d2d;
+}
+
+.FuelConsumptionCtrlCDFEGraphYAxisLabel span {
+	position: absolute;
+	top: $graphTitleHeight;
+	left: $CDFEGraphYAxisLabelLeft;
+	width: $graphYAxisLabelWidth;
+	font-weight: bold;
+	color: #2d2d2d;
+}
+
+.FuelConsumptionCtrlCDFEBarGraphCore {
+	position: absolute;
+	width: $CDFEGraphBarWidth;
+	height: 0px;
+	bottom: 0px;
+	border-radius: 3px 3px 0 0;
+	background: -o-linear-gradient(left, #2F2727, #666 5%, #2F2727, #666 95%, #2F2727);
+}
+
+
+/********************** Graph for cumulative fuel economy **********************/
+
+.FuelConsumptionCtrlCFERGraph {
+	position: absolute;
+	top: $overallCDFEGraphHeight;
+	left: $graphLeftMargin;
+	width: $overallCFERGraphWidth;
+	height: $overallCFERGraphHeight;
+}
+
+.FuelConsumptionCtrlCFERGraphClipMask {
+	position: absolute;
+	top: $graphTitleHeight;
+	left: 4px;
+	width: $CFERGraphVisibleWidth;
+	height: $CFERGraphVisibleHeight;
+	border: 2px solid #ccc;
+	overflow: hidden;
+}
+
+.FuelConsumptionCtrlCFERGraphArea {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: $CFERGraphActiveWidth;    /* include 7th "hidden" bar & spacer for new values */
+	height: $CFERGraphVisibleHeight;
+	background: url('../images/graph_bg.png') repeat-x;
+}
+
+h2.FuelConsumptionCtrlCFERGraphTitle {
+	position: absolute;
+	left: $graphTitleLeftMargin;
+    line-height: $graphTitleHeight;
+    font-family: $fontFamily;
+	font-size: $titleFontSize;
+	font-weight: 600;
+	color: #2d2d2d;
+}
+
+.FuelConsumptionCtrlCFERGraphXAxisLabel {
+	position: absolute;
+	top: $CFERGraphXAxisLabelTop;
+	left: 5px;
+	width: $overallCFERGraphWidth;
+	font-weight: bold;
+	color: #2d2d2d;
+}
+
+.FuelConsumptionCtrlCFERGraphYAxisLabel span {
+	position: absolute;
+	top: $graphTitleHeight;
+	left: $CFERGraphYAxisLabelLeft;
+	width: $graphYAxisLabelWidth;
+	font-weight: bold;
+	color: #2d2d2d;
+}
+
+.FuelConsumptionCtrlCFERBarGraphCore {
+	position: absolute;
+	width: $CFERGraphBarWidth;
+	height: 0px;
+	bottom: 0px;
+	background: -o-linear-gradient(left, #2F2727, #666 5%, #2F2727, #666 95%, #2F2727);
+	border-radius: 3px 3px 0 0;
+}
+
+.FuelConsumptionCtrlCFERBarGraphCoreCurrent {
+	position: absolute;
+	width: $CFERGraphBarWidth;
+	height: 0px;
+	bottom: 0px;
+	background: -o-linear-gradient(left, green, #a9db80 5%, green, #a9db80 95%, green);
+	border-radius: 3px 3px 0 0;
+}

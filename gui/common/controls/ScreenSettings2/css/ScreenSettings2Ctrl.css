@@ -1,0 +1,475 @@
+/* CSS Document */
+@keyframes slideOpen {
+  from {
+    right: 7px;
+  }
+
+  to {
+    right: 150px;
+  }
+}
+@keyframes slideClosed {
+  0% {
+    right: 150px;
+  }
+
+  100% {
+    right: 7px;
+  }
+}
+.ScreenSettings2Ctrl {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 180px;
+}
+
+.ScreenSettings2CtrlTabsBg {
+  position: absolute;
+  background: url("../images/AdjustmentSettingsBG.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 74px;
+  top: 0px;
+  width: 726px;
+  height: 140px;
+}
+
+.ScreenSettings2CtrlAdjustBtn_En {
+  top: 7px;
+  left: 8px;
+  position: absolute;
+  background: url("../images/AdjustBtn1_En.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 70px;
+}
+
+.ScreenSettings2CtrlAdjustBtn_Ds {
+  position: absolute;
+  background: url("../images/AdjustBtn1_Ds.png") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2CtrlAdjustBtn_Focused {
+  position: absolute;
+  background: url("../images/AdjustBtn1_Focus.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2CtrlAdjustBtn_Down {
+  position: absolute;
+  background: url("../images/AdjustBtn1_Hit.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2Ctrl_Bottom_AdjustBtn_En {
+  top: 63px;
+  left: 8px;
+  position: absolute;
+  background: url("../images/AdjustBtn3_En.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 70px;
+}
+
+.ScreenSettings2Ctrl_Bottom_AdjustBtn_Ds {
+  position: absolute;
+  background: url("../images/AdjustBtn3_Ds.png") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2Ctrl_Bottom_AdjustBtn_Focused {
+  position: absolute;
+  background: url("../images/AdjustBtn3_Focus.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2Ctrl_Bottom_AdjustBtn_Down {
+  position: absolute;
+  background: url("../images/AdjustBtn3_Hit.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2CtrlCloseBtn_Bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background: url("../images/AdjustBtn_Bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 74px;
+  height: 140px;
+}
+
+.ScreenSettings2CtrlCloseBtn_En {
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  position: absolute;
+  background: url("../images/AdjustBtn3_En.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 70px;
+}
+
+.ScreenSettings2CtrlCloseBtn_Focused {
+  position: absolute;
+  background: url("../images/AdjustBtn3_Focus.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2CtrlCloseBtn_Down {
+  position: absolute;
+  background: url("../images/AdjustBtn3_Hit.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2Ctrl_Bottom_CloseBtn_En {
+  position: absolute;
+  top: 63px;
+  left: 8px;
+  position: absolute;
+  background: url("../images/AdjustBtn1_En.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 70px;
+}
+
+.ScreenSettings2Ctrl_Bottom_CloseBtn_Focused {
+  position: absolute;
+  background: url("../images/AdjustBtn1_Focus.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2Ctrl_Bottom_CloseBtn_Down {
+  position: absolute;
+  background: url("../images/AdjustBtn1_Hit.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2CtrlTabBtn_En {
+  position: absolute;
+  /* no background by default*/
+  top: 0px;
+  width: 141px;
+  height: 57px;
+  text-align: center;
+  line-height: 57px;
+  font-size: 28px;
+  margin-top: 4px;
+  margin-left: 2px;
+  color: #000;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ScreenSettings2CtrlTabBtn_Ds {
+  color: #c8c8c8;
+}
+
+.ScreenSettings2CtrlTabBtn_Selected {
+  position: absolute;
+  background: url("../images/Tab_Selected.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.ScreenSettings2CtrlTabBtn_Down {
+  position: absolute;
+  background: url("../images/Tab_Press.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.ScreenSettings2CtrlSecondaryOpenBtn_En {
+  position: absolute;
+  background: url("../images/PSMOpen_En.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  right: 7px;
+  top: 2px;
+  width: 74px;
+  height: 74px;
+  line-height: 60.5px;
+  font-size: 28px;
+  text-align: left;
+}
+
+.ScreenSettings2CtrlSecondaryOpenBtn_Ds {
+  position: absolute;
+  background: url("../images/PSMOpen_Ds.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2CtrlSecondaryOpenBtn_Focused {
+  position: absolute;
+  background: url("../images/PSMOpen_Focus.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2CtrlSecondaryOpenBtn_Down {
+  position: absolute;
+  background: url("../images/PSMOpen_Hit.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2CtrlSecondaryCloseBtn_En {
+  position: absolute;
+  background: url("../images/PSMClose_En.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  right: 150px;
+  top: 2px;
+  width: 74px;
+  height: 74px;
+  line-height: 60.5px;
+  font-size: 28px;
+  text-align: right;
+}
+
+.ScreenSettings2CtrlSecondaryCloseBtn_Ds {
+  position: absolute;
+  background: url("../images/PSMClose_Ds.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  right: 150px;
+  top: 2px;
+  width: 74px;
+  height: 74px;
+  line-height: 60.5px;
+  font-size: 28px;
+  text-align: right;
+}
+
+.ScreenSettings2CtrlSecondaryCloseBtn_Focused {
+  position: absolute;
+  background: url("../images/PSMClose_Focus.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2CtrlSecondaryCloseBtn_Down {
+  position: absolute;
+  background: url("../images/PSMClose_Hit.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2CtrlSlidePsmOpen {
+  animation: slideOpen 2s ease-in-out both;
+}
+
+.ScreenSettings2CtrlSlidePsmClosed {
+  animation: slideClosed 2s ease-in-out both;
+}
+
+.ScreenSettings2CtrlOneBtn_En {
+  position: absolute;
+  background: url("../images/ResetBtn.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 20px;
+  left: 158px;
+  width: 414px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 28px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ScreenSettings2CtrlOneBtn_Ds {
+  position: absolute;
+  background: url("../images/ResetBtn.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: gray;
+}
+
+.ScreenSettings2CtrlOneBtn_Focused {
+  position: absolute;
+  background: url("../images/ResetBtn_Focus.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2CtrlOneBtn_Down {
+  position: absolute;
+  background: url("../images/ResetBtn_Hit.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ScreenSettings2CtrlSliderContainer {
+  /* asset no longer exists for this situation, built into background
+  @include screenSettings2-bgImg('../images/AdjustTab_Bg_Focus.png');
+  */
+  position: absolute;
+  width: 721px;
+  height: 67px;
+  top: 57px;
+  left: 0px;
+  display: block;
+}
+.ScreenSettings2CtrlSliderContainer .ScreenSettings2CtrlSliderBg {
+  position: absolute;
+  background: url("../images/UMP_ScrubberBg01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 670px;
+  height: 12px;
+  top: 36px;
+  left: 28px;
+  display: block;
+}
+.ScreenSettings2CtrlSliderContainer .ScreenSettings2CtrlSliderFill {
+  position: absolute;
+  background: url("../images/UMP_Scrubber_Mask01.png"), url("../images/UMP_Scrubber_Fill.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 335px;
+  width: 0px;
+  height: 10px;
+  top: 1px;
+  display: block;
+}
+.ScreenSettings2CtrlSliderContainer .ScreenSettings2CtrlSliderHandle {
+  position: absolute;
+  background: url("../images/UMP_ScrubberKnob.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 22px;
+  top: -22.5px;
+  margin: 17.5px;
+  display: block;
+}
+.ScreenSettings2CtrlSliderContainer .ScreenSettings2CtrlSliderFill_Focused {
+  position: absolute;
+  background: url("../images/UMP_Scrubber_Mask01.png"), url("../images/UMP_Scrubber_Fill_Focus.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ScreenSettings2CtrlSliderContainer .ScreenSettings2CtrlSliderHandle_Focused {
+  position: absolute;
+  background: url("../images/UMP_ScrubberHighlight.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 57px;
+  height: 57px;
+  margin: 0px;
+}
+.ScreenSettings2CtrlSliderContainer .ScreenSettings2CtrlSliderFill_Ds {
+  position: absolute;
+  background: url("../images/UMP_Scrubber_Mask01.png"), url("../images/UMP_Scrubber_Fill.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ScreenSettings2CtrlSliderContainer .ScreenSettings2CtrlSliderHandle_Ds {
+  position: absolute;
+  background: url("../images/UMP_ScrubberKnob.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 22px;
+  margin: 17.5px;
+}
+
+.hidden {
+  display: none;
+}
+.hidden .ScreenSettings2CtrlSliderBg {
+  display: none;
+}
+.hidden .ScreenSettings2CtrlSliderFill {
+  display: none;
+}
+.hidden .ScreenSettings2CtrlOneBtn_En {
+  display: none;
+}
+.hidden .ScreenSettings2CtrlSliderHandle {
+  display: none;
+}
+
+.ScreenSettings2CtrlTickMarkTop {
+  position: absolute;
+  top: -16px;
+  left: 1px;
+  width: 1px;
+  height: 11px;
+  background-image: url(../images/Adjust_SliderTick.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ScreenSettings2CtrlCenterMarkTop01 {
+  position: absolute;
+  top: -11px;
+  left: 334px;
+  width: 2px;
+  height: 10px;
+  background-image: url(../images/Adjust_SliderTickCtr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ScreenSettings2CtrlCenterMarkBottom01 {
+  position: absolute;
+  top: 14px;
+  left: 334px;
+  width: 2px;
+  height: 10px;
+  background-image: url(../images/Adjust_SliderTickCtr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ScreenSettings2CtrlPlus {
+  position: absolute;
+  top: 18px;
+  left: 663px;
+  width: 13px;
+  height: 14px;
+  background-image: url(../images/ProgressMeter_Plus.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ScreenSettings2CtrlMinus {
+  position: absolute;
+  top: 24px;
+  left: -6px;
+  width: 13px;
+  height: 3px;
+  background-image: url(../images/ProgressMeter_Minus.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}

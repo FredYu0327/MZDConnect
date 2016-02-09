@@ -1,0 +1,35 @@
+/* CSS Document */
+
+@import "SpeedRestrictedVideoCtrl_defs";
+
+.SpeedRestrictedVideoCtrl {
+  position: absolute;
+  top: $controlTop;
+  left: $controlLeft;
+  width: $controlWidth;
+  height: $controlHeight;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .SpeedRestrictedWarning {
+    font-size: $common-fontSizeC;
+    font-weight: bold;
+    font-style: italic;
+    width: 470px;
+    margin: 0 auto;
+    text-align: center;
+    height:$controlHeight - $umpHeight;
+    line-height:$controlHeight - $umpHeight;
+
+    span {
+      display:inline-block;
+      vertical-align:middle;
+      line-height:$common-fontSizeC * 1.3;
+      direction: rtl;
+    }
+  }
+}
+
+.SpeedRestrictedVideoCtrlBlackBG {
+  background-color: #000000;
+}

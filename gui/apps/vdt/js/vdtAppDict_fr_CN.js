@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_fr_CN = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Enregistrer la feuille de route",
+    "StopRecording" : "Arrêt enreg feuille route",
+    "DeleteButton" : "Supprimer",
+    "BackButton" : "Retour",
+    "ClearButton" : "Effacer",
+    "RetryButton" : "Réessayer",
+    "CancelButton" : "Annuler",
+    "USBTransferTitle" : "Transfert de données USB",
+    "ClearAllData" : "Effacer toutes les données",
+    "SelectCopyData" : "Copier les données sur l’USB",
+    "ConfirmClearAllDataDialogText" : "Êtes-vous sûr de vouloir effacer toutes les données ?",
+    "ClearDataRetryDialogText" : "Impossible d’effacer toutes les données. Voulez-vous réessayer ?",
+    "SendDataRetryDialogText" : "Impossible de copier les données sur l’USB. Voulez-vous réessayer ?",
+    "ConfirmCleariDMDataDialogText" : "Voulez-vous supprimer la feuille de route sélectionnée ?",
+    "USBMemoryFullDialogText" : "Impossible de copier les données sur l’USB. Mémoire USB pleine. Voulez-vous réessayer ?",
+    "InsertUSBDialogText" : "Impossible de copier les données sur l’USB. Insérer le dispositif USB et réessayer.",
+    "ClearDataSuccess" : "Suppression des données réussie",
+    "ClearDataFailure" : "Impossible d’effacer les données",
+    "CopyDataSuccess" : "Copie réussie des données sur l’USB",
+    "CopyDataFailure" : "Impossible de copier les données",
+    "CopyDataFailureUSBFull" : "Mémoire USB pleine",
+    "CopyDataFailureUSBRemoved" : "Insérer le dispositif USB",
+    "ProtectionErrorDialogText" : "Un seul fichier protégé par identifiant de conducteur est autorisé. Supprimer un fichier ou désactiver la protection.",
+    "CopyingDialogText1" : "Copie des données vers l’USB. Ne pas retirer la clé USB ou éteindre le moteur.",
+    "CopyingDialogText2" : "{noOfFilesCopied} des {totalFiles} fichiers ont été transférés.",
+};
+
+framework.registerAppDictLoaded("vdt", "fr_CN");

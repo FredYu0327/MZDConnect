@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_pt_PT = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Iniciar Grav. do Registo Condução",
+    "StopRecording" : "Parar Grav. do Registo Condução",
+    "DeleteButton" : "Eliminar",
+    "BackButton" : "Retroceder",
+    "ClearButton" : "Limpar",
+    "RetryButton" : "Repetir",
+    "CancelButton" : "Cancelar",
+    "USBTransferTitle" : "Transferência de Dados USB",
+    "ClearAllData" : "Limpar Todos os Dados",
+    "SelectCopyData" : "Copiar Dados para USB",
+    "ConfirmClearAllDataDialogText" : "Tem a certeza de que pretende Limpar Todos os Dados?",
+    "ClearDataRetryDialogText" : "Não foi possível Limpar Todos os Dados. Pretende tentar novamente?",
+    "SendDataRetryDialogText" : "Não foi possível Copiar Dados para USB. Pretende tentar novamente?",
+    "ConfirmCleariDMDataDialogText" : "Pretende eliminar o Registo da Condução seleccionado?",
+    "USBMemoryFullDialogText" : "Não foi possível Copiar Dados para USB. Memória USB Esgotada. Pretende tentar novamente?",
+    "InsertUSBDialogText" : "Não foi possível Copiar Dados para USB. Insira a Unidade USB e tente novamente.",
+    "ClearDataSuccess" : "Limpeza de Dados com Êxito",
+    "ClearDataFailure" : "Não Foi Possível Limpar os Dados",
+    "CopyDataSuccess" : "Cópia de Dados p/ USB com Êxito",
+    "CopyDataFailure" : "Não Foi Possível Copiar os Dados",
+    "CopyDataFailureUSBFull" : "Memória USB Esgotada",
+    "CopyDataFailureUSBRemoved" : "Inserir Unidade USB",
+    "ProtectionErrorDialogText" : "Apenas é permitido 1 ficheiro protegido por Identificação de Condutor. Elime um ficheiro ou desactive a protecção.",
+    "CopyingDialogText1" : "A copiar dados para USB. Não remova a unidade USB, nem desligue o veículo.",
+    "CopyingDialogText2" : "{noOfFilesCopied} de {totalFiles} ficheiros transferidos.",
+};
+
+framework.registerAppDictLoaded("vdt", "pt_PT");

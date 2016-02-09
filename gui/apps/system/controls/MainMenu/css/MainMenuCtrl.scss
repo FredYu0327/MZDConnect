@@ -1,0 +1,404 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "commonVariables";
+
+.MainMenuCtrl {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 800px;
+  height: 420px;
+  overflow: hidden;
+  -o-transition-property: left;
+  -o-transition-duration: .15s;
+  -o-transition-timing-function: ease-in;
+  -o-transition-delay: 0;
+  -o-transform-origin: top left;
+}
+
+.MainMenuCtrlEllipse {
+  position: absolute;
+  left: 0px;
+  top: 193px;
+  width: 800px;
+  height: 304px;
+  background: url(../images/Ellipse.png);
+  background-repeat: no-repeat;
+}
+
+.MainMenuCtrlIconName {
+	position: absolute;
+	top: 337px;
+	left: 108px;
+	width: 586px;
+	height: 51px;
+
+	text-align: center;
+  line-height: 51px;
+  font-family: $common-fontFamily;
+	font-size: $common-fontSizeA;
+	color: $common-normalTextColor;
+
+  opacity: 0;
+  -o-transition: opacity 200ms linear;
+
+  &.Visible {
+    opacity: 1;
+  }
+}
+
+// Positions of each coin
+$appLeft: -35px;
+$appTop: 336px - $statusBarHeight;
+
+$entLeft: 105px;
+$entTop: 228px - $statusBarHeight;
+
+$comLeft: 330px;
+$comTop: 197px - $statusBarHeight;
+
+$navLeft: 549px;
+$navTop: 228px - $statusBarHeight;
+
+$setLeft: 721px;
+$setTop: 336 - $statusBarHeight;
+
+
+// Glow width and height
+$glowWidth: 363px;
+$glowHeight: 323px;
+
+// How far the glow extends below a coin
+$glowBottomOffset: 30px;
+
+// Width and height of the two smaller outside coins.
+$coinAWidth: 114px;
+$coinAHeight: 122px;
+
+// Translation to apply to the two smaller outside coins.
+$coinAFocusTranslateX: 36px;
+$coinAFocusTranslateY: -33px;
+
+// Width and height of the three larger coins.
+$coinBWidth: 142px;
+$coinBHeight: 152px;
+
+// Translation to apply to the three larger coins.
+$coinBFocusTranslateX: 0px;
+$coinBFocusTranslateY: -10px;
+
+///////////////////////////////////////////////////////////////////////////////
+// Context transition animations
+
+// Coin explode animation for the two smaller outside coins.
+.MainMenuCtrlCoinAExplode {
+  animation-name: mainMenuCtrlCoinAExplode;
+  animation-duration: 300ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes mainMenuCtrlCoinAExplode {
+  0% {
+  }
+  100% {
+    // A-coins are smaller than B-coins so the scale is larger to get the same end size
+    -o-transform: scale(5.0, 5.0); 
+    left: $comLeft + ($coinBWidth - $coinAWidth) / 2;
+    top: $comTop + ($coinBHeight - $coinAHeight) / 2;
+    z-index: 1;
+  }
+}
+
+// Coin explode animation for the three larger coins.
+.MainMenuCtrlCoinBExplode {
+  animation-name: mainMenuCtrlCoinBExplode;
+  animation-duration: 300ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes mainMenuCtrlCoinBExplode {
+  0% {
+  }
+  100% {
+    -o-transform: scale(4.0, 4.0);
+    left: $comLeft;
+    top: $comTop;
+    z-index: 1;
+  }
+}
+
+// Highlight explode animation for all coins.
+.MainMenuCtrlHighlightExplode {
+  animation-name: mainMenuCtrlHighlightExplode;
+  animation-duration: 300ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes mainMenuCtrlHighlightExplode {
+  0% {
+  }
+  100% {
+    // The scale values are hand-tuned such that the highlight is subtle and does not dominate the screen
+    -o-transform: scale(2.5, 2.5);
+    left: $comLeft + $coinBWidth / 2 + $coinBFocusTranslateX - $glowWidth / 2;
+    top: $comTop + $coinBFocusTranslateY + $coinBHeight - $glowHeight + $glowBottomOffset;
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// App 
+
+.MainMenuCtrlAppDiv {
+  position: absolute;
+  left: $appLeft;
+  top: $appTop;
+  width: $coinAWidth;
+  height: $coinAHeight;
+  -o-transition: 0.2s linear;
+}
+
+.MainMenuCtrlAppNormal {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: $coinAWidth;
+  height: $coinAHeight;
+  background: url(../images/coins/HomeApps.png);
+  background-repeat: no-repeat;
+  -o-transition: opacity 0.2s linear; 
+}
+
+.MainMenuCtrlAppFocus {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: $coinAWidth;
+  height: $coinAHeight;
+  background: url(../images/coins/HomeApps_Focus.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.MainMenuCtrlAppDiv.MainMenuCtrlCoinFocus {
+  -o-transform: scale(1.2, 1.2) translate($coinAFocusTranslateX, $coinAFocusTranslateY);
+}
+
+div.MainMenuCtrlCoinFocus .MainMenuCtrlAppNormal {
+  opacity: 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Ent
+
+.MainMenuCtrlEntDiv {
+  position: absolute;
+  left: $entLeft;
+  top: $entTop;
+  width: $coinBWidth;
+  height: $coinBHeight;
+  -o-transition: 0.2s linear;
+}
+
+.MainMenuCtrlEntNormal {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: $coinBWidth;
+  height: $coinBHeight;
+  background: url(../images/coins/HomeAudio.png);
+  background-repeat: no-repeat;
+  -o-transition: opacity 0.2s linear; 
+}
+
+.MainMenuCtrlEntFocus {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: $coinBWidth;
+  height: $coinBHeight;
+  background: url(../images/coins/HomeAudio_Focus.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.MainMenuCtrlEntDiv.MainMenuCtrlCoinFocus {
+  -o-transform: scale(1.2, 1.2) translate($coinBFocusTranslateX, $coinBFocusTranslateY);
+}
+
+div.MainMenuCtrlCoinFocus .MainMenuCtrlEntNormal {
+  opacity: 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Com
+
+.MainMenuCtrlComDiv {
+  position: absolute;
+  left: $comLeft;
+  top: $comTop;
+  width: $coinBWidth;
+  height: $coinBHeight;
+  -o-transition: 0.2s linear;
+}
+
+.MainMenuCtrlComNormal {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: $coinBWidth;
+  height: $coinBHeight;
+  background: url(../images/coins/HomeCom.png);
+  background-repeat: no-repeat;
+  -o-transition: opacity 0.2s linear; 
+}
+
+.MainMenuCtrlComFocus {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: $coinBWidth;
+  height: $coinBHeight;
+  background: url(../images/coins/HomeCom_Focus.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.MainMenuCtrlComDiv.MainMenuCtrlCoinFocus {
+  -o-transform: scale(1.2, 1.2) translate($coinBFocusTranslateX, $coinBFocusTranslateY);
+}
+
+div.MainMenuCtrlCoinFocus .MainMenuCtrlComNormal {
+  opacity: 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Nav
+
+.MainMenuCtrlNavDiv {
+  position: absolute;
+  left: $navLeft;
+  top: $navTop;
+  width: $coinBWidth;
+  height: $coinBHeight;
+  -o-transition: 0.2s linear;
+}
+
+.MainMenuCtrlNavNormal {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: $coinBWidth;
+  height: $coinBHeight;
+  background: url(../images/coins/HomeNav.png);
+  background-repeat: no-repeat;
+  -o-transition: opacity 0.2s linear; 
+}
+
+.MainMenuCtrlNavFocus {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: $coinBWidth;
+  height: $coinBHeight;
+  background: url(../images/coins/HomeNav_Focus.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.MainMenuCtrlNavDiv.MainMenuCtrlCoinFocus {
+  -o-transform: scale(1.2, 1.2) translate($coinBFocusTranslateX, $coinBFocusTranslateY);
+}
+
+div.MainMenuCtrlCoinFocus .MainMenuCtrlNavNormal {
+  opacity: 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Set
+
+.MainMenuCtrlSetDiv {
+  position: absolute;
+  left: $setLeft;
+  top: $setTop;
+  width: $coinAWidth;
+  height: $coinAHeight;
+  -o-transition: 0.2s linear;
+}
+
+.MainMenuCtrlSetNormal {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: $coinAWidth;
+  height: $coinAHeight;
+  background: url(../images/coins/HomeSet.png);
+  background-repeat: no-repeat;
+  -o-transition: opacity 0.2s linear; 
+}
+
+.MainMenuCtrlSetFocus {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: $coinAWidth;
+  height: $coinAHeight;
+  background: url(../images/coins/HomeSet_Focus.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.MainMenuCtrlSetDiv.MainMenuCtrlCoinFocus {
+  -o-transform: scale(1.2, 1.2) translate(-$coinAFocusTranslateX, $coinAFocusTranslateY);
+}
+
+div.MainMenuCtrlCoinFocus .MainMenuCtrlSetNormal {
+  opacity: 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Glow styles
+
+@mixin highlightCommon {
+  opacity: 0;
+  -o-transition: opacity 200ms linear;
+  width: $glowWidth;
+  height: $glowHeight;
+  background: url(../images/highlights/Glow.png);
+  background-repeat: no-repeat;
+  position: absolute;
+
+  &.Visible {
+    opacity: 1;
+  }
+}
+
+.MainMenuCtrlAppHighlight {
+  @include highlightCommon;
+  left: $appLeft + $coinAFocusTranslateX + $coinAWidth / 2 - $glowWidth / 2;
+  top: $appTop + $coinAFocusTranslateY + $coinAHeight - $glowHeight + $glowBottomOffset;
+}
+
+.MainMenuCtrlEntHighlight {
+  @include highlightCommon;
+  left: $entLeft + $coinBWidth / 2 + $coinBFocusTranslateX - $glowWidth / 2;
+  top: $entTop + $coinBFocusTranslateY + $coinBHeight - $glowHeight + $glowBottomOffset;
+}
+
+.MainMenuCtrlComHighlight {
+  @include highlightCommon;
+  left: $comLeft + $coinBWidth / 2 + $coinBFocusTranslateX - $glowWidth / 2;
+  top: $comTop + $coinBFocusTranslateY + $coinBHeight - $glowHeight + $glowBottomOffset;
+}
+
+.MainMenuCtrlNavHighlight {
+  @include highlightCommon;
+  left: $navLeft + $coinBWidth / 2 + $coinBFocusTranslateX - $glowWidth / 2;
+  top: $navTop + $coinBFocusTranslateY + $coinBHeight - $glowHeight + $glowBottomOffset;
+}
+
+.MainMenuCtrlSetHighlight {
+  @include highlightCommon;
+  left: $setLeft + $coinAWidth / 2 - $coinAFocusTranslateX - $glowWidth / 2;
+  top: $setTop + $coinAFocusTranslateY + $coinAHeight - $glowHeight + $glowBottomOffset;
+}

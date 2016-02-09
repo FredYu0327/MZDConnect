@@ -1,0 +1,117 @@
+/* Style1 */
+.WinkStyle1Text1 {
+  position: inherit;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 81px;
+  left: 17px;
+  width: 430px;
+  height: 38px;
+  direction: rtl;
+}
+
+.WinkStyle1Text2 {
+  position: inherit;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 147px;
+  left: 17px;
+  width: 430px;
+  height: 38px;
+  direction: rtl;
+}
+
+.WinkStyle2Text1 {
+  position: inherit;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 51px;
+  left: 17px;
+  width: 430px;
+  height: 38px;
+  direction: rtl;
+}
+
+.WinkStyle2Text2 {
+  position: inherit;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 114px;
+  left: 17px;
+  width: 430px;
+  height: 38px;
+  direction: rtl;
+}
+
+.WinkStyle2Text3 {
+  position: inherit;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 176px;
+  left: 17px;
+  width: 430px;
+  height: 38px;
+  direction: rtl;
+}
+
+.WinkStyle3Text1 {
+  display: table-cell;
+  vertical-align: middle;
+  width: 430px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 260px;
+  left: 17px;
+  direction: rtl;
+}
+
+/*Class added for Style03 to support multiline ellipsis*/
+.WinkStyle3InnerDivText1 {
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-align: center;
+  width: 430px;
+  max-height: 240px;
+  direction: rtl;
+}
+
+.WinkStyle4InnerDivText2 {
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-align: center;
+  width: 430px;
+  max-height: 126px;
+  direction: rtl;
+}
+
+.WinkStyle4Text1 {
+  position: inherit;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 72px;
+  left: 15px;
+  width: 430px;
+  height: 38px;
+  direction: rtl;
+}
+
+.WinkStyle4Text2 {
+  position: inherit;
+  text-align: center;
+  top: 124px;
+  left: 16px;
+  width: 430px;
+  direction: rtl;
+}

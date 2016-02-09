@@ -1,0 +1,650 @@
+/* CSS Document */
+
+/* Declare variables */
+$fontFamily: Tipperary-Regular, Arial, Helvetica, sans-serif;
+
+$colorWhite: #FFFFFF;
+$colorGray: #AFAFAF;
+$colorRed: #EA0F00;
+$colorDkRed: #950C00;
+$colorDkGray: #5F5F5F;
+$colorDkDkGray: #0F0F0F;
+
+$controlTop: 0px;
+$controlLeft: 0px;
+$controlWidth: 800px;
+$controlHeight: 416px;
+
+
+// Control
+
+.EcoStatusCtrl
+{
+  position: inherit;
+  top: $controlTop;
+  left: $controlLeft;
+  width: $controlWidth;
+  height: $controlHeight;
+}
+
+.EcoStatusCtrlHidden
+{
+  display: none;
+}
+
+
+// Buttons
+
+@mixin EcoStatusCtrl_SwitchView_Layout
+{
+  position: absolute;
+  top: 270px;
+  left: 25px;
+  width: 75px;
+  height: 50px;
+
+  border: 2px solid;
+  border-radius: 5px;
+
+  text-align: center;
+  font-family: $fontFamily;
+  font-size: 22px;
+  color: $colorWhite;
+}
+
+.EcoStatusCtrl_SwitchView
+{
+  @include EcoStatusCtrl_SwitchView_Layout;
+  border-color: $colorDkGray;
+  background-color: $colorDkDkGray;
+}
+
+.EcoStatusCtrl_SwitchView_Hit
+{
+  @include EcoStatusCtrl_SwitchView_Layout;
+  border-color: $colorRed;
+  background-color: $colorDkRed;
+}
+
+
+// i-Eloop UI elements
+
+.EcoStatusCtrl_iEloop_Container
+{
+  position: inherit;
+  top: 0px;
+  left: 0px;
+  width: $controlWidth;
+  height: $controlHeight;
+  background: url(..\images\EcoEnergyBg.png);
+}
+
+.EcoStatusCtrl_iEloop_Title
+{
+  position: inherit;
+  top: 63px;
+  left: 41px;
+  width: 165px;
+  height: 27px;
+  background: url(../images/iEloopLogo.png);
+}
+
+.EcoStatusCtrl_iEloop_CarBottomLayer
+{
+  position: inherit;
+  top: 4px;
+  left: 197px;
+  width: 562px;
+  height: 412px;
+  background: url(../images/Car_BottomLayer.png);
+}
+
+.EcoStatusCtrl_iEloopOnly_iEloop_CarBottomLayer     // alternate style for i-ELOOP only (no fuel economy underline)
+{
+  position: inherit;
+  top: 4px;
+  left: 197px;
+  width: 403px;
+  height: 412px;
+  background: url(../images/Car_BottomLayer.png);
+}
+
+.EcoStatusCtrl_iEloop_CarGlow
+{
+  position: inherit;
+  top: 4px;
+  left: 197px;
+  width: 403px;
+  height: 412px;
+  background: url(../images/Car_Glow.png);
+}
+
+.EcoStatusCtrl_iEloop_ChargeShaft
+{
+  position: inherit;
+  top: 81px;
+  left: 253px;
+  width: 288px;
+  height: 210px;
+  background: url(../images/ChargeShaft.png);
+}
+
+.EcoStatusCtrl_iEloop_FrontWheelsGlow
+{
+  position: inherit;
+  top: 179px;
+  left: 231px;
+  width: 334px;
+  height: 125px;
+  background: url(../images/WheelsGlow.png);
+}
+
+@mixin IEloop_Battery_Layout
+{
+  position: inherit;
+  top: 77px;
+  left: 305px;
+  width: 187px;
+  height: 160px;
+}
+
+.EcoStatusCtrl_iEloop_Battery_Off
+{
+  @include IEloop_Battery_Layout;
+  background: url(../images/BatteryOff.png);
+}
+
+.EcoStatusCtrl_iEloop_Battery_Glow
+{
+  @include IEloop_Battery_Layout;
+  background: url(../images/BatteryGlow.png);
+}
+
+.EcoStatusCtrl_iEloop_Battery_01
+{
+  @include IEloop_Battery_Layout;
+  background: url(../images/Battery01.png);
+}
+
+.EcoStatusCtrl_iEloop_Battery_02
+{
+  @include IEloop_Battery_Layout;
+  background: url(../images/Battery02.png);
+}
+
+.EcoStatusCtrl_iEloop_Battery_03
+{
+  @include IEloop_Battery_Layout;
+  background: url(../images/Battery03.png);
+}
+
+.EcoStatusCtrl_iEloop_Battery_04
+{
+  @include IEloop_Battery_Layout;
+  background: url(../images/Battery04.png);
+}
+
+.EcoStatusCtrl_iEloop_Battery_05
+{
+  @include IEloop_Battery_Layout;
+  background: url(../images/Battery05.png);
+}
+
+.EcoStatusCtrl_iEloop_Battery_06
+{
+  @include IEloop_Battery_Layout;
+  background: url(../images/Battery06.png);
+}
+
+@mixin IEloop_Alternator_Layout
+{
+  position: inherit;
+  top: 217px;
+  left: 365px;
+  width: 65px;
+  height: 52px;
+}
+
+.EcoStatusCtrl_iEloop_Alternator_On
+{
+  @include IEloop_Alternator_Layout;
+  background: url(../images/AlternatorOn.png);
+}
+
+.EcoStatusCtrl_iEloop_Alternator_Off
+{
+  @include IEloop_Alternator_Layout;
+  background: url(../images/AlternatorOff.png);
+}
+
+@mixin IEloop_Engine_Layout
+{
+  position: inherit;
+  top: 166px;
+  left: 324px;
+  width: 140px;
+  height: 172px;
+}
+
+.EcoStatusCtrl_iEloop_Engine
+{
+  @include IEloop_Engine_Layout;
+  background: url(../images/EngineLg.png);
+}
+
+.EcoStatusCtrl_iEloop_EngineGlow
+{
+  @include IEloop_Engine_Layout;
+  background: url(../images/EngineLgGlow.png);
+}
+
+@mixin IEloop_WheelToAltCharge_Layout
+{
+  position: inherit;
+  top: 222px;
+  left: 262px;
+  width: 268px;
+  height: 41px;
+}
+
+.EcoStatusCtrl_iEloop_WheelToAltCharge_01
+{
+  @include IEloop_WheelToAltCharge_Layout;
+  background: url(../images/ChargeFlow01.png);
+}
+
+.EcoStatusCtrl_iEloop_WheelToAltCharge_02
+{
+  @include IEloop_WheelToAltCharge_Layout;
+  background: url(../images/ChargeFlow02.png);
+}
+
+.EcoStatusCtrl_iEloop_WheelToAltCharge_03
+{
+  @include IEloop_WheelToAltCharge_Layout;
+  background: url(../images/ChargeFlow03.png);
+}
+
+.EcoStatusCtrl_iEloop_WheelToAltCharge_04
+{
+  @include IEloop_WheelToAltCharge_Layout;
+  background: url(../images/ChargeFlow04.png);
+}
+
+.EcoStatusCtrl_iEloop_WheelToAltCharge_05
+{
+  @include IEloop_WheelToAltCharge_Layout;
+  background: url(../images/ChargeFlow05.png);
+}
+
+.EcoStatusCtrl_iEloop_WheelToAltCharge_06
+{
+  @include IEloop_WheelToAltCharge_Layout;
+  background: url(../images/ChargeFlow06.png);
+}
+
+@mixin IEloop_AltToBatteryCharge_Layout
+{
+  position: inherit;
+  top: 173px;
+  left: 374px;
+  width: 48px;
+  height: 56px;
+}
+
+.EcoStatusCtrl_iEloop_AltToBatteryCharge_01
+{
+  @include IEloop_AltToBatteryCharge_Layout;
+  background: url(../images/Charge01.png);
+}
+
+.EcoStatusCtrl_iEloop_AltToBatteryCharge_02
+{
+  @include IEloop_AltToBatteryCharge_Layout;
+  background: url(../images/Charge02.png);
+}
+
+.EcoStatusCtrl_iEloop_AltToBatteryCharge_03
+{
+  @include IEloop_AltToBatteryCharge_Layout;
+  background: url(../images/Charge03.png);
+}
+
+.EcoStatusCtrl_iEloop_AltToBatteryCharge_04
+{
+  @include IEloop_AltToBatteryCharge_Layout;
+  background: url(../images/Charge04.png);
+}
+
+.EcoStatusCtrl_iEloop_AltToBatteryCharge_05
+{
+  @include IEloop_AltToBatteryCharge_Layout;
+  background: url(../images/Charge05.png);
+}
+
+.EcoStatusCtrl_iEloop_AltToBatteryCharge_06
+{
+  @include IEloop_AltToBatteryCharge_Layout;
+  background: url(../images/Charge06.png);
+}
+
+.EcoStatusCtrl_iEloop_BatteryToCarDischarge
+{
+  position: inherit;
+  top: 148px;
+  left: 256px;
+  width: 282px;
+  height: 27px;
+  background: url(../images/Flow.png);
+}
+
+.EcoStatusCtrl_iEloop_CarTopLayer
+{
+  position: inherit;
+  top: 4px;
+  left: 199px;
+  width: 403px;
+  height: 398px;
+  background: url(../images/Car_TopLayer.png);
+}
+
+
+// i-Stop UI elements
+
+.EcoStatusCtrl_iStop_Container
+{
+  position: inherit;
+  top: 328px;
+  left: 0px;
+  width: $controlWidth;
+  height: 88px;
+  background: url(../images/EcoEnergy_IstopBannerBg.png);
+}
+
+.EcoStatusCtrl_iStop_Title
+{
+  position: inherit;
+  top: 34px;
+  left: 41px;
+  width: 119px;
+  height: 30px;
+  background: url(../images/istopLogo.png);
+}
+
+.EcoStatusCtrl_iStop_Status_Text
+{
+  position: inherit;
+  top: 31px;
+  left: 275px;
+  width: 250px;
+  height: 36px;
+
+  text-align: center;
+  line-height: 36px;
+  font-family: $fontFamily;
+  font-size: 32px;
+  color: $colorWhite;
+}
+
+@mixin IStop_Status_Engine_Layout
+{
+  position: inherit;
+  top: 0px;
+  left: 526px;
+  width: 110px;
+  height: 88px;
+}
+
+.EcoStatusCtrl_iStop_Status_Engine
+{
+  @include IStop_Status_Engine_Layout;
+  background: url(../images/Engine.png);
+}
+
+.EcoStatusCtrl_iStop_Status_Engine_Glow
+{
+  @include IStop_Status_Engine_Layout;
+  background: url(../images/Engine_Glow.png);
+}
+
+@mixin IStop_Status_Battery_Layout
+{
+  position: inherit;
+  top: 0px;
+  left: 614px;
+  width: 108px;
+  height: 88px;
+}
+
+.EcoStatusCtrl_iStop_Status_Battery
+{
+  @include IStop_Status_Battery_Layout;
+  background: url(../images/Batt.png);
+}
+
+.EcoStatusCtrl_iStop_Status_Battery_Glow
+{
+  @include IStop_Status_Battery_Layout;
+  background: url(../images/Batt_Glow.png);
+}
+
+@mixin IStop_Status_AC_Layout
+{
+  position: inherit;
+  top: 0px;
+  left: 698px;
+  width: 102px;
+  height: 88px;
+}
+
+.EcoStatusCtrl_iStop_Status_AC
+{
+  @include IStop_Status_AC_Layout;
+  background: url(../images/AC.png);
+}
+
+.EcoStatusCtrl_iStop_Status_AC_Glow
+{
+  @include IStop_Status_AC_Layout;
+  background: url(../images/AC_Glow.png);
+}
+
+.EcoStatusCtrl_iStop_Error_Text
+{
+  position: inherit;
+  top: 24px;
+  left: 266px;
+  width: 520px;
+  height: 53px;
+  background: url(../images/IstopBannerStyle03Box.png);
+
+  text-align: center;
+  line-height: 53px;
+  font-family: $fontFamily;
+  font-size: 24px;
+  color: $colorWhite;
+}
+
+.EcoStatusCtrl_iStop_Time_Frame
+{
+  position: inherit;
+  top: 24px;
+  left: 266px;
+  width: 520px;
+  height: 53px;
+  background: url(../images/IstopBannerStyle04Box.png);
+}
+
+.EcoStatusCtrl_iStop_Time_Title
+{
+  position: inherit;
+  top: 0px;
+  left: 0px;
+  width: 58px;
+  height: 23px;
+
+  text-align: left;
+  line-height: 23px;
+  font-family: $fontFamily;
+  font-size: 20px;
+  color: $colorGray;
+}
+
+.EcoStatusCtrl_iStop_Time_Value
+{
+  position: inherit;
+  top: 20px;
+  left: 101px;
+  width: 159px;
+  height: 32px;
+
+  text-align: center;
+  line-height: 32px;
+  font-family: $fontFamily;
+  font-size: 28px;
+  color: $colorWhite;
+}
+
+.EcoStatusCtrl_iStop_Time_TotalTitle
+{
+  position: inherit;
+  top: 0px;
+  left: 261px;
+  width: 99px;
+  height: 23px;
+
+  text-align: left;
+  line-height: 23px;
+  font-family: $fontFamily;
+  font-size: 20px;
+  color: $colorGray;
+}
+
+.EcoStatusCtrl_iStop_Time_TotalValue
+{
+  position: inherit;
+  top: 20px;
+  left: 360px;
+  width: 159px;
+  height: 32px;
+
+  text-align: center;
+  line-height: 32px;
+  font-family: $fontFamily;
+  font-size: 28px;
+  color: $colorWhite;
+}
+
+
+// Fuel Efficiency UI elements
+
+.EcoStatusCtrl_FuelEfficiency_Container
+{
+  position: inherit;
+  top: 0px;
+  left: 0px;
+  width: $controlWidth;
+  height: $controlHeight;
+}
+
+.EcoStatusCtrl_FuelEfficiency_Title
+{
+  position: inherit;
+  top: 9px;
+  left: 584px;
+  width: 180px;
+  height: 34px;
+
+  text-align: center;
+  line-height: 34px;
+  white-space: nowrap;
+  font-family: $fontFamily;
+  font-size: 28px;
+  color: $colorWhite;
+}
+
+.EcoStatusCtrl_FuelEfficiency_Value
+{
+  position: inherit;
+  top: 44px;
+  left: 599px;
+  width: 86px;
+  height: 50px;
+
+  text-align: right;
+  line-height: 50px;
+  font-family: $fontFamily;
+  font-size: 40px;
+  color: $colorWhite;
+}
+
+.EcoStatusCtrl_FuelEfficiency_Unit
+{
+  position: inherit;
+  top: 44px;
+  left: 688px;
+  width: 64px;
+  height: 21px;
+
+  text-align: left;
+  margin-top: 19px;
+  font-family: $fontFamily;
+  font-size: 21px;
+  color: $colorWhite;
+}
+
+.EcoStatusCtrl_iEloopOnly_FuelEfficiency_Container  // alternate style for i-ELOOP only
+{
+  position: inherit;
+  top: 328px;
+  left: 0px;
+  width: $controlWidth;
+  height: 88px;
+  background: url(../images/EcoEnergy_IstopBannerBg.png);
+}
+
+.EcoStatusCtrl_iEloopOnly_FuelEfficiency_Title      // alternate style for i-ELOOP only
+{
+  position: inherit;
+  top: 33px;
+  left: 216px;
+  width: 370px;
+  height: 36px;
+
+  text-align: center;
+  line-height: 36px;
+  white-space: nowrap;
+  font-family: $fontFamily;
+  font-size: 32px;
+  color: $colorWhite;
+}
+
+.EcoStatusCtrl_iEloopOnly_FuelEfficiency_Value      // alternate style for i-ELOOP only
+{
+  position: inherit;
+  top: 24px;
+  left: 599px;
+  width: 86px;
+  height: 50px;
+
+  text-align: right;
+  line-height: 50px;
+  font-family: $fontFamily;
+  font-size: 40px;
+  color: $colorWhite;
+}
+
+.EcoStatusCtrl_iEloopOnly_FuelEfficiency_Unit       // alternate style for i-ELOOP only
+{
+  position: inherit;
+  top: 24px;
+  left: 688px;
+  width: 64px;
+  height: 50px;
+
+  text-align: left;
+  margin-top: 19px;
+  font-family: $fontFamily;
+  font-size: 21px;
+  color: $colorWhite;
+}

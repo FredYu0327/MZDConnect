@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_id_ID = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Mulai Merekam Log Kemudi",
+    "StopRecording" : "Berhenti Merekam Log Kemudi",
+    "DeleteButton" : "Hapus",
+    "BackButton" : "Kembali",
+    "ClearButton" : "Hapus",
+    "RetryButton" : "Ulangi",
+    "CancelButton" : "Batalkan",
+    "USBTransferTitle" : "Transfer Data USB",
+    "ClearAllData" : "Hapus Semua Data",
+    "SelectCopyData" : "Salin Data ke USB",
+    "ConfirmClearAllDataDialogText" : "Anda yakin ingin Menghapus Semua Data?",
+    "ClearDataRetryDialogText" : "Tidak dapat Menghapus Semua Data. Anda ingin mencoba lagi?",
+    "SendDataRetryDialogText" : "Tidak dapat Menyalin Data ke USB. Anda ingin mencoba lagi?",
+    "ConfirmCleariDMDataDialogText" : "Anda ingin menghapus Log Kemudi Pilihan?",
+    "USBMemoryFullDialogText" : "Tidak dapat Menyalin Data ke USB. Memori USB Penuh. Anda ingin mencoba lagi?",
+    "InsertUSBDialogText" : "Tidak dapat Menyalin Data ke USB. Masukkan Drive USB dan coba lagi.",
+    "ClearDataSuccess" : "Data Berhasil Dihapus",
+    "ClearDataFailure" : "Data Tidak Dapat Dihapus",
+    "CopyDataSuccess" : "Data Berhasil Disalin ke USB",
+    "CopyDataFailure" : "Data Tidak Dapat Disalin",
+    "CopyDataFailureUSBFull" : "Memori USB Penuh",
+    "CopyDataFailureUSBRemoved" : "Masukkan Drive USB",
+    "ProtectionErrorDialogText" : "",
+    "CopyingDialogText1" : "",
+    "CopyingDialogText2" : "",
+};
+
+framework.registerAppDictLoaded("vdt", "id_ID");

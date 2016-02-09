@@ -1,0 +1,142 @@
+.controlDraggableAreaCtrl {
+  position: absolute;
+  width: 800px;
+  height: 416px;
+}
+
+.dvdMenuCtrl {
+  position: absolute;
+  width: 182px;
+  height: 224px;
+  z-index: 10;
+  -o-transition-property: opacity;
+  -o-transition-duration: 300ms;
+  -o-transition-timing-function: ease-out;
+}
+
+.dvdMenuCtrl.hidden {
+  opacity: 0;
+}
+
+.dvdMenuBottomTabCtrl {
+  position: absolute;
+  top: 185px;
+  left: 65px;
+  width: 52px;
+  height: 38px;
+  background-image: url(../images/DVD_Ctrl_Tag.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dvdMenuBottomTabCtrl_focused {
+  background-image: url(../images/DVD_Ctrl_Tag_Focus.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dvdMenuBottomTabCtrl_hit {
+  background-image: url(../images/DVD_Ctrl_Tag_Hit.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dvdMenuBottomTabCtrl_normal {
+  background-image: url(../images/DVD_Ctrl_Tag.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dvdMenuDirButton_select {
+  position: absolute;
+  width: 90px;
+  height: 96px;
+  left: 46px;
+  top: 48px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  z-index: 1;
+}
+
+.dvdMenuDirButton_select img {
+  position: absolute;
+  width: 90px;
+  height: 96px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.dvdMenuDirButtonSelectText {
+  position: absolute;
+  height: 24px;
+  left: 16px;
+  top: 37px;
+  z-index: 2;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-size: 21px;
+}
+
+.dvdMenuDirButton_right {
+  position: absolute;
+  height: 131px;
+  width: 86px;
+  left: 94px;
+  top: 31px;
+}
+
+.dvdMenuDirButton_right img {
+  position: absolute;
+  height: 131px;
+  width: 86px;
+  left: 0;
+  top: 0;
+}
+
+.dvdMenuDirButton_up {
+  position: absolute;
+  height: 93px;
+  width: 122px;
+  left: 30px;
+  top: 1px;
+}
+
+.dvdMenuDirButton_up img {
+  position: absolute;
+  height: 93px;
+  width: 122px;
+  left: 0;
+  top: 0;
+}
+
+.dvdMenuDirButton_down {
+  position: absolute;
+  height: 93px;
+  width: 122px;
+  left: 30px;
+  top: 100px;
+}
+
+.dvdMenuDirButton_down img {
+  position: absolute;
+  height: 93px;
+  width: 122px;
+  left: 0;
+  top: 0;
+}
+
+.dvdMenuDirButton_left {
+  position: absolute;
+  height: 131px;
+  width: 86px;
+  left: 2px;
+  top: 31px;
+}
+
+.dvdMenuDirButton_left img {
+  position: absolute;
+  height: 131px;
+  width: 86px;
+  left: 0;
+  top: 0;
+}

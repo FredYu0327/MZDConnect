@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_sk_SK = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Štart nahrávania jazdy",
+    "StopRecording" : "Štart nahrávania jazdy",
+    "DeleteButton" : "Zmazať",
+    "BackButton" : "Dozadu",
+    "ClearButton" : "Zmazať",
+    "RetryButton" : "Skúsiť znova",
+    "CancelButton" : "Vymazať",
+    "USBTransferTitle" : "USB prenos dát",
+    "ClearAllData" : "Vymazať všetky dáta",
+    "SelectCopyData" : "Kopírovať dáta na USB",
+    "ConfirmClearAllDataDialogText" : "Naozaj chcete vymazať všetky dáta?",
+    "ClearDataRetryDialogText" : "Nedali sa vymazať všetky dáta. Chcete skúsiť znova?",
+    "SendDataRetryDialogText" : "Nedá sa kopírovať dáta na USB. Chcete skúsiť?",
+    "ConfirmCleariDMDataDialogText" : "Chcete zmazať vybraný záznam jazdy?",
+    "USBMemoryFullDialogText" : "Nedajú sa kopírovať dáta na USB. USB memória plná. Chcete skúsiť znová?",
+    "InsertUSBDialogText" : "Nedajú sa kopírovať dáta na USB. Vsuňte USB znova.",
+    "ClearDataSuccess" : "Úspešne vymazané dáta",
+    "ClearDataFailure" : "Dáta sa nedali vymazať",
+    "CopyDataSuccess" : "Kopírovanie dát na USB úspešné",
+    "CopyDataFailure" : "Dáta sa nedali skopírovať",
+    "CopyDataFailureUSBFull" : "USB memória plná",
+    "CopyDataFailureUSBRemoved" : "Vložiť USB",
+    "ProtectionErrorDialogText" : "Je povolený iba 1 chránený súbor pre Vodiča ID. Odstráňte súboru alebo vypnite ochranu.",
+    "CopyingDialogText1" : "Kopírovanie dát do USB. Neodstraňujte USB ani vozidlo nevypínajte.",
+    "CopyingDialogText2" : "{noOfFilesCopied} z {totalFiles} súborov boli presunuté.",
+};
+
+framework.registerAppDictLoaded("vdt", "sk_SK");

@@ -1,0 +1,189 @@
+// import mixins
+@import "CompassCtrl_defs.scss";
+
+// ====================================
+// GENERAL MIXINS
+// ====================================
+
+@mixin box_value($textdir) {
+  font-size : 35px; 
+  // font-weight : bold;
+  direction: $textdir;
+}
+
+@mixin location_wrapper {
+  $top-padding: 30px;
+  height : $location-height - $top-padding;
+  display : block;
+  position: absolute;
+  bottom: 0;
+  padding : $top-padding 0 0 0;
+  font-size : 22px;
+}
+@mixin location_title($textdir) {
+  margin : 0 10px;
+  direction: $textdir;
+}
+
+// =========================
+// ANIMATION MIXINS
+// =========================
+
+// Scroller animation
+@mixin animation_scroll {
+  // Opera
+  -o-transition-property: left;
+  -o-transition-timing-function: ease-out;
+  // WebKit
+  -webkit-transition-property: left;
+  -webkit-transition-timing-function: ease-out;
+  // W3C
+  transition-property: left;
+  transition-timing-function: ease-out;
+}
+
+@mixin CompassCtrl_mixin($textdir) {
+  
+  font-family : $common-fontFamily;
+  text-align : left;
+  width : 100%;
+  height : 100%;
+  position : relative;
+  background : url(../images/CompassBg.png) 100% 0% no-repeat;
+  z-index:0;
+
+  .compassMask {
+    position : absolute;
+    top : 0;
+    left : 0;
+    overflow : hidden;
+    height : $mask-height;
+    width : $mask-width;
+    opacity: 1;
+    
+    -o-transition-property: opacity;
+    -o-transition-duration: 0.2s;
+    -o-transition-timing-function: ease-out;
+    
+    &.disabled {
+      opacity: 0.29;
+    }    
+  }
+  
+  .compassRail {
+    width : 100%;
+    height : 20px;
+    position : absolute;
+    bottom: 0;
+    left: 0;
+    background : url(../images/GreyRail.png) 50% 100% no-repeat;
+  }
+
+  .compassScroller {
+    width : $scroller-width;
+    height : $scroller-height;
+    left : $scroller-left;
+    position : absolute;
+    background : $scroller-background;
+
+    @include animation_scroll;
+  }
+
+  .headingWrapper {
+    position : absolute;
+    top : 0;
+    width : ($step-count - 1) * $step-width;
+    height : $scroller-height;
+    left : $step-width / 2;
+    position : relative;
+    z-index : 1;
+
+    .heading {
+      float : left;
+      width : $step-width;
+      height : $scroller-height;
+      color : #e8e8e8;
+      text-align : center;
+      text-transform : uppercase;
+
+      &.major {
+        font-size: 85px;
+        line-height : 85px;
+        font-weight: bold;
+        padding-top : 65px;
+      }
+      &.minor {
+        font-size: 28px;
+        line-height : 28px;
+        padding-top : 123px;
+      }
+    }
+  }
+
+  .compassNeedle {
+    width : 4px;
+    height : 177px;
+    background : url(../images/Needle.png) 50% 100% no-repeat;
+    position : absolute;
+    left : ($mask-width / 2) - 2px;
+    bottom : 19px;
+  }
+
+  .compassInfo {
+    position : absolute;
+    top : 194px;
+    height : $info-height;
+    width : $info-width;
+    top : $control-height - $info-height;
+    background : $info-background;
+    padding : 0 $info-padding;
+  }
+
+  .textWrapper {
+    height : $text-height;
+    text-align : center;
+    font-size : 22px;
+    line-height : 1.4em;
+    padding : $text-padding;
+    direction: $textdir;
+  }
+
+  .latWrapper {
+    @include location_wrapper;
+    .latTItle { @include location_title($textdir); }
+    .lat { @include box_value($textdir); }
+    left: 34px;
+    width: 220px;
+  }
+
+  .lonWrapper {
+    @include location_wrapper;
+    .lonTItle { @include location_title($textdir); }
+    .lon { @include box_value($textdir); }
+    left: 259px;
+    width: 232px;
+  }
+
+  .elWrapper {
+    @include location_wrapper;
+    .latTItle { @include location_title($textdir); }
+    .el { @include box_value($textdir); }
+    left: 507px;
+    width: 202px;
+  }
+
+  .latLongContainer {
+    $padding : 10px;
+    $border : 1px;
+  }
+
+  .compassForeground {
+    width : 100%;
+    height : 100%;
+    /* background : url(../images/Arc.png) 100% 0% no-repeat, url(../images/CompassForeground.png) 50% 1px no-repeat; */
+	background :  url(../images/CompassForeground.png) 50% 1px no-repeat;
+    position : relative;
+    z-index : 1;
+  }
+
+}

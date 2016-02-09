@@ -1,0 +1,316 @@
+/* CSS Document */
+/* Declare variables */
+.Messaging2Ctrl {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 416px;
+  text-align: left;
+}
+
+/* TODO: Need backgound image without focus. Using from now playing*/
+.Messaging2CtrlBackground {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 780px;
+  height: 100%;
+  background-image: url(../images/MessageBG.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.Messaging2CtrlBackground.focus {
+  background-image: url(../images/MessageBG_Focus.png);
+}
+
+.Messaging2CtrlMask {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 336px;
+  overflow: hidden;
+}
+
+.Messaging2CtrlTouchActiveArea {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 336px;
+}
+
+.Messaging2CtrlWrapper {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  -o-transition-property: all;
+  -o-transition-duration: 0ms;
+  -o-transition-timing-function: ease-out;
+}
+
+/* TODO: Need to remove this forced size -"background-size" when proper image is available*/
+.Messaging2CtrlSenderIcon {
+  position: absolute;
+  left: 35px;
+  top: 14px;
+  height: 45px;
+  line-height: 45px;
+  width: 44px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 28px 28px;
+  background-position: 0% 50%;
+}
+
+.Messaging2CtrlTimestamp {
+  position: absolute;
+  left: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  left: 500px !important;
+  top: 25px;
+  height: 31px;
+  line-height: 31px;
+  width: 260px;
+  text-align: right !important;
+}
+
+.Messaging2CtrlFromLine {
+  position: absolute;
+  left: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  left: 79px !important;
+  top: 14px;
+  width: 440px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 40px !important;
+}
+
+.Messaging2CtrlSubjectLine {
+  position: absolute;
+  left: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  top: 65px;
+  right: 45px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 40px !important;
+}
+
+.Messaging2CtrlRecipientsLine {
+  position: absolute;
+  left: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  top: 126px;
+  right: 45px;
+  height: 31px;
+}
+
+.Messaging2CtrlRecipientsCcLine {
+  position: absolute;
+  left: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  top: 177px;
+  right: 45px;
+  height: 31px;
+}
+
+.Messaging2CtrlFromLineDivider {
+  position: absolute;
+  left: 11px;
+  width: 767px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1px;
+  background-image: url(../images/MessageList_Divider01.png);
+  top: 61px;
+}
+
+.Messaging2CtrlSubjectLineDivider {
+  position: absolute;
+  left: 11px;
+  width: 767px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 2px;
+  background-image: url(../images/MessageList_Divider02.png);
+  top: 112px;
+}
+
+.Messaging2CtrlRecipientsLineDivider {
+  position: absolute;
+  left: 11px;
+  width: 767px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1px;
+  background-image: url(../images/MessageList_Divider01.png);
+  top: 164px;
+}
+
+.Messaging2CtrlRecipientsCcLineDivider {
+  position: absolute;
+  left: 11px;
+  width: 767px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1px;
+  background-image: url(../images/MessageList_Divider01.png);
+  top: 215px;
+}
+
+.Messaging2CtrlBody_style1 {
+  position: absolute;
+  left: 35px;
+  right: 45px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  top: 67px;
+}
+
+.Messaging2CtrlBody_style2 {
+  position: absolute;
+  left: 35px;
+  right: 45px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  top: 126px;
+}
+
+.Messaging2CtrlBody_style3 {
+  position: absolute;
+  left: 35px;
+  right: 45px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  top: 177px;
+}
+
+.Messaging2CtrlBody_style4 {
+  position: absolute;
+  left: 35px;
+  right: 45px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  top: 229px;
+}
+
+.Messaging2CtrlAttachment {
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+.Messaging2CtrlAttachmentIcon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  float: right;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Messaging2CtrlAttachmentText {
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  display: inline;
+}
+
+.Messaging2CtrlBodySpacer {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 28px;
+  clear: both;
+}
+
+.Messaging2CtrlScrollIndicatorWrapper {
+  position: absolute;
+  top: 0;
+  left: 778px;
+  width: 11px;
+  height: 416px;
+  background-image: url(../images/MessageScrollbar_Bg.png);
+  background-repeat: no-repeat;
+}
+
+.Messaging2CtrlScrollIndicator {
+  position: absolute;
+  top: 0;
+  left: 781px;
+  width: 6px;
+  height: 416px;
+  background-image: url(../images/MessageScrollbar.png);
+  background-repeat: no-repeat;
+}
+
+.Messaging2CtrlScrollIndicator.focus {
+  background-image: url(../images/MessageScrollbar_Focus.png);
+}

@@ -1,0 +1,213 @@
+/* CSS Document */
+/* Declare variables */
+.ScrollDetailCtrl {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 740px;
+  height: 416px;
+  text-align: left;
+}
+
+.ScrollDetailCtrlBackground {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 740px;
+  height: 416px;
+  background-image: url(../images/ScrollDetailBackground.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.ScrollDetailCtrlBackground.focus {
+  background-image: url(../images/ScrollDetailBackground_Focus.png);
+}
+
+.ScrollDetailCtrlContainer {
+  position: relative;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+.ScrollDetailCtrlMask {
+  position: relative;
+  clear: both;
+  float: left;
+  top: 0px;
+  left: 0px;
+  width: 740px;
+  height: 416px;
+  overflow: hidden;
+}
+
+.ScrollDetailCtrlTouchActiveArea {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 740px;
+  height: 416px;
+}
+
+.ScrollDetailCtrlWrapper {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  -o-transition-property: all;
+  -o-transition-duration: 0ms;
+  -o-transition-timing-function: ease-out;
+}
+
+.ScrollDetailCtrlHeadBack {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  clear: both;
+  width: 730px;
+  background-image: url(../images/ScrollDetailHeadBack_Bg.png);
+}
+
+.ScrollDetailCtrlTitleContainer {
+  position: relative;
+  left: 30px;
+  width: 650px;
+  max-height: 2.5em;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  line-height: 1.2em;
+  font-size: 40px !important;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+}
+
+.ScrollDetailCtrlIcn {
+  position: relative;
+  padding: 5px;
+  width: 36px;
+  height: 36px;
+  float: left;
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.ScrollDetailCtrlTitleLine {
+  position: relative;
+  margin-top: 5px;
+  display: inline;
+}
+
+.ScrollDetailCtrlBody_style1 {
+  position: relative;
+  left: 40px;
+  margin-top: 25px;
+  width: 640px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  float: left;
+  clear: both;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+}
+
+.ScrollDetailCtrlBody_style2 {
+  position: relative;
+  left: 40px;
+  margin-top: 25px;
+  width: 640px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  float: left;
+  clear: both;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+}
+
+.ScrollDetailCtrlBody_style3 {
+  position: relative;
+  left: 40px;
+  margin-top: 25px;
+  width: 640px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  float: left;
+  clear: both;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  left: 107px !important;
+  width: 490px !important;
+  margin-top: 85px !important;
+  text-align: center !important;
+}
+
+.ScrollDetailCtrlBodySpacer {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 740px;
+  height: 28px;
+  clear: both;
+}
+
+.ScrollDetailCtrlBodyShadow {
+  position: absolute;
+  top: 392px;
+  left: 5px;
+  width: 730px;
+  height: 24px;
+  background: url(../images/ScrollDetailBottomShadow.png);
+  background-repeat: no-repeat;
+}
+
+.ScrollDetailCtrlScrollIndicatorWrapper {
+  position: absolute;
+  bottom: 0px;
+  left: 686px;
+  width: 37px;
+  height: 416px;
+  background-image: url(../images/ScrollbarBg.png);
+  background-repeat: no-repeat;
+}
+
+.ScrollDetailCtrlScrollIndicator {
+  position: absolute;
+  top: 0px;
+  right: 23px;
+  width: 36px;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: 753px 60px;
+  background-image: url(../images/Scrollbar.png);
+  background-repeat: no-repeat;
+}

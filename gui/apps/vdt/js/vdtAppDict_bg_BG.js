@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_bg_BG = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Начало запис шофиране",
+    "StopRecording" : "Спиране запис шофиране",
+    "DeleteButton" : "Изтриване",
+    "BackButton" : "Назад",
+    "ClearButton" : "Изчистване",
+    "RetryButton" : "Повторен опит",
+    "CancelButton" : "Отказ",
+    "USBTransferTitle" : "Предаване на данните по USB",
+    "ClearAllData" : "Изчистване на всички данни",
+    "SelectCopyData" : "Копиране на данните на USB",
+    "ConfirmClearAllDataDialogText" : "Наистина ли искате да изчистите всички данни?",
+    "ClearDataRetryDialogText" : "Не могат да се изчистят всички данни. Искате ли да опитате отново?",
+    "SendDataRetryDialogText" : "Данните не могат да се копират на USB. Искате ли да опитате отново?",
+    "ConfirmCleariDMDataDialogText" : "Искате ли да изтриете избрания журнал за шофиране?",
+    "USBMemoryFullDialogText" : "Данните не могат да се копират на USB. USB паметта е пълна. Искате ли да опитате отново?",
+    "InsertUSBDialogText" : "Данните не могат да се копират на USB. Поставете USB устройство и опитайте отново.",
+    "ClearDataSuccess" : "Данните са изчистени успешно",
+    "ClearDataFailure" : "Данните не могат да се изчистят",
+    "CopyDataSuccess" : "Копирането на USB е успешно",
+    "CopyDataFailure" : "Данните не могат да се копират",
+    "CopyDataFailureUSBFull" : "USB паметта е пълна",
+    "CopyDataFailureUSBRemoved" : "Поставете USB устройство",
+    "ProtectionErrorDialogText" : "Разрешава се само 1 защитен файл на един идентификатор на водач. Изтрийте файл или изключете защитата.",
+    "CopyingDialogText1" : "Копиране на данните на USB. Не изваждайте USB устройството и не изключвайте автомобила.",
+    "CopyingDialogText2" : "{noOfFilesCopied} от {totalFiles} файла са прехвърлени.",
+};
+
+framework.registerAppDictLoaded("vdt", "bg_BG");

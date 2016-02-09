@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_cs_CS = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Začátek záznamu záznamy jízd",
+    "StopRecording" : "Konec záznamu záznamy jízd",
+    "DeleteButton" : "Smazat",
+    "BackButton" : "Zpět",
+    "ClearButton" : "Vyčistit",
+    "RetryButton" : "Zkusit znovu",
+    "CancelButton" : "Zrušit",
+    "USBTransferTitle" : "USB přesun dat",
+    "ClearAllData" : "Vyčistit všechna data",
+    "SelectCopyData" : "Kopírovat data do USB",
+    "ConfirmClearAllDataDialogText" : "Jste si jisti, že chcete vyčistit všechna data?",
+    "ClearDataRetryDialogText" : "Nebylo možné vyčistit všechna data. Přejete si akci zopakovat?",
+    "SendDataRetryDialogText" : "Nebylo možné zkopírovat všechna data do USB. Přejete si akci zopakovat?",
+    "ConfirmCleariDMDataDialogText" : "Přejete si smazat vybrané záznamy?",
+    "USBMemoryFullDialogText" : "Nebylo možné zkopírovat všechna data do USB. Paměť USB je plná. Přejete si akci zopakovat?",
+    "InsertUSBDialogText" : "Nebylo možné zkopírovat všechna data do USB. Vložte USB a zkuste znovu?",
+    "ClearDataSuccess" : "Čistění dat bylo úspěšné",
+    "ClearDataFailure" : "Nemožné vyčistit všechna data",
+    "CopyDataSuccess" : "Zkopír. dat do USB bylo úspěšné",
+    "CopyDataFailure" : "Nemožné zkopírovat všechna data",
+    "CopyDataFailureUSBFull" : "Paměť USB plná",
+    "CopyDataFailureUSBRemoved" : "Vložte USB",
+    "ProtectionErrorDialogText" : "Je povolen pouze 1 chráněný soubor pro Řidiče  ID. Odstraňte souboru nebo vypněte ochranu.",
+    "CopyingDialogText1" : "Kopírování dat do USB. Neodstraňujte USB ani vozidlo nevypínejte.",
+    "CopyingDialogText2" : "{noOfFilesCopied} z {totalFiles} souborů byly přesunuty.",
+};
+
+framework.registerAppDictLoaded("vdt", "cs_CS");

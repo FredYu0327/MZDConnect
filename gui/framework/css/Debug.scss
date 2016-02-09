@@ -1,0 +1,124 @@
+@import "commonVariables";
+
+// Variables
+$DebugBorderColor: #CCC;
+
+$DebugContBgColor: #222222;
+$DebugContLinkColor: #8888FF;
+
+$ContainerMinWidth: 400px;
+
+$dropDownHeight: 22px;
+$htmlDivHeight: 200px;
+$goBackAreaHeight: 22px;
+$logHeight: 206px;
+
+#DebugCont {
+  background-color: $DebugContBgColor;
+  height: 478px;
+  position: absolute;
+  min-width: $ContainerMinWidth;
+  left: $screenLeft + $screenWidth;
+  top: $screenTop;
+  right: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  border: 2px solid $DebugBorderColor;
+  margin: 0px;
+  z-index: $debugPanelZOrder;
+}
+
+#DebugCont a {
+    color:$DebugContLinkColor;
+    text-decoration: none;
+}
+
+#DebugCont a:hover {
+    text-decoration: underline;
+}
+
+#DebugDropDown {
+    background-color: #000;
+    color:#FFFFFF;
+    letter-spacing: 1px;
+    height: $dropDownHeight;
+    width: 400px;
+}
+
+#DebugHtmlDiv {
+  color:#FFF;
+  height: $htmlDivHeight;
+  overflow: auto;
+  border-top: 2px solid $DebugBorderColor;
+  border-bottom: 2px solid $DebugBorderColor;
+  padding: 5px;
+  margin-bottom: $goBackAreaHeight + 2;
+  overflow:auto;
+}
+
+#DebugLogDiv {
+  color: #000;
+  background-color: #EBE2B0;
+  height: $logHeight;
+  overflow: auto;
+  padding: 5px;
+  border-top: 2px solid $DebugBorderColor;
+}
+
+#DebugClear {
+    position:absolute;
+    background-color: #EBE2B0;
+    border: 1px solid #DAD1A0;
+    /*expand the div width/height to expand the clickable area*/
+    width: 88px;
+    height: 22px;
+    top:$dropDownHeight + $htmlDivHeight + 18 + $goBackAreaHeight;
+    right:18px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#DebugClear a {
+    color: #4444FF;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#DebugGoBackDiv {
+    position: absolute;
+    top: $dropDownHeight + $htmlDivHeight + 8;
+    left: 0px;
+    right: 0px;
+    height: 28px;
+    margin-left: 4px;
+    margin-top: 9px;
+}
+
+#DebugGoBackDiv span {
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    right: 0px;
+}
+
+#DebugGoBackDiv select {
+    width: 100%;
+    height: $dropDownHeight;
+    background-color: #000;
+    color:#FFFFFF;
+    margin-top: -2px;
+}
+
+.DebugScreenNameLabel {
+    position: absolute;
+    text-align: center;
+    line-height: 12px;
+    left: 300px;
+    top: 464px;
+    color: #2F4;
+    width: 200px;
+    height: 14px;
+    border: solid thin green;
+    z-index: 100;
+}

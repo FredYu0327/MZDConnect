@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_ru_RU = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Начать запись журнала движения",
+    "StopRecording" : "Заверш. запись журнала движ.",
+    "DeleteButton" : "Удалить",
+    "BackButton" : "Назад",
+    "ClearButton" : "Очистить",
+    "RetryButton" : "Повтор",
+    "CancelButton" : "Отмена",
+    "USBTransferTitle" : "Передача данных по USB",
+    "ClearAllData" : "Очистить все данные",
+    "SelectCopyData" : "Коп-вать данные на USB-нос-ль",
+    "ConfirmClearAllDataDialogText" : "Вы действительно хотите очистить все данные?",
+    "ClearDataRetryDialogText" : "Невозможно очистить все данные. Хотите попытаться еще раз?",
+    "SendDataRetryDialogText" : "Невозможно скопировано данные на USB. Хотите попытаться еще раз?",
+    "ConfirmCleariDMDataDialogText" : "Хотите удалить выбранный журнал движения?",
+    "USBMemoryFullDialogText" : "Невозможно скопировать данные на USB. Память переполнена. Хотите попробовать еще раз?",
+    "InsertUSBDialogText" : "Невозможно скопировать данные на USB. Вставьте USB-накопитель и попробуйте еще раз.",
+    "ClearDataSuccess" : "Данные успешно очищены",
+    "ClearDataFailure" : "Невозможно очистить данные",
+    "CopyDataSuccess" : "Данные усп-но скопир-ны на USB",
+    "CopyDataFailure" : "Невозможно скопировать данные",
+    "CopyDataFailureUSBFull" : "Память USB-нос-ля переполнена",
+    "CopyDataFailureUSBRemoved" : "Вставьте USB-носитель",
+    "ProtectionErrorDialogText" : "Для каждого водительского удостоверения доступен только 1 защищенный файл. Удалите файл или снимите защиту. ",
+    "CopyingDialogText1" : "Копироваие на USB. Не извлекайте USB-устр-во и не глушите мотор.",
+    "CopyingDialogText2" : "{noOfFilesCopied} из  {totalFiles} файлов передано.",
+};
+
+framework.registerAppDictLoaded("vdt", "ru_RU");

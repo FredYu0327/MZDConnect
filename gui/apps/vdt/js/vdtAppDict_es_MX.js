@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_es_MX = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Iniciar Reg. de Gra. de Conducción",
+    "StopRecording" : "Detener Reg. de Grab. de Cond.",
+    "DeleteButton" : "Eliminar",
+    "BackButton" : "Atrás",
+    "ClearButton" : "Despejar",
+    "RetryButton" : "Reintentar",
+    "CancelButton" : "Cancelar",
+    "USBTransferTitle" : "Transferencia de Datos USB",
+    "ClearAllData" : "Despejar Todos los Datos",
+    "SelectCopyData" : "Copiar Datos a USB",
+    "ConfirmClearAllDataDialogText" : "¿Está Desea Despejar Todos los Datos?",
+    "ClearDataRetryDialogText" : "No se puede Despejar Todos los Datos ¿Desea Reintentar?",
+    "SendDataRetryDialogText" : "No se puede Copiar Datos a USB ¿Desea Reintentar?",
+    "ConfirmCleariDMDataDialogText" : "¿Desea eliminar el Registro de Conducción seleccioando?",
+    "USBMemoryFullDialogText" : "No se puede Copiar Datos a USB Mem. USB llena ¿Desea Reintentar?",
+    "InsertUSBDialogText" : "No se pude Copiar datos a USB. Insertar USB e intente de nuevo.",
+    "ClearDataSuccess" : "Despeje de Datos exitoso",
+    "ClearDataFailure" : "No se puede Despejar Datos",
+    "CopyDataSuccess" : "Copia de Datos a USB exitosa",
+    "CopyDataFailure" : "Los Datos no pueden ser copiados",
+    "CopyDataFailureUSBFull" : "Memoria USB Llena",
+    "CopyDataFailureUSBRemoved" : "Insertar USB",
+    "ProtectionErrorDialogText" : "Solo es permitido 1 archivo protegido por ID de conductor. Elimine un archivo o apague protección.",
+    "CopyingDialogText1" : "Copiando Datos a USB. No retire unidad de USB o apague el vehículo.",
+    "CopyingDialogText2" : "{noOfFileCopied} de {totalfiles} archivos transferidos.",
+};
+
+framework.registerAppDictLoaded("vdt", "es_MX");

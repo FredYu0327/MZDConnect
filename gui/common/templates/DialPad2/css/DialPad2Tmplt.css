@@ -1,0 +1,8 @@
+/* DialPad2Tmplt.css */
+.DialPad2Tmplt.DialPad2Dialog {
+  z-index: 11;
+}
+
+.DialPad2Tmplt.DialPad2DialogBkgd {
+  background: rgba(0, 0, 0, 0.7);
+}

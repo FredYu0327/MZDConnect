@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_ar_SA = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "بدء تسجيل سجل القيادة",
+    "StopRecording" : "توقف تسجيل سجل القيادة",
+    "DeleteButton" : "حذف",
+    "BackButton" : "رجوع",
+    "ClearButton" : "مسح",
+    "RetryButton" : "أعد المحاولة",
+    "CancelButton" : "إلغاء",
+    "USBTransferTitle" : "نقل بيانات USB",
+    "ClearAllData" : "مسح جميع البيانات",
+    "SelectCopyData" : "نسخ البيانات على USB",
+    "ConfirmClearAllDataDialogText" : "هل أنت متأكد من رغبتك في مسح جميع البيانات؟",
+    "ClearDataRetryDialogText" : "لم يتمكن من مسح جميع البيانات. هل ترغب في إعادة المحاولة؟",
+    "SendDataRetryDialogText" : "لم يتمكن من نسخ البيانات على USB. هل ترغب في إعادة المحاولة؟",
+    "ConfirmCleariDMDataDialogText" : "هل ترغب في حذف سجل القيادة المحدد؟",
+    "USBMemoryFullDialogText" : "لا يمكن نسخ البيانات على USB. ذاكرة USB ممتلئة. هل ترغب في إعادة المحاولة؟",
+    "InsertUSBDialogText" : "لا يمكن نسخ البيانات على USB. أدخل محرك USB وأعد المحاولة.",
+    "ClearDataSuccess" : "تم مسح البيانات بنجاح",
+    "ClearDataFailure" : "تعذر مسح البيانات",
+    "CopyDataSuccess" : "تم نسخ البيانات لـUSB بنجاح",
+    "CopyDataFailure" : "تعذر نسخ البيانات",
+    "CopyDataFailureUSBFull" : "ذاكرة USB ممتلئة",
+    "CopyDataFailureUSBRemoved" : "أدخل محرك USB",
+    "ProtectionErrorDialogText" : "",
+    "CopyingDialogText1" : "",
+    "CopyingDialogText2" : "",
+};
+
+framework.registerAppDictLoaded("vdt", "ar_SA");

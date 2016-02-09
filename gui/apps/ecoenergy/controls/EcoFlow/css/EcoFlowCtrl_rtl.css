@@ -1,0 +1,605 @@
+/* CSS Document */
+/* Declare variables */
+.EcoFlowCtrl {
+  position: inherit;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 416px; 
+  background: url('../images/EnergyFlow_bg.png') center no-repeat;
+}
+
+.UmpPanelDivDisable
+{
+	position: inherit;
+  	top: 0px;
+  	left: 0px;
+	width: 800px; 
+  	height: 100px;
+  	z-index: 10;/*99999*/
+}
+
+.UmpPanelDivEnable
+{
+	position: inherit;
+  	top: 0px;
+  	left: 0px;
+	width: 800px; 
+  	height: 100px;
+  	z-index: 10;/*99999*/
+}
+
+.EcoFlowCtrlHidden {
+  display: none; }
+
+.EcoFlowCtrlShowUmp {
+  position: absolute;
+  top: 11px;
+  left:8px;
+  height: 70px;
+  width: 60px;
+  background: url("../images/AdjustBtn3_Focus.png") center no-repeat;
+  cursor: pointer; 
+}
+
+.EcoFlowCtrlShowUmpHit {
+ position: absolute;
+  top: 11px;
+  left:8px;
+  height: 70px;
+  width: 60px;
+  background: url("../images/AdjustBtn3_Focus.png") center no-repeat;
+  cursor: pointer; 
+ }
+ 
+ .EcoFlowCtrlCarContainer {
+ 	position: absolute;
+ 	top:0px;
+ 	left:0px;
+ }
+
+ .EcoFlowCtrlCarBattery {
+ 	position: absolute;
+ 	width:173px;
+ 	height:104px;
+ 	left: 428px;
+ 	top:123px;
+ 	background: url('../images/battery_hev.png') no-repeat;
+ 	background-position:  0px -832px;
+ 	z-index: 8;/*999*/
+ }
+ 
+  .EcoFlowCtrlCarBattery01 {
+ 	position: absolute;
+ 	width:173px;
+ 	height:104px;
+ 	left: 428px;
+ 	top:123px;
+ 	background: url('../images/battery_hev.png') no-repeat;
+ 	background-position:  0px -728px; 
+ 	z-index: 8;/*999*/
+ }
+ 
+ 
+  .EcoFlowCtrlCarBattery02 {
+ 	position: absolute;
+ 	width:173px;
+ 	height:104px;
+ 	left: 428px;
+ 	top:123px;
+ 	background: url('../images/battery_hev.png') no-repeat;
+ 	background-position:  0px -624px;
+ 	z-index: 8;/*999*/
+ }
+ 
+  .EcoFlowCtrlCarBattery03 {
+ 	position: absolute;
+ 	width:173px;
+ 	height:104px;
+ 	left: 428px;
+ 	top:123px;
+ 	background: url('../images/battery_hev.png') no-repeat;
+ 	background-position:  0px -520px;
+ 	z-index: 8;/*999*/
+ }
+ 
+  .EcoFlowCtrlCarBattery04 {
+ 	position: absolute;
+ 	width:173px;
+ 	height:104px;
+ 	left: 428px;
+ 	top:123px;
+ 	background: url('../images/battery_hev.png') no-repeat;
+ 	background-position:  0px -416px;
+ 	z-index: 8;/*999*/
+ }
+  .EcoFlowCtrlCarBattery05 {
+ 	position: absolute;
+ 	width:173px;
+ 	height:104px;
+ 	left: 428px;
+ 	top:123px;
+ 	background: url('../images/battery_hev.png') no-repeat;
+ 	background-position:  0px -312px;
+ 	z-index: 8;/*999*/
+ }
+  .EcoFlowCtrlCarBattery06 {
+ 	position: absolute;
+ 	width:173px;
+ 	height:104px;
+ 	left: 428px;
+ 	top:123px;
+ 	background: url('../images/battery_hev.png') no-repeat;
+ 	background-position:  0px -208px;
+ 	z-index: 8;/*999*/
+ }
+  .EcoFlowCtrlCarBattery07 {
+ 	position: absolute;
+ 	width:173px;
+ 	height:104px;
+ 	left: 428px;
+ 	top:123px;
+ 	background: url('../images/battery_hev.png') no-repeat;
+ 	background-position:  0px -104px;
+ 	z-index: 8;/*999*/
+ }
+  .EcoFlowCtrlCarBattery08 {
+ 	position: absolute;
+ 	width:173px;
+ 	height:104px;
+ 	left: 428px;
+ 	top:123px;
+ 	background: url('../images/battery_hev.png') no-repeat;
+ 	background-position:  0px 0px;
+ 	z-index: 8;/*999*/
+ }
+ 
+ 
+ .EcoFlowCtrlBatteryCharging {
+ 	position: absolute;
+ 	width:173px;
+ 	height:104px;
+ 	left: 428px;
+ 	top:123px;
+ 	background: url('../images/HEV_battery_charging.png') center no-repeat;
+ }
+ 
+ .EcoFlowCtrlBatteryCharge {
+ 	position: absolute;
+ 	width: 75px;
+ 	height: 30px;
+ 	left: 361px;
+ 	top: 164px;
+ 	background: url('../images/HEVFlow_Blue_Single.png') no-repeat;
+ 	/* animation: motorToBatteryAnim 1.5s infinite linear; */
+ 	opacity: 0;
+ 	
+ }
+ 
+  .EcoFlowCtrlBatteryDisCharge {
+ 	position: absolute;
+ 	width: 75px;
+ 	height: 30px;
+ 	left: 361px;
+ 	top: 164px;
+ 	background: url('../images/HEVFlow_White_Single.png') no-repeat; 
+    /* animation: batteryToMotorAnim 1.5s infinite linear; */
+    opacity: 0;
+ }
+ 
+ .EcoFlowCtrlAlternator {
+ 	position: absolute;
+ 	width: 62px;
+ 	height: 92px;
+ 	left:308px;
+ 	top:131px;
+ 	background: url('../images/HEV_motor.png') center no-repeat;
+ }
+ 
+ .EcoFlowCtrlWheelToAlt {
+ 	position: absolute;
+ 	width: 103px;
+ 	height:114px;
+ 	left: 211px;
+ 	top: 118px;
+ 	/* background: url('../images/HEV_FlowBlue_01.png') center no-repeat; */
+ 	opacity: 0;
+ 	
+ }
+ 
+  .EcoFlowCtrlWheelToAlt1 {
+ 	position: absolute;
+ 	width: 62px;
+ 	height:21px;
+ 	left: 246px;
+ 	top: 172px;
+ 	background: url('../images/HEV_FlowBlue_01_New.png') center repeat-x;
+ 	animation: wheelToMotorBlueAnim 1.5s infinite linear;
+ 	opacity: 0;
+ }
+ 
+  .EcoFlowCtrlWheelToAlt2 {
+ 	position: absolute;
+ 	width: 55px;
+ 	height:120px;
+ 	left: 211px;
+ 	top: 114px;
+ 	background: url('../images/HEV_FuelWheelMotor_Blue.png') no-repeat;
+ 	opacity: 0;
+ }
+ 
+ 
+  .EcoFlowCtrlWheelToAlt3 {
+ 	position: absolute;
+ 	width: 27px;
+ 	height:39px;
+ 	left: 215px;
+ 	top: 184px;
+ 	/* background: url('../images/HEV_FlowBlue_03_New.png') center repeat-y; */
+ 	opacity: 0;
+ }
+ 
+ .EcoFlowCtrlAltToWheel {
+ 	
+ 	position: absolute;
+ 	width: 100px;
+ 	height:110px;
+ 	left: 213px;
+ 	top: 120px;
+ 	/* background: url('../images/HEV_FlowWhite_01.png') center no-repeat; */
+ 	opacity: 0;
+ }
+ 
+  
+ .EcoFlowCtrlAltToWheel1 {
+ 	
+ 	position: absolute;
+ 	width: 62px;
+ 	height:21px;
+ 	left: 245px;
+ 	top: 171px;
+ 	background: url('../images/HEV_FlowWhite_01_New.png') center repeat-x;
+ 	animation: motorToWheelWhiteAnim 1.5s infinite linear;
+ 	opacity: 0;
+ }
+ 
+  
+ .EcoFlowCtrlAltToWheel2 {
+ 	
+ 	position: absolute;
+ 	width: 75px;
+ 	height:120px;
+ 	left: 206px;
+ 	top: 117px;
+ 	background: url('../images/HEV_motorToWheel_White.png') no-repeat;
+ 	opacity: 0;
+}
+ 
+  
+ .EcoFlowCtrlAltToWheel3 {
+ 	
+ 	position: absolute;
+ 	width: 26px;
+ 	height:37px;
+ 	left: 217px;
+ 	top: 184px;
+ 	/* background: url('../images/HEV_FlowWhite_03_New.png') center no-repeat; */
+ 	opacity: 0;
+ }
+ 
+ .EcoFlowCtrlEngineToAlt {
+ 	position: absolute;
+ 	width: 81px;
+ 	height: 28px;
+ 	left: 230px;
+ 	top: 146px;
+ 	background: url('../images/HEV_FlowRed_02.png') center repeat-x;
+ 	animation: enginToAltAnim 1.5s infinite linear;
+ 	opacity: 0;
+ }
+ 
+ .EcoFlowCtrlEngine {
+ 	position: absolute;
+ 	width: 91px;
+ 	height:120px;
+ 	left: 116px;
+ 	top: 112px;
+ 	background: url('../images/HEV_engine.png') center no-repeat;
+ 	background-position: 0px 0px;
+ }
+ 
+  .EcoFlowCtrlEngineGlow {
+ 	position: absolute;
+ 	width: 93px;
+ 	height:120px;
+ 	left: 116px;
+ 	top: 112px;
+ 	background: url('../images/HEV_engine.png') center no-repeat;
+ 	background-position: 0px -120px;
+ }
+ 
+ .EcoFlowCtrlEngineToWheel {
+ 	position: absolute;
+ 	width: 55px;
+ 	height:115px;
+ 	left: 187px;
+ 	top: 110px;
+ 	/* background: url('../images/HEV_FlowRed_01.png') center repeat-x; */
+ 	opacity: 0;
+ }
+ 
+  .EcoFlowCtrlEngineToWheel1 {
+ 	position: absolute;
+ 	width: 55px;
+ 	height:116px;
+ 	left: 184px;
+ 	top: 115px;
+ 	background:url('../images/HEV_FuelEngineWheel_Red.png') no-repeat;
+ 	z-index: 8;/*999*/
+ 	opacity: 0;
+ }
+
+ .EcoFlowCtrlEngineToWheel2 {
+ 	position: absolute;
+ 	width: 55px;
+ 	height:59px;
+ 	left: 181px;
+ 	top: 167px;
+ 	/* background: url('../images/HEV_FlowRed_02_New.png') center repeat-y; */
+ 	z-index: 8;/*999*/
+ 	/* animation: engineToLowerWheelAnim 1.5s infinite linear;  */
+ 	opacity: 0;
+ }
+ 
+ .EcoFlowCtrlCarTopLayer {
+ 	position: absolute;
+ 	width: 639px;
+ 	height:306px;
+ 	left: 80px;
+ 	top: 16px;
+ 	background: url('../images/HEV_car_outline.png') 0px 0px no-repeat;
+ 	z-index: 9;/*9999*/
+ }
+ 
+ .EcoFlowCtrlCarBottomLayer {
+ 
+ 	position: absolute;
+ 	width: 639px;
+ 	height:383px;
+ 	left: 80px;
+ 	top: 16px;
+ 	background: url('../images/HEV_car_under.png') center no-repeat;
+ }
+ 
+ .EcoFlowCtrlCarWheels {
+ 	position: absolute;
+ 	width: 492px;
+ 	height:96px;
+ 	left:151px;
+ 	top: 215px;
+ 	background: url('../images/tire_sprites.png') no-repeat;
+ 	background-position: 0px 0px;
+ 	/* animation: accelerate .05s infinite linear;
+ 	overflow: hidden; */
+ }
+ 
+  .EcoFlowCtrlCarWheelsReverse {
+ 	position: absolute;
+ 	width: 491px;
+ 	height:96px;
+ 	left:151px;
+ 	top: 215px;
+ 	/* background: url('../images/HEV_tyres01.png') no-repeat; */
+ }
+ 
+ .EcoFlowCtrlEnergyFlowTitle {
+ 	position: absolute;
+ 	width: 350px;
+ 	height: 45px;
+ 	left: 41px;
+ 	top: 21px;
+ 	text-align: left;
+  	font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+ 	font-size: 35px;
+  	color: #fff; 
+  	overflow:hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    white-space:nowrap; 
+    direction: rtl;
+}
+ 
+ .EcoFlowCtrlBatteryLabel {
+ 	position: absolute;
+ 	width: 180px;
+ 	height: 24px;
+ 	left: 423px;
+ 	top: 105px;
+ 	text-align: center;
+  	font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+ 	font-size: 21px;
+  	color: #fff;
+  	overflow:hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    white-space:nowrap; 
+    direction: rtl;
+ }
+ 
+ .EcoFlowCtrlMotorLabel {
+ 	position: absolute;
+ 	width: 100px;
+ 	height: 24px;
+ 	left: 293px;
+ 	top: 115px;
+ 	text-align: center;
+  	font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+ 	font-size: 21px;
+  	color: #fff;
+  	overflow:hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    white-space:nowrap; 
+    direction: rtl;
+ }
+ 
+ .EcoFlowCtrlEngineLabel {
+ 	position: absolute;
+ 	width: 100px;
+ 	height: 24px;
+ 	left: 135px;
+ 	top: 93px;
+ 	text-align: center;
+  	font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+ 	font-size: 21px;
+  	color: #fff;
+  	overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap; 
+  direction: rtl;
+ }
+ 
+ .EcoFlowCtrlBottomContainer {
+ 	position: absolute;
+ 	width:800px;
+	height:88px;
+	left:0px;
+	top:328px;
+	background:url('../images/EcoEnergy_IstopBannerBg.png') center no-repeat; 	
+ }
+ 
+ .EcoFlowCtrlDrivingDisTitle {
+ 	position: absolute;
+ 	width: 382px;
+ 	height: 39px;
+ 	left: 76px;
+ 	top: 25px;
+ 	text-align: left;
+  	font-family: "Tipperary", Arial, Helvetica, sans-serif;
+ 	font-size: 33px;
+  	color: #fff;
+  	overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap; 
+  direction: rtl;
+ }
+ 
+ .EcoFlowCtrlDrivingDisValue {
+ 	position: absolute;
+ 	width: 189px;
+ 	height: 48px;
+ 	font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+ 	font-size: 40px;
+  	color: #fff;
+ 	top:21px;
+ 	left: 454px;
+ 	text-align:right;
+ 	line-height:48px;
+ 	direction: rtl;
+ }
+ 
+ .EcoFlowCtrlDrivingDisPercent {
+ 	position: absolute;
+ 	width: 50px;
+ 	height: 48px;
+ 	font-family: "Tipperary", Arial, Helvetica, sans-serif;
+ 	text-align: left;
+ 	font-size:35px;
+  	color: #fff;
+  	top:22px;
+  	left: 643px;
+  	line-height:48px;
+  	direction: rtl;
+ }
+ 
+ .EcoFlowCtrlDrivingDisUnit {
+ 	position: absolute;
+ 	width: 78px;
+ 	height: 48px;
+ 	font-family: "Tipperary", Arial, Helvetica, sans-serif;
+ 	text-align: left;
+ 	font-size: 35px;
+  	color: #fff;
+ 	top:22px;
+ 	left: 693px;
+ 	line-height: 48px;
+ 	direction: rtl;
+ }
+ 
+ .EcoFlowCtrlButtonContainer {
+ 	position: absolute;
+ }
+ 
+ 
+ @keyframes enginToAltAnim
+ {
+ 	from {background-position :0px 0px ;}
+ 	to {background-position : 81px 0px; }
+ }
+ 
+  @keyframes motorToWheelWhiteAnim
+ {
+ 	from {background-position :62px 0px ;}
+ 	to {background-position : 0px 0px; }
+ }
+ 
+  @keyframes wheelToMotorBlueAnim
+ {
+ 	from {background-position :0px 0px ;}
+ 	to {background-position : 62px 0px; }
+ }
+ 
+  @keyframes alternatorToEngineWhiteAnim
+ {
+ 	from {background-position :0px 0px ;}
+ 	to {background-position : 0px 0px; }
+ }
+ 
+  @keyframes alternatorToUpperWheelAnim
+ {
+ 	from {background-position :0px 0px ;}
+ 	to {background-position : 0px 0px; }
+ }
+ 
+  @keyframes alternatorToLowerWheelAnim
+ {
+ 	from {background-position :0px 0px ;}
+ 	to {background-position : 0px 0px; }
+ }
+ 
+  @keyframes upperWheelToAlternatorAnim
+ {
+ 	from {background-position :0px 0px ;}
+ 	to {background-position : 0px 0px; }
+ }
+ 
+  @keyframes lowerWheelToAlternatorAnim
+ {
+ 	from {background-position :0px 0px ;}
+ 	to {background-position : 0px 0px; }
+ }
+ 
+  @keyframes wheelToAlternatorBlueAnim
+ {
+ 	from {background-position :0px 0px ;}
+ 	to {background-position : 0px 0px; }
+ }
+ 
+
+ 
+  @keyframes batteryToMotorAnim
+ {
+ 	from {background-position :72px 0px ;}
+ 	to {background-position : 0px 0px; }
+}
+
+.EcoFlowCtrlHidden {
+	
+	display: none;
+}
+.EcoFlowCtrlHiddenOpacity {
+	
+	opacity: 0;
+}

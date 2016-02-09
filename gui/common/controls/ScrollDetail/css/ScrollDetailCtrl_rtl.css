@@ -1,0 +1,90 @@
+/* CSS Document */
+/* Declare variables */
+.ScrollDetailCtrlTitleContainer {
+  position: relative;
+  left: 30px;
+  width: 650px;
+  max-height: 2.5em;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  line-height: 1.2em;
+  font-size: 40px !important;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  direction: rtl;
+}
+
+.ScrollDetailCtrlTitleLine {
+  position: relative;
+  margin-top: 5px;
+  display: inline;
+  direction: rtl;
+}
+
+.ScrollDetailCtrlBody_style1 {
+  position: relative;
+  left: 40px;
+  margin-top: 25px;
+  width: 640px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  float: left;
+  clear: both;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  direction: rtl;
+}
+
+.ScrollDetailCtrlBody_style2 {
+  position: relative;
+  left: 40px;
+  margin-top: 25px;
+  width: 640px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  float: left;
+  clear: both;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  direction: rtl;
+}
+
+.ScrollDetailCtrlBody_style3 {
+  position: relative;
+  left: 40px;
+  margin-top: 25px;
+  width: 640px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  float: left;
+  clear: both;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  left: 107px !important;
+  width: 490px !important;
+  margin-top: 85px !important;
+  text-align: center !important;
+  direction: rtl;
+}

@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_no_NO = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Start opptak av kjørelogg",
+    "StopRecording" : "Stopp opptak av kjørelogg",
+    "DeleteButton" : "Slett",
+    "BackButton" : "Tilbake",
+    "ClearButton" : "Klar",
+    "RetryButton" : "Prøv på nytt",
+    "CancelButton" : "Avbryt",
+    "USBTransferTitle" : "Dataoverføring, USB",
+    "ClearAllData" : "Fjern alle data",
+    "SelectCopyData" : "Kopier data til USB",
+    "ConfirmClearAllDataDialogText" : "Er du sikker på at du vil fjerne alle data?",
+    "ClearDataRetryDialogText" : "Kan ikke fjerne alle data. Vil du prøve på nytt?",
+    "SendDataRetryDialogText" : "Kan ikke kopiere data til USB. Vil du prøve på nytt?",
+    "ConfirmCleariDMDataDialogText" : "Ønsker du å slette den valgte kjøreloggen?",
+    "USBMemoryFullDialogText" : "Kan ikke kopiere data til USB. Fullt USB-minne. Vil du prøve på nytt?",
+    "InsertUSBDialogText" : "Kan ikke kopiere data til USB. Sett inn USB-stasjonen og prøv på nytt.",
+    "ClearDataSuccess" : "Data ble fjernet",
+    "ClearDataFailure" : "Kan ikke fjerne data",
+    "CopyDataSuccess" : "Data ble kopiert til USB",
+    "CopyDataFailure" : "Kan ikke kopiere data",
+    "CopyDataFailureUSBFull" : "Fullt USB-minne",
+    "CopyDataFailureUSBRemoved" : "Sett inn USB-stasjonen",
+    "ProtectionErrorDialogText" : "Kun 1 beskyttet fil er tillatt for hver Sjåfør-ID. Slett en fil eller slå av beskyttelse.",
+    "CopyingDialogText1" : "Kopierer data til USB. Ikke ta ut USB-stasjonen eller slå bilen Av.",
+    "CopyingDialogText2" : "{noOfFilesCopied} av {totalFiles} filer overført.",
+};
+
+framework.registerAppDictLoaded("vdt", "no_NO");

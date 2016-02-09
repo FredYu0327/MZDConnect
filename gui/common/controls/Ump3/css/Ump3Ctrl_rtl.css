@@ -1,0 +1,20 @@
+/* CSS Document */
+.Ump3CtrlTooltipBalloon {
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: #FFF;
+  text-align: center;
+  display: inline-block;
+  min-width: 148px;
+  padding-top: 20px;
+  padding-bottom: 23px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-image: url(../images/UmpPopupLt.png), url(../images/UMPPopupRt.png), url(../images/UMPPopupMd.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left top, right top, 49px 0;
+  background-size: 49px 86px, 99px 86px, 100px 86px;
+  direction: rtl;
+}

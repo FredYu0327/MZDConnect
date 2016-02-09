@@ -1,0 +1,275 @@
+/* CSS Document */
+/* Declare variables */
+@keyframes infinite_rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.NowPlaying4CtrlTitle {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: inherit;
+  top: 15px;
+  left: 80px;
+  width: 524px;
+  height: 50px;
+  text-align: left;
+  vertical-align: middle;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+  direction: rtl;
+}
+
+.NowPlaying4CtrlTitleFull {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: inherit;
+  top: 15px;
+  left: 80px;
+  width: 676px;
+  height: 50px;
+  text-align: left;
+  vertical-align: middle;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+  direction: rtl;
+}
+
+.NowPlaying4CtrlTrackDisplay {
+  position: inherit;
+  top: 21px;
+  left: 604px;
+  width: 152px;
+  height: 30px;
+  text-align: right;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  color: white;
+  direction: rtl;
+}
+
+.NowPlaying4CtrlAudioTitle {
+  position: relative;
+  top: 0px;
+  left: 9px;
+  width: 485px;
+  max-height: 86px;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+  direction: rtl;
+}
+
+.NowPlaying4CtrlAudioTitleStyle3 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 485px;
+  max-height: 88px;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+  direction: rtl;
+}
+
+.NowPlaying4CtrlAudioTitleBlock {
+  position: relative;
+  top: 0px;
+  left: 9px;
+  width: 485px;
+  max-height: 86px;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+  direction: rtl;
+}
+
+.NowPlaying4CtrlSubtitle {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  width: 676px;
+  direction: rtl;
+}
+
+.NowPlaying4CtrlDetailLine1 {
+  position: relative;
+  top: -36px;
+  left: 45px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  width: 485px;
+  direction: rtl;
+}
+
+.NowPlaying4CtrlDetailLine1Block {
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  top: 0px;
+  left: 45px;
+  width: 485px;
+  height: 160px;
+  text-align: left;
+  vertical-align: middle;
+  word-wrap: break-word;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  direction: rtl;
+}
+
+.NowPlaying4CtrlDetailLine2 {
+  position: relative;
+  top: -36px;
+  left: 45px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  width: 485px;
+  direction: rtl;
+}
+
+.NowPlaying4CtrlDetailLine3 {
+  position: relative;
+  top: -36px;
+  left: 45px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  width: 485px;
+  direction: rtl;
+}
+
+.NowPlaying4CtrlUnformattedTextFrame {
+  position: inherit;
+  left: 0px;
+  width: 676px;
+  height: 220px;
+  direction: rtl;
+}
+
+.NowPlaying4CtrlUnformattedText {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 676px;
+  height: 180px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  direction: rtl;
+}
+
+.NowPlaying4CtrlDistanceDirection {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: absolute;
+  top: 248px;
+  left: 115px;
+  width: 191px;
+  height: 36px;
+  text-align: left;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  color: white;
+  direction: rtl;
+}
+
+.NowPlaying4CtrlLoadingImageFrame {
+  position: absolute;
+  top: 5px;
+  left: 610px;
+  width: 146px;
+  height: 50px;
+  direction: rtl;
+}
+.NowPlaying4CtrlLoadingImageFrame.loading {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url(../images/IcnStatBgFunctions_Refreshing_01.png);
+  animation-name: infinite_rotation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+.NowPlaying4CtrlPhoneNumber {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: absolute;
+  top: 248px;
+  left: 342px;
+  width: 255px;
+  height: 36px;
+  text-align: left;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  color: white;
+  direction: rtl;
+}

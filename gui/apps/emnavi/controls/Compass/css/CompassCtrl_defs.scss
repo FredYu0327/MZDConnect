@@ -1,0 +1,24 @@
+// import common
+@import "../../../../../common/src/css/commonVariables";
+
+$control-height : 416px;
+$control-width :  740px;
+
+$mask-height : 196px;
+$mask-width : $control-width;
+
+$step-width : 124px;
+$step-count : 14;
+$scroller-width : $step-count * $step-width;
+$scroller-left : -($scroller-width - $mask-width) / 2;
+$scroller-height : $mask-height;
+$scroller-background : url(../images/Step.png) 62px 100% repeat-x;
+
+$info-padding : 40px;
+$info-height : 219px;
+$info-width : $control-width - (2 * $info-padding);
+$info-background : url(../images/WhiteLine.png) 25% 115px no-repeat;
+
+$text-padding : 15px;
+$text-height : 149px - (2 * $text-padding);
+$location-height : $info-height - $text-height;

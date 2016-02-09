@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_it_IT = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Inizio registrazione registro di guida",
+    "StopRecording" : "Fine registrazione registro di guida",
+    "DeleteButton" : "Elimina",
+    "BackButton" : "Indietro",
+    "ClearButton" : "Annulla",
+    "RetryButton" : "Riprova",
+    "CancelButton" : "Annulla",
+    "USBTransferTitle" : "Trasferimento dati USB",
+    "ClearAllData" : "Elimina tutti i dati",
+    "SelectCopyData" : "Copia i dati su USB",
+    "ConfirmClearAllDataDialogText" : "Eliminare tutti i dati?",
+    "ClearDataRetryDialogText" : "Impossibile eliminare tutti i dati. Riprovare?",
+    "SendDataRetryDialogText" : "Impossibile copiare tutti i dati su USB. Riprovare?",
+    "ConfirmCleariDMDataDialogText" : "Eliminare il registro di guida selezionato?",
+    "USBMemoryFullDialogText" : "Impossibile copiare i dati su USB. Memoria USB piena. Riprovare?",
+    "InsertUSBDialogText" : "Impossibile copiare i dati su USB. Inserire un dispositivo USB e riprovare.",
+    "ClearDataSuccess" : "Eliminazione dati riuscita.",
+    "ClearDataFailure" : "Impossibile eliminare i dati.",
+    "CopyDataSuccess" : "Copia dati su USB riuscita.",
+    "CopyDataFailure" : "Impossibile copiare i dati.",
+    "CopyDataFailureUSBFull" : "Memoria USB piena.",
+    "CopyDataFailureUSBRemoved" : "Inserisci dispositivo USB",
+    "ProtectionErrorDialogText" : "È consentito un solo file protetto per l'ID Conducente. Eliminare un file o disattivare la protezione.",
+    "CopyingDialogText1" : "Copia dati su USB in corso. Non rimuovere il dispositivo USB né spegnere l'auto.",
+    "CopyingDialogText2" : "{noOfFilesCopied} dei {totalFiles} file trasferiti.",
+};
+
+framework.registerAppDictLoaded("vdt", "it_IT");

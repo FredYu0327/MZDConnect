@@ -1,0 +1,71 @@
+/* CSS for "default" appearance. Will be overriden by Control properties. */
+.ButtonCtrl {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 150px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #777;
+  color: white;
+  text-align: center;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 21px;
+  border: #FFF 1px solid;
+}
+
+.ButtonCtrlIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ButtonCtrlCheckBoxIcon {
+  position: absolute;
+  top: 17px;
+  left: 15px;
+  width: 36px;
+  height: 36px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ButtonCtrlCheckBoxLabel {
+  position: absolute;
+  top: 26px;
+  left: 66px;
+  width: 248px;
+  height: 26px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 22px;
+  text-align: left;
+}
+
+/*The selector 'div' here is special for the debug classes. It makes the selector more specific and allows
+ * the CSS class to override other classes
+ */
+div.ButtonCtrlDisabled {
+  background-color: #222;
+  color: #929497;
+}
+
+div.ButtonCtrlFocused {
+  background-color: red;
+}
+
+div.ButtonCtrlDown {
+  background-color: orange;
+}
+
+div.ButtonCtrlHeld {
+  background-color: yellow;
+}

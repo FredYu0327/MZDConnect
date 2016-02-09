@@ -1,0 +1,9 @@
+// CompassCtrl.scss
+/* CompassCtrl.css */
+
+// import mixins
+@import "CompassCtrl_mixins.scss";
+
+.CompassCtrl {
+  @include CompassCtrl_mixin(ltr);
+}

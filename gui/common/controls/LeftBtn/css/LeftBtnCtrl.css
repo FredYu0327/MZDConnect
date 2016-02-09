@@ -1,0 +1,431 @@
+.LeftBtnCtrl {
+  position: absolute;
+  left: 0px;
+  top: 64px;
+  width: 94px;
+  height: 416px;
+  z-index: 8;
+  visibility: visible;
+}
+
+/* Because of the way CSS overrides classes, order is important.
+ * Correct order is en, ds, fc, dn, hd
+ */
+/* Go Back Button Classes */
+.LeftBtnCtrlBackBtn {
+  width: 94px;
+  height: 416px;
+  background: url(../images/BtnLeft_En.png) no-repeat;
+}
+
+.LeftBtnCtrlBackBtnDisabled {
+  background: url(../images/BtnLeft_Ds.png) no-repeat;
+}
+
+.LeftBtnCtrlBackBtnFocused {
+  background: url(../images/BtnLeft_Focus.png) no-repeat;
+}
+
+.LeftBtnCtrlBackBtnDown {
+  background: url(../images/BtnLeft_Hit.png) no-repeat;
+}
+
+/* Move Up Button Classes */
+.LeftBtnCtrlMoveUpBtn {
+  width: 94px;
+  height: 416px;
+  background: url(../images/BtnFldrUp_En.png) no-repeat;
+}
+
+.LeftBtnCtrlMoveUpBtnDisabled {
+  background: url(../images/BtnFldrUp_Ds.png) no-repeat;
+}
+
+.LeftBtnCtrlMoveUpBtnFocused {
+  background: url(../images/BtnFldrUp_Focus.png) no-repeat;
+}
+
+.LeftBtnCtrlMoveUpBtnDown {
+  background: url(../images/BtnFldrUp_Hit.png) no-repeat;
+}
+
+/*Class for ChromeArc*/
+.LeftBtnCtrl_ChromeArc {
+  position: absolute;
+  overflow: hidden;
+  left: 5px;
+  top: 0px;
+  width: 40px;
+  height: 416px;
+  background: url(../images/Numbers_ChromeArc.png) no-repeat;
+}
+
+/*Class for VUI Container div */
+.LeftBtnCtrl_VUI_NumberStyle {
+  position: absolute;
+  overflow: hidden;
+  left: 29px;
+  top: 0px;
+  width: 49px;
+  height: 416px;
+}
+
+/*Class for Style 01 image boxes */
+.LeftBtnCtrl_Style01_image01 {
+  position: absolute;
+  overflow: hidden;
+  width: 8px;
+  height: 20px;
+  left: 30px;
+  top: 99px;
+  background: url(../images/Number_01.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style01_image02 {
+  position: absolute;
+  overflow: hidden;
+  width: 13px;
+  height: 20px;
+  left: 30px;
+  top: 181px;
+  background: url(../images/Number_02.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style01_image03 {
+  position: absolute;
+  overflow: hidden;
+  width: 12px;
+  height: 20px;
+  left: 30px;
+  top: 263px;
+  background: url(../images/Number_03.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style01_image04 {
+  position: absolute;
+  overflow: hidden;
+  width: 15px;
+  height: 20px;
+  left: 21px;
+  top: 345px;
+  background: url(../images/Number_04.png) no-repeat center center;
+}
+
+/*Class for Style02 image boxes */
+.LeftBtnCtrl_Style02_image01 {
+  position: absolute;
+  overflow: hidden;
+  width: 8px;
+  height: 20px;
+  left: 24px;
+  top: 31px;
+  background: url(../images/Number_01.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style02_image02 {
+  position: absolute;
+  overflow: hidden;
+  width: 13px;
+  height: 20px;
+  left: 28px;
+  top: 113px;
+  background: url(../images/Number_02.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style02_image03 {
+  position: absolute;
+  overflow: hidden;
+  width: 12px;
+  height: 20px;
+  left: 32px;
+  top: 195px;
+  background: url(../images/Number_03.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style02_image04 {
+  position: absolute;
+  overflow: hidden;
+  width: 15px;
+  height: 20px;
+  left: 28px;
+  top: 277px;
+  background: url(../images/Number_04.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style02_image05 {
+  position: absolute;
+  overflow: hidden;
+  width: 12px;
+  height: 20px;
+  left: 22px;
+  top: 358px;
+  background: url(../images/Number_05.png) no-repeat center center;
+}
+
+/*Class for Style03 image boxes */
+.LeftBtnCtrl_Style03_image01 {
+  position: absolute;
+  overflow: hidden;
+  width: 8px;
+  height: 20px;
+  left: 28px;
+  top: 90px;
+  background: url(../images/Number_01.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style03_image02 {
+  position: absolute;
+  overflow: hidden;
+  width: 13px;
+  height: 20px;
+  left: 29px;
+  top: 154px;
+  background: url(../images/Number_02.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style03_image03 {
+  position: absolute;
+  overflow: hidden;
+  width: 12px;
+  height: 20px;
+  left: 31px;
+  top: 218px;
+  background: url(../images/Number_03.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style03_image04 {
+  position: absolute;
+  overflow: hidden;
+  width: 15px;
+  height: 20px;
+  left: 27px;
+  top: 282px;
+  background: url(../images/Number_04.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style03_image05 {
+  position: absolute;
+  overflow: hidden;
+  width: 12px;
+  height: 20px;
+  left: 24px;
+  top: 346px;
+  background: url(../images/Number_05.png) no-repeat center center;
+}
+
+/*Class for Style04 image boxes */
+.LeftBtnCtrl_Style04_image01 {
+  position: absolute;
+  overflow: hidden;
+  width: 8px;
+  height: 20px;
+  left: 21px;
+  top: 22px;
+  background: url(../images/Number_01.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style04_image02 {
+  position: absolute;
+  overflow: hidden;
+  width: 13px;
+  height: 20px;
+  left: 27px;
+  top: 86px;
+  background: url(../images/Number_02.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style04_image03 {
+  position: absolute;
+  overflow: hidden;
+  width: 12px;
+  height: 20px;
+  left: 29px;
+  top: 150px;
+  background: url(../images/Number_03.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style04_image04 {
+  position: absolute;
+  overflow: hidden;
+  width: 15px;
+  height: 20px;
+  left: 30px;
+  top: 214px;
+  background: url(../images/Number_04.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style04_image05 {
+  position: absolute;
+  overflow: hidden;
+  width: 12px;
+  height: 20px;
+  left: 28px;
+  top: 277px;
+  background: url(../images/Number_05.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style04_image06 {
+  position: absolute;
+  overflow: hidden;
+  width: 13px;
+  height: 20px;
+  left: 22px;
+  top: 342px;
+  background: url(../images/Number_06.png) no-repeat center center;
+}
+
+/*Class for Style06 image boxes */
+.LeftBtnCtrl_Style06_image01 {
+  position: absolute;
+  overflow: hidden;
+  width: 8px;
+  height: 20px;
+  left: 31px;
+  top: 140px;
+  background: url(../images/Number_01.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style06_image02 {
+  position: absolute;
+  overflow: hidden;
+  width: 13px;
+  height: 20px;
+  left: 30px;
+  top: 204px;
+  background: url(../images/Number_02.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style06_image03 {
+  position: absolute;
+  overflow: hidden;
+  width: 12px;
+  height: 20px;
+  left: 30px;
+  top: 268px;
+  background: url(../images/Number_03.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style06_image04 {
+  position: absolute;
+  overflow: hidden;
+  width: 15px;
+  height: 20px;
+  left: 24px;
+  top: 332px;
+  background: url(../images/Number_04.png) no-repeat center center;
+}
+
+/*Class for Style07 image boxes */
+.LeftBtnCtrl_Style07_image01 {
+  position: absolute;
+  overflow: hidden;
+  width: 8px;
+  height: 20px;
+  left: 31px;
+  top: 136px;
+  background: url(../images/Number_01.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style07_image02 {
+  position: absolute;
+  overflow: hidden;
+  width: 13px;
+  height: 20px;
+  left: 30px;
+  top: 211px;
+  background: url(../images/Number_02.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style07_image03 {
+  position: absolute;
+  overflow: hidden;
+  width: 12px;
+  height: 20px;
+  left: 29px;
+  top: 289px;
+  background: url(../images/Number_03.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style07_image04 {
+  position: absolute;
+  overflow: hidden;
+  width: 15px;
+  height: 20px;
+  left: 21px;
+  top: 364px;
+  background: url(../images/Number_04.png) no-repeat center center;
+}
+
+/*Class for Style08 image boxes */
+.LeftBtnCtrl_Style08_image01 {
+  position: absolute;
+  overflow: hidden;
+  width: 8px;
+  height: 20px;
+  left: 32px;
+  top: 209px;
+  background: url(../images/Number_01.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style08_image02 {
+  position: absolute;
+  overflow: hidden;
+  width: 13px;
+  height: 20px;
+  left: 28px;
+  top: 277px;
+  background: url(../images/Number_02.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style08_image03 {
+  position: absolute;
+  overflow: hidden;
+  width: 12px;
+  height: 20px;
+  left: 25px;
+  top: 343px;
+  background: url(../images/Number_03.png) no-repeat center center;
+}
+
+/*Class for Style 09 image boxes */
+.LeftBtnCtrl_Style09_image01 {
+  position: absolute;
+  overflow: hidden;
+  width: 8px;
+  height: 20px;
+  left: 32px;
+  top: 213px;
+  background: url(../images/Number_01.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style09_image02 {
+  position: absolute;
+  overflow: hidden;
+  width: 13px;
+  height: 20px;
+  left: 28px;
+  top: 294px;
+  background: url(../images/Number_02.png) no-repeat center center;
+}
+
+.LeftBtnCtrl_Style09_image03 {
+  position: absolute;
+  overflow: hidden;
+  width: 12px;
+  height: 20px;
+  left: 22px;
+  top: 372px;
+  background: url(../images/Number_03.png) no-repeat center center;
+}
+
+/*
+ * CSS Animation classes for fade animations use
+ * the keyframes from common.css
+ */
+.LeftBtnCtrlFadeIn {
+  animation: opacZeroToFull 0.3s linear both;
+}
+
+.LeftBtnCtrlFadeOut {
+  animation: opacFullToZero 0.3s linear both;
+}

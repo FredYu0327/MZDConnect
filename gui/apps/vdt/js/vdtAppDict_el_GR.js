@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_el_GR = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Έναρξη εγγρ. αρχείου οδήγησης",
+    "StopRecording" : "Διακοπή εγγρ. αρχείου οδήγησης",
+    "DeleteButton" : "Διαγραφή",
+    "BackButton" : "Πίσω",
+    "ClearButton" : "Εκκαθάριση",
+    "RetryButton" : "Νέα προσπάθεια",
+    "CancelButton" : "Ακύρωση",
+    "USBTransferTitle" : "Μεταφορά δεδομένων USB",
+    "ClearAllData" : "Εκκαθάριση των δεδομένων",
+    "SelectCopyData" : "Αντιγραφή δεδομένων σε USB",
+    "ConfirmClearAllDataDialogText" : "Θέλετε σίγουρα να εκκαθαρίσετε όλα τα δεδομένα;",
+    "ClearDataRetryDialogText" : "Δεν ήταν δυνατή η εκκαθάριση όλων των δεδομένων. Θέλετε να προσπαθήσετε ξανά;",
+    "SendDataRetryDialogText" : "Δεν ήταν δυνατή η αντιγραφή δεδομένων σε USB. Θέλετε να προσπαθήσετε ξανά;",
+    "ConfirmCleariDMDataDialogText" : "Θέλετε να διαγράψετε το επιλεγμένο αρχείο οδήγησης;",
+    "USBMemoryFullDialogText" : "Δεν ήταν δυνατή η αντιγραφή δεδομένων σε USB. Η μνήμη του USB είναι πλήρης. Θέλετε να προσπαθήσετε ξανά;",
+    "InsertUSBDialogText" : "Δεν ήταν δυνατή η αντιγραφή δεδομένων σε USB. Εισαγάγετε τη μονάδα USB και προσπαθήστε ξανά.",
+    "ClearDataSuccess" : "Επιτυχής εκκαθάριση δεδομένων",
+    "ClearDataFailure" : "Εκκαθάριση δεδομένων μη δυνατή ",
+    "CopyDataSuccess" : "Ορθή αντιγρ. Data σε USB",
+    "CopyDataFailure" : "Αντιγραφή δεδομένων μη δυνατή",
+    "CopyDataFailureUSBFull" : "Πλήρης μνήμη USB",
+    "CopyDataFailureUSBRemoved" : "Εισαγωγή μονάδας USB",
+    "ProtectionErrorDialogText" : "Επιτρέπεται μόνο 1 προστατευμένο αρχείο ανά αναγνωριστικό οδηγού. Διαγράψτε ένα αρχείο ή απενεργοποιήστε την προστασία.",
+    "CopyingDialogText1" : "Αντιγράφονται δεδομένα σε USB. Μην αφαιρέσετε τη μονάδα USB και μην απενεργοποιήσετε το αυτοκίνητο.",
+    "CopyingDialogText2" : "Μεταφέρθηκαν {noOfFilesCopied} από {totalFiles} αρχεία.",
+};
+
+framework.registerAppDictLoaded("vdt", "el_GR");

@@ -1,0 +1,253 @@
+/* CSS Document */
+.InCall2InCallBG {
+  background-image: url("../images/NowPlayingBG.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.InCall2Mob911BG {
+  background-image: url("../images/NowPlayingBG_Mobile911.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.InCall2Ctrl {
+  position: absolute;
+  left: 0px;
+  width: 800px;
+  height: 416px;
+}
+
+.InCall2CtrlTitle {
+  position: absolute;
+  top: 8px;
+  height: 49px;
+  left: 80px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 596px;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.InCall2CtrlTitleContactRuleLine {
+  position: absolute;
+  left: 47px;
+  width: 693px;
+  height: 1px;
+  top: 136px;
+  background-image: url("../images/ListItemSeparator.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.InCall2Contact1 {
+  position: absolute;
+  top: 62px;
+  left: 13px;
+  width: 774px;
+  height: 134px;
+}
+
+.InCall2Contact2 {
+  position: absolute;
+  top: 200px;
+  left: 13px;
+  width: 774px;
+  height: 134px;
+}
+
+.InCall2ContactActiveBkg {
+  background-image: url("../images/Active_Call_Bkg.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.InCall2CallContactIcon {
+  position: absolute;
+  height: 51px;
+  width: 51px;
+  top: 42px;
+  left: 6px;
+}
+
+.InCall2ActivePhone {
+  background-image: url("../images/ActiveCall_En.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.InCall2InactivePhone {
+  background-image: url("../images/ActiveCall_Ds.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.InCall2ActiveFontColor {
+  color: #FFFFFF;
+}
+
+.InCall2InactiveFontColor {
+  color: #AFAFAF;
+}
+
+.InCall2ContactImageFrame {
+  position: absolute;
+  top: 23px;
+  left: 67px;
+  width: 90px;
+  height: 90px;
+  background-image: url("../images/NowPlayingImageFrame.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.InCall2ContactImageFrame img {
+  position: absolute;
+  max-width: 90px;
+  max-height: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.InCall2ContactName {
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 596px;
+  position: absolute;
+  top: 18px;
+  left: 171px;
+  height: 38px;
+}
+
+.InCall2ContactPhoneNumber {
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 416px;
+  font-size: 35px;
+  position: absolute;
+  top: 63px;
+  left: 171px;
+  height: 39px;
+}
+
+.InCall2ContactPhoneNumberType {
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 416px;
+  font-size: 35px;
+  position: absolute;
+  top: 63px;
+  left: 171px;
+  height: 39px;
+}
+
+.InCall2ContactElapsedTime {
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  overflow: hidden;
+  max-width: 140px;
+  font-size: 35px;
+  position: absolute;
+  top: 63px;
+  right: 34px;
+  height: 39px;
+}
+
+.InCall2Mobile911IconFrame {
+  position: absolute;
+  top: 19px;
+  left: 62px;
+  width: 38px;
+  height: 38px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.InCall2CallonCMU {
+  display: block;
+}
+
+.InCall2CallonHandset {
+  display: none;
+}
+
+.InCall2Mobile911ImageFrame {
+  position: absolute;
+  top: 36px;
+  left: 600px;
+  width: 146px;
+  height: 146px;
+  background-image: url("../images/Mobile911ImageFrame.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.InCall2Mobile911ImageFrame img {
+  position: absolute;
+  top: 18px;
+  bottom: 0px;
+  left: 22px;
+  right: 0px;
+  width: 102px;
+  height: 110px;
+  background-image: url("../images/IcnContactImage911.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.InCall2Mobile911ServiceName {
+  position: absolute;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 62px;
+  top: 7px;
+  left: 115px;
+  color: #FFFFFF;
+}
+
+.InCall2Mobile911MessageText {
+  position: absolute;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  top: 133px;
+  left: 116px;
+  max-width: 467px;
+  color: #FFFFFF;
+}
+
+.InCall2Mobile911ElapsedTime {
+  position: absolute;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  top: 83px;
+  left: 116px;
+  color: #F0EEED;
+}

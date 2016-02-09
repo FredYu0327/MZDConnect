@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_hu_HU = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Vezetési napló rögzítésének indítása",
+    "StopRecording" : "Vezetési napló rögz. leállítása",
+    "DeleteButton" : "Törlés",
+    "BackButton" : "Vissza",
+    "ClearButton" : "Törlés",
+    "RetryButton" : "Újra",
+    "CancelButton" : "Mégse",
+    "USBTransferTitle" : "USB adatátvitel",
+    "ClearAllData" : "Az összes adat törlése",
+    "SelectCopyData" : "Adatok USB-eszközre másolása",
+    "ConfirmClearAllDataDialogText" : "Biztosan törölni akarja az összes adatot?",
+    "ClearDataRetryDialogText" : "Nem lehet az összes adatot törölni. Újra meg akarja próbálni?",
+    "SendDataRetryDialogText" : "Nem lehet adatokat USB-eszközre másolni. Újra meg akarja próbálni?",
+    "ConfirmCleariDMDataDialogText" : "Törölni akarja kijelölt vezetési naplót?",
+    "USBMemoryFullDialogText" : "Nem lehet adatokat USB-eszközre másolni. Megtelt az USB-memória. Újra meg akarja próbálni?",
+    "InsertUSBDialogText" : "Nem lehet adatokat USB-eszközre másolni. Dugja be ismét az USB-meghajtót.",
+    "ClearDataSuccess" : "Sikerült az adatok törlése.",
+    "ClearDataFailure" : "Nem lehet az adatokat törölni.",
+    "CopyDataSuccess" : "Sikerült adatok USB-re másolása.",
+    "CopyDataFailure" : "Nem lehet az adatokat másolni.",
+    "CopyDataFailureUSBFull" : "Megtelt az USB-memória.",
+    "CopyDataFailureUSBRemoved" : "Dugja be az USB-meghajtót.",
+    "ProtectionErrorDialogText" : "Egy vezetőazonosítóhoz 1 egy védett fájl tartozhat. Töröljön egy fájl, vagy kapcsolja ki a védelmet.",
+    "CopyingDialogText1" : "Adatmásolás USB-eszközre. Ne vegye ki az USB-eszközt illetve ne kapcsolja ki az autó feszültségellátást.",
+    "CopyingDialogText2" : "{noOfFilesCopied} fájl átvitele kész (össz.: {totalFiles}).",
+};
+
+framework.registerAppDictLoaded("vdt", "hu_HU");

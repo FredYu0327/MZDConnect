@@ -1,0 +1,10 @@
+@import "../../../../../common/src/css/commonVariables";
+
+.OffScreenCtrl {
+  width: $screenWidth;
+  height: $screenHeight;
+  background: url(../images/OffScreenBackground.png);
+  background-repeat: no-repeat;
+  left: 0px;
+  top: 0px;
+}

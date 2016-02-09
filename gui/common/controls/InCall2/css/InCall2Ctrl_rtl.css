@@ -1,0 +1,90 @@
+/* CSS Document */
+.InCall2CtrlTitle {
+  position: absolute;
+  top: 8px;
+  height: 49px;
+  left: 80px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 596px;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  color: #FFFFFF;
+  direction: rtl;
+}
+
+.InCall2ContactName {
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 596px;
+  position: absolute;
+  top: 18px;
+  left: 171px;
+  height: 38px;
+  direction: rtl;
+}
+
+.InCall2ContactPhoneNumber {
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 416px;
+  font-size: 35px;
+  position: absolute;
+  top: 63px;
+  left: 171px;
+  height: 39px;
+  direction: rtl;
+}
+
+.InCall2ContactPhoneNumberType {
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 416px;
+  font-size: 35px;
+  position: absolute;
+  top: 63px;
+  left: 171px;
+  height: 39px;
+  direction: rtl;
+}
+
+.InCall2Mobile911ServiceName {
+  position: absolute;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 62px;
+  top: 7px;
+  left: 115px;
+  color: #FFFFFF;
+  direction: rtl;
+}
+
+.InCall2Mobile911MessageText {
+  position: absolute;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  top: 133px;
+  left: 116px;
+  max-width: 467px;
+  color: #FFFFFF;
+  direction: rtl;
+}

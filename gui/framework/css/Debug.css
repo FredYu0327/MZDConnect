@@ -1,0 +1,109 @@
+#DebugCont {
+  background-color: #222222;
+  height: 478px;
+  position: absolute;
+  min-width: 400px;
+  left: 800px;
+  top: 0px;
+  right: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  border: 2px solid #cccccc;
+  margin: 0px;
+  z-index: 100;
+}
+
+#DebugCont a {
+  color: #8888ff;
+  text-decoration: none;
+}
+
+#DebugCont a:hover {
+  text-decoration: underline;
+}
+
+#DebugDropDown {
+  background-color: #000;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  height: 22px;
+  width: 400px;
+}
+
+#DebugHtmlDiv {
+  color: #FFF;
+  height: 200px;
+  overflow: auto;
+  border-top: 2px solid #cccccc;
+  border-bottom: 2px solid #cccccc;
+  padding: 5px;
+  margin-bottom: 24px;
+  overflow: auto;
+}
+
+#DebugLogDiv {
+  color: #000;
+  background-color: #EBE2B0;
+  height: 206px;
+  overflow: auto;
+  padding: 5px;
+  border-top: 2px solid #cccccc;
+}
+
+#DebugClear {
+  position: absolute;
+  background-color: #EBE2B0;
+  border: 1px solid #DAD1A0;
+  /*expand the div width/height to expand the clickable area*/
+  width: 88px;
+  height: 22px;
+  top: 262px;
+  right: 18px;
+  text-align: center;
+  line-height: 20px;
+}
+
+#DebugClear a {
+  color: #4444FF;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#DebugGoBackDiv {
+  position: absolute;
+  top: 230px;
+  left: 0px;
+  right: 0px;
+  height: 28px;
+  margin-left: 4px;
+  margin-top: 9px;
+}
+
+#DebugGoBackDiv span {
+  position: absolute;
+  top: 0px;
+  left: 170px;
+  right: 0px;
+}
+
+#DebugGoBackDiv select {
+  width: 100%;
+  height: 22px;
+  background-color: #000;
+  color: #FFFFFF;
+  margin-top: -2px;
+}
+
+.DebugScreenNameLabel {
+  position: absolute;
+  text-align: center;
+  line-height: 12px;
+  left: 300px;
+  top: 464px;
+  color: #2F4;
+  width: 200px;
+  height: 14px;
+  border: solid thin green;
+  z-index: 100;
+}

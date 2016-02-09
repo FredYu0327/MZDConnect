@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_de_DE = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Fahrtenbuchaufzeichnung starten",
+    "StopRecording" : "Fahrtenbuchaufzeichnung stoppen",
+    "DeleteButton" : "Löschen",
+    "BackButton" : "Zurück",
+    "ClearButton" : "Löschen",
+    "RetryButton" : "Wiederholung",
+    "CancelButton" : "Abbrechen",
+    "USBTransferTitle" : "USB-Datenübertragung",
+    "ClearAllData" : "Alle Daten löschen",
+    "SelectCopyData" : "Daten auf USB kopieren",
+    "ConfirmClearAllDataDialogText" : "Sind Sie sicher, dass Sie alle Daten löschen möchten?",
+    "ClearDataRetryDialogText" : "Es konnten nicht alle Daten gelöscht werden. Möchten Sie es erneut versuchen?",
+    "SendDataRetryDialogText" : "Die Daten konnten nicht auf USB kopiert werden. Möchten Sie es erneut versuchen?",
+    "ConfirmCleariDMDataDialogText" : "Möchten Sie das ausgewählte Fahrtenbuch löschen?",
+    "USBMemoryFullDialogText" : "Die Daten konnten nicht auf USB kopiert werden. USB-Speicher ist voll. Möchten Sie es erneut versuchen?",
+    "InsertUSBDialogText" : "Die Daten konnten nicht auf USB kopiert werden. Stecken Sie ein USB-Laufwerk ein und versuchen Sie es erneut.",
+    "ClearDataSuccess" : "Daten erfolgreich gelöscht",
+    "ClearDataFailure" : "Daten konnten nicht gel. werden",
+    "CopyDataSuccess" : "USB-Kopie der Daten erfolgreich",
+    "CopyDataFailure" : "Daten konnten nicht kop. werden",
+    "CopyDataFailureUSBFull" : "USB-Speicher voll",
+    "CopyDataFailureUSBRemoved" : "USB-Laufwerk verbinden",
+    "ProtectionErrorDialogText" : "Nur 1 geschützte Datei pro Fahrer-ID erlaubt. Löschen Sie 1 Datei o. schalten den Schutz aus.",
+    "CopyingDialogText1" : "Daten werden auf USB kopiert. Weder USB-Laufwerk entfernen noch Fahrzeug ausschalten.",
+    "CopyingDialogText2" : "{NoOfFilesCopied} von {totalFiles} Dateien übertragen.",
+};
+
+framework.registerAppDictLoaded("vdt", "de_DE");

@@ -1,0 +1,1439 @@
+/* CSS Document */
+/* Declare variables */
+.EcoStatusCtrl {
+  position: inherit;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 416px; 
+  background: url("../images/EcoEnergyBg.png") center no-repeat;
+}
+
+.UmpPanelDivDisable
+{
+	position: inherit;
+  	top: 0px;
+  	left: 0px;
+	width: 800px; 
+  	height: 100px;
+	background: none;
+}
+
+.UmpPanelDivEnable
+{
+	position: inherit;
+  	top: 0px;
+  	left: 0px;
+	width: 800px; 
+  	height: 100px;
+	background: none;
+}
+
+.EcoStatusCtrlHidden {
+  display: none; }
+
+.EcoStatusCtrl_SwitchView {
+  position: absolute;
+  top: 340px;
+  left: -17px;
+  height: 70px;
+  width:117px;
+  background: url("../images/AdjustBtn3_Focus.png") center no-repeat;
+  text-indent: -9999px;
+  cursor: pointer; 
+}
+
+.EcoStatusCtrl_SwitchView_Hit {
+  position: absolute;
+  top: 340px;
+  left: -17px;
+  height: 70px;
+  width:117px;
+  background: url("../images/AdjustBtn3_Focus.png") center no-repeat;
+  text-indent: -9999px; 
+ }
+
+.EcoStatusCtrl_iEloop_Container {
+  position: inherit;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 416px;
+  background: url(..\images\EcoEnergyBg.png); }
+
+.EcoStatusCtrl_iEloop_Title {
+  position: inherit;
+  top: 63px;
+  left: 41px;
+  width: 165px;
+  height: 27px;
+  background: url(../images/iEloopLogo.png); text-indent: -9999px;}
+
+.EcoStatusCtrl_iEloop_CarBottomLayer {
+  position: absolute;
+  top: -34px;
+  left: 197px;
+  width: 562px;
+  height: 412px;
+  background: url(../images/Car_BottomLayer.png) no-repeat; }
+
+.EcoStatusCtrl_iEloopOnly_iEloop_CarBottomLayer {
+  position: absolute;
+  top: -34px;
+  left: 197px;
+  width: 403px;
+  height: 412px;
+  background: url(../images/Car_BottomLayer.png) no-repeat; }
+
+.EcoStatusCtrl_iEloop_CarGlow {
+  position: absolute;
+  top: -34px;
+  left: 197px;
+  width: 403px;
+  height: 412px;
+  background: url(../images/Car_Glow.png) no-repeat; }
+
+.EcoStatusCtrl_iEloop_ChargeShaft {
+  position: inherit;
+  top: 44px;
+  left: 253px;
+  width: 288px;
+  height: 210px;
+  background: url(../images/ChargeShaft.png); 
+  
+  }
+
+.EcoStatusCtrl_iEloop_FrontWheelsGlow {
+  position: absolute;
+  top: 142px;
+  left: 227px;
+  width: 338px;
+  height: 125px;
+  background: url(../images/WheelsGlow.png) center no-repeat; }
+
+.EcoStatusCtrl_iEloop_Battery_Off {
+  position: absolute;
+  top: 30px;
+  left: 305px;
+  width: 187px;
+  height: 160px;
+  background: url(../images/BatteryOff.png); 
+  z-index: 10;
+  }
+
+.EcoStatusCtrl_iEloop_Battery_Glow {
+  position: absolute;
+  top: 30px;
+  left: 305px;
+  width: 187px;
+  height: 160px;
+  background: url(../images/BatteryGlow.png); 
+  z-index: 11; 
+  }
+
+.EcoStatusCtrl_iEloop_Battery_Sprite {
+  position: absolute;
+  top: 30px;
+  left: 305px;
+  width: 187px;
+  height: 160px;
+  background: url(../images/capacitor_sprite.png) center no-repeat; 
+  z-index: 12; 
+  overflow:hidden;
+  }
+
+.EcoStatusCtrl_iEloop_Battery_none {
+	
+	 background-position:  1122px 1309px;
+} 
+
+
+.EcoStatusCtrl_iEloop_Battery_01 {
+
+	position: absolute;
+  top: 30px;
+  left: 305px;
+  width: 187px;
+  height: 160px;
+  background: url(../images/capacitor_sprite.png); 
+  z-index: 12; 
+  overflow:hidden;
+  background-position:  0px 0px;
+  }
+
+.EcoStatusCtrl_iEloop_Battery_02 {
+	position: absolute;
+  top: 30px;
+  left: 305px;
+  width: 187px;
+  height: 160px;
+  background: url(../images/capacitor_sprite.png); 
+  z-index: 12; 
+  overflow:hidden;
+   background-position:  -187px 0px;
+  }
+
+.EcoStatusCtrl_iEloop_Battery_03 {
+	position: absolute;
+  top: 30px;
+  left: 305px;
+  width: 187px;
+  height: 160px;
+  background: url(../images/capacitor_sprite.png); 
+  z-index: 12; 
+  overflow:hidden;
+   background-position:  -374px 0px;
+   }
+
+.EcoStatusCtrl_iEloop_Battery_04 {
+	position: absolute;
+  top: 30px;
+  left: 305px;
+  width: 187px;
+  height: 160px;
+  background: url(../images/capacitor_sprite.png); 
+  z-index: 12; 
+  overflow:hidden;
+ background-position:  -561px 0px;
+  }
+
+.EcoStatusCtrl_iEloop_Battery_05 {
+	position: absolute;
+  top: 30px;
+  left: 305px;
+  width: 187px;
+  height: 160px;
+  background: url(../images/capacitor_sprite.png); 
+  z-index: 12; 
+  overflow:hidden;
+   background-position:   -748px 0px;
+  }
+
+.EcoStatusCtrl_iEloop_Battery_06 {
+		position: absolute;
+  top: 30px;
+  left: 305px;
+  width: 187px;
+  height: 160px;
+  background: url(../images/capacitor_sprite.png); 
+  z-index: 12; 
+  overflow:hidden;
+   background-position:  -935px 0px; 
+  }
+
+.EcoStatusCtrl_iEloop_Alternator_On {
+  position: absolute;
+  top: 180px;
+  left: 365px;
+  width: 65px;
+  height: 52px;
+  background: url(../images/AlternatorOn.png); 
+  z-index: 999;}
+
+.EcoStatusCtrl_iEloop_Alternator_Off {
+  position: absolute;
+  top: 180px;
+  left: 365px;
+  width: 65px;
+  height: 52px;
+  background: url(../images/AlternatorOff.png); }
+
+.EcoStatusCtrl_iEloop_Engine {
+  position: absolute;
+  top: 129px;
+  left: 324px;
+  width: 140px;
+  height: 172px;
+  background: url(../images/EngineLg.png); }
+
+.EcoStatusCtrl_iEloop_EngineGlow {
+  position: absolute;
+  top: 129px;
+  left: 324px;
+  width: 140px;
+  height: 172px;
+  background: url(../images/EngineLgGlow.png); }
+  
+ .EcoStatusCtrl_iEloop_WheelToAltCharge_01 {
+ 		position: absolute;
+ 		top:185px;
+ 		left: 262px;
+ 		width: 134px;
+ 		height:41px;
+ } 
+
+.EcoStatusCtrl_iEloop_WheelToAltCharge_left {
+  position: absolute;
+  top: 185px;
+  left: 262px;
+  width: 134px;
+  height: 41px;
+}
+
+.EcoStatusCtrl_iEloop_WheelToAltCharge_right {
+  position: absolute;
+  top: 185px;
+  left: 262px;
+  width: 134px;
+  height: 41px;
+}
+
+.EcoStatusCtrl_iEloop_WheelToAltCharge_02 {
+  position: absolute;
+  top: 185px;
+  left: 262px;
+  width: 268px;
+  height: 41px;
+  background: url(../images/apng/charge_flow_2.png); }
+
+.EcoStatusCtrl_iEloop_WheelToAltCharge_03 {
+  position: absolute;
+  top: 185px;
+  left: 262px;
+  width: 268px;
+  height: 41px;
+  background: url(../images/apng/charge_flow_3.png);
+}
+
+.EcoStatusCtrl_iEloop_WheelToAltCharge_04 {
+  position: absolute;
+  top: 185px;
+  left: 262px;
+  width: 268px;
+  height: 41px;
+  background: url(../images/apng/charge_flow_4.png); 
+  }
+
+.EcoStatusCtrl_iEloop_WheelToAltCharge_05 {
+  position: absolute;
+  top: 185px;
+  left: 262px;
+  width: 268px;
+  height: 41px;
+  background: url(../images/apng/charge_flow_5.png);
+  }
+
+.EcoStatusCtrl_iEloop_WheelToAltCharge_06 {
+  position: absolute;
+  top: 185px;
+  left: 262px;
+  width: 268px;
+  height: 41px;
+  background: url(../images/ChargeFlow06.png); }
+
+.EcoStatusCtrl_iEloop_AltToBatteryCharge_01 {
+  position: absolute;
+  top: 136px;
+  left: 374px;
+  width: 48px;
+  height: 56px;
+ }
+
+.EcoStatusCtrl_iEloop_AltToBatteryCharge_02 {
+  position: absolute;
+  top: 136px;
+  left: 374px;
+  width: 48px;
+  height: 56px;
+  background: url(../images/apng/energy_flow_up_2.png) center no-repeat; }
+
+.EcoStatusCtrl_iEloop_AltToBatteryCharge_03 {
+  position: absolute;
+  top: 136px;
+  left: 374px;
+  width: 48px;
+  height: 56px;
+  background: url(../images/apng/energy_flow_up_3.png) center no-repeat;  }
+
+.EcoStatusCtrl_iEloop_AltToBatteryCharge_04 {
+  position: absolute;
+  top: 136px;
+  left: 374px;
+  width: 48px;
+  height: 56px;
+  background: url(../images/apng/energy_flow_up_4.png) center no-repeat;  }
+
+.EcoStatusCtrl_iEloop_AltToBatteryCharge_05 {
+  position: absolute;
+  top: 136px;
+  left: 374px;
+  width: 48px;
+  height: 56px;
+  background: url(../images/apng/energy_flow_up_5.png) center no-repeat;  }
+
+.EcoStatusCtrl_iEloop_AltToBatteryCharge_06 {
+  position: absolute;
+  top: 136px;
+  left: 374px;
+  width: 48px;
+  height: 56px;
+ /*  background: url(../images/Charge06.png); */ }
+
+.EcoStatusCtrl_iEloop_BatteryToCarDischarge {
+  position: absolute;
+  top: 111px;
+  left: 256px;
+  width: 282px;
+  height: 27px;
+  /*background: url(../images/apng/discharge_flow.png) center no-repeat;*/
+  opacity: 0;
+  overflow: hidden;
+  }
+
+
+
+.EcoStatusCtrl_iEloop_CarTopLayer {
+  position: absolute;
+  top: -34px;
+  left: 199px;
+  width: 403px;
+  height: 398px;
+  background: url(../images/Car_TopLayer.png) no-repeat; }
+
+.EcoStatusCtrl_iStop_Container {
+  position: inherit;
+  top: 328px;
+  left: 0px;
+  width: 800px;
+  height: 88px;
+  background: url(../images/EcoEnergy_IstopBannerBg.png); }
+
+.EcoStatusCtrl_iStop_Title {
+  position: inherit;
+  top: 34px;
+  left: 108px;
+  width: 119px;
+  height: 30px;
+  background: url(../images/istopLogo.png); 
+  text-indent: -9999px;}
+
+.EcoStatusCtrl_iStop_Status_Text {
+  position: inherit;
+  top: 15px;
+  left: 280px;
+  width: 250px;
+  height: 58px;
+  text-align: center;
+  line-height: 58px;
+  font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: #fff;
+  background: #000;
+  border: 1px solid #666;
+  border-radius: 5px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap; 
+  direction: rtl;
+  }
+
+.EcoStatusCtrl_iStop_Status_Engine {
+  position: inherit;
+  top: 0px;
+  left: 526px;
+  width: 110px;
+  height: 88px;
+  background: url(../images/Engine.png); }
+
+.EcoStatusCtrl_iStop_Status_Engine_Glow {
+  position: inherit;
+  top: 0px;
+  left: 526px;
+  width: 110px;
+  height: 88px;
+  background: url(../images/Engine_Glow.png); }
+
+.EcoStatusCtrl_iStop_Status_Battery {
+  position: inherit;
+  top: 0px;
+  left: 614px;
+  width: 108px;
+  height: 88px;
+  background: url(../images/Batt.png); }
+
+.EcoStatusCtrl_iStop_Status_Battery_Glow {
+  position: inherit;
+  top: 0px;
+  left: 614px;
+  width: 108px;
+  height: 88px;
+  background: url(../images/Batt_Glow.png); }
+
+.EcoStatusCtrl_iStop_Status_AC {
+  position: inherit;
+  top: 0px;
+  left: 698px;
+  width: 102px;
+  height: 88px;
+  background: url(../images/AC.png); }
+
+.EcoStatusCtrl_iStop_Status_AC_Glow {
+  position: inherit;
+  top: 0px;
+  left: 698px;
+  width: 102px;
+  height: 88px;
+  background: url(../images/AC_Glow.png); }
+
+.EcoStatusCtrl_iStop_Error_Text {
+  position: inherit;
+  top: 5px;
+  left: 266px;
+  width: 520px;
+  height: 78px;
+  background: url(../images/IstopBannerStyle03Box.png) center no-repeat;
+  text-align: left;
+  font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  color: #fff; 
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap;  
+  direction: rtl;
+  }
+
+.EcoStatusCtrl_iStop_Error_Text_Line1
+{
+	position: inherit;
+	width: 500px;
+	top:5px;
+	left: 15px;
+	overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap; 
+  direction: rtl;
+}
+
+.EcoStatusCtrl_iStop_Error_Text_Line2
+{
+	position: inherit;
+	width: 500px;
+	top:35px;
+	left: 15px;
+	overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap; 
+  direction: rtl;
+}
+
+.EcoStatusCtrl_iStop_Error_Text_LineCenter
+{
+	position: inherit;
+	width: 500px;
+	top:20px;
+	left: 15px;
+	text-align:center;
+	overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap; 
+   direction: rtl;
+}
+
+.EcoStatusCtrl_iStop_Time_Frame {
+  position: inherit;
+  top: 5px;
+  left: 266px;
+  width: 520px;
+  height: 78px;
+  }
+  
+ .EcoStatusCtrl_iStop_Time_Bg_Left {
+ 	position: inherit;
+ 	width: 2px;
+ 	height: 84px;
+ 	left: 0px;
+ 	background: url('../images/EcoEnergy_IstopBannerDivider.png') center no-repeat;
+ }
+ 
+ .EcoStatusCtrl_iStop_Time_Bg_Right {
+ 	position: inherit;
+ 	width: 2px;
+ 	height: 84px;
+ 	left: 260px;
+ 	background: url('../images/EcoEnergy_IstopBannerDivider.png') center no-repeat;
+ } 
+
+.EcoStatusCtrl_iStop_Time_Title {
+  position: inherit;
+  top: 3px;
+  left: 15px;
+  width: 160px;
+  height: 35px;
+  text-align: left;
+  line-height: 35px;
+  font-family: Tipperary, Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  color: #fff;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap; 
+  direction: rtl;
+}
+
+.EcoStatusCtrl_iStop_Time_Value {
+  position: inherit;
+  top: 41px;
+  left: 10px;
+  width: 240px;
+  height: 32px;
+  text-align: right;
+  line-height: 32px;
+  font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #fff; 
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap;
+  direction: rtl;  
+  }
+
+.EcoStatusCtrl_iStop_Time_TotalTitle {
+  position: inherit;
+  top: 3px;
+  left: 275px;
+  width: 140px;
+  height: 35px;
+  text-align: left;
+  line-height: 35px;
+  font-family: Tipperary, Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  color: #fff;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap;  
+  direction: rtl;
+}
+
+.EcoStatusCtrl_iStop_Time_TotalValue {
+  position: inherit;
+  top: 41px;
+  left: 337px;
+  width: 182px;
+  height: 32px;
+  text-align: right;
+  line-height: 32px;
+  font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+   color: #fff; 
+   overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap;
+  direction: rtl;  
+   }
+
+.EcoStatusCtrl_FuelEfficiency_Container {
+  position: inherit;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 133px; 
+  background: url('../images/ControlStatus_line.png') bottom right no-repeat;
+  }
+
+.EcoStatusCtrl_FuelEfficiency_Title {
+  position: inherit;
+  top: 11px;
+  left: 590px;
+  width: 185px;
+  height: 35px;
+  text-align: left;
+  font-family: Tipperary, Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  color: #fff; 
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap; 
+  direction: rtl;
+}
+
+.EcoStatusCtrl_FuelEfficiency_SinceReset {
+  position: inherit;
+  top: 46px;
+  left: 590px;
+  width: 185px;
+  height: 30px;
+  text-align: left;
+  font-family: Tipperary, Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  color: #fff; 
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap; 
+  direction: rtl;
+}
+
+.EcoStatusCtrl_FuelEfficiency_Value {
+  position: inherit;
+  top: 80px;
+  left: 590px;
+  width: 205px;
+  height: 45px;
+  text-align: left;
+  font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #fff;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap;  
+  direction: rtl;
+}
+
+.EcoStatusCtrl_FuelEfficiency_Value  span{
+	
+	font-size: 30px;
+	font-family: Tipperary, Arial, Helvetica, sans-serif;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	white-space:nowrap; 
+	direction: rtl;
+   }
+
+.EcoStatusCtrl_iEloopOnly_FuelEfficiency_Container {
+  position: inherit;
+  top: 328px;
+  left: 0px;
+  width: 800px;
+  height: 88px;
+  background: url(../images/EcoEnergy_IstopBannerBg.png); }
+
+.EcoStatusCtrl_iEloopOnly_FuelEfficiency_Title {
+  position: absolute;
+  top: 29px;
+  left: 160px;
+  width: 350px;
+  height: 39px;
+  text-align: left;
+  line-height: 36px;
+  white-space: nowrap;
+  font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: #fff;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap; 
+  direction: rtl;
+ }
+
+.EcoStatusCtrl_iEloopOnly_FuelEfficiency_Value {
+ position: absolute;
+  top: 22px;
+  left: 510px;
+  width: 80px;
+  height: 39px;
+  text-align: right;
+  font-family: "Tipperary Semibold", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #fff;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap; 
+  direction: rtl;
+  }
+
+.EcoStatusCtrl_iEloopOnly_FuelEfficiency_Unit {
+  position: absolute;
+  top: 25px;
+  left: 590px;
+  width: 140px;
+  height: 45px;
+  text-align: left;
+  font-family: Tipperary, Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: #fff;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  white-space:nowrap; 
+  direction: rtl;
+}
+
+.EcoStatusCtrl_timeUnit {
+	font-family: Tipperary, Arial, Helvetica, sans-serif;
+	font-size: 27px;
+	direction: rtl;
+}
+
+@keyframes chargeAnimLeft1
+{
+	from {background-position: 0px -11px;}
+	to  {background-position: 80px -11px;}
+}
+
+@keyframes chargeAnimLeft2
+{
+	from {background-position: 0px -56px;}
+	to  {background-position: 80px -56px;}
+}
+
+@keyframes chargeAnimLeft3
+{
+	from {background-position: 0px -102px;}
+	to  {background-position: 80px -102px;}
+}
+
+@keyframes chargeAnimLeft4
+{
+	from {background-position: 0px -150px;}
+	to  {background-position: 80px -150px;}
+}
+
+
+@keyframes chargeAnimLeft5
+{
+	from {background-position: 0px -201px;}
+	to  {background-position: 80px -201px;}
+}
+
+@keyframes chargeAnimRight1
+{
+	from {background-position: 80px -11px;}
+	to  {background-position: 0px -11px;}
+}
+
+@keyframes chargeAnimRight2
+{
+	from {background-position: 80px -56px;}
+	to  {background-position: 0px -56px;}
+}
+
+
+@keyframes chargeAnimRight3
+{
+	from {background-position: 80px -102px;}
+	to  {background-position: 0px -102px;}
+}
+
+@keyframes chargeAnimRight4
+{
+	from {background-position: 80px -150px;}
+	to  {background-position: 0px -150px;}
+}
+
+@keyframes chargeAnimRight5
+{
+	from {background-position: 80px -201px;}
+	to  {background-position: 0px -201px;}
+}
+
+
+
+
+
+@keyframes chargeAnimTop
+{
+	from {background-position: 0px 36px;}
+	to  {background-position: 0px 0px;}
+}
+
+@keyframes chargeAnimTop1
+{
+	from {background-position: 0px 25px;}
+	to  {background-position: 0px 0px;}
+}
+
+@keyframes chargeAnimTop2
+{
+	from {background-position: 0px 27px;}
+	to  {background-position: 0px 0px;}
+}
+
+@keyframes chargeAnimTop3
+{
+	from {background-position: 0px 31px;}
+	to  {background-position: 0px 0px;}
+}
+
+@keyframes chargeAnimTop4
+{
+	from {background-position: 0px 31px;}
+	to  {background-position: 0px 0px;}
+}
+
+@keyframes chargeAnimTop5
+{
+	from {background-position: 0px 33px;}
+	to  {background-position: 0px 0px;}
+}
+
+@keyframes DischargeAnimRight
+{
+	from {background-position: 0px 0px;}
+	to  {background-position: 63px 0px;}
+}
+
+@keyframes DischargeAnimLeft
+{
+	from {background-position: 63px 0px;}
+	to  {background-position: 0px 0px;}
+}
+
+
+.EcoStatusCtrl_anim1
+{
+	position: absolute;
+	top: 185px;
+  	left: 272px;
+	width: 110px;
+	height:41px;
+	background-position: 0px 0px;
+	background: url(../images/ChargeFlow-Left.png) 0px 0px repeat-x;
+	animation: chargeAnimLeft1 2.2s infinite linear;
+	opacity: 0;
+} 
+
+.EcoStatusCtrl_anim2
+{
+	position: absolute;
+	top: 185px;
+  	left: 272px;
+	width: 110px;
+	height:41px;
+	background: url(../images/ChargeFlow-Left.png) 0px -41px repeat-x;
+	animation: chargeAnimLeft2 2.0s infinite linear;
+	opacity: 0;
+}
+
+.EcoStatusCtrl_anim3
+{
+	position: absolute;
+	top: 185px;
+  	left: 272px;
+	width: 110px;
+	height:41px;
+	background: url(../images/ChargeFlow-Left.png) 0px -82px repeat-x;
+	animation: chargeAnimLeft3 1.6s infinite linear;
+	opacity: 0;
+}
+
+.EcoStatusCtrl_anim4
+{
+	position: absolute;
+	top: 185px;
+  	left: 272px;
+	width: 110px;
+	height:41px;
+	background: url(../images/ChargeFlow-Left.png) 0px -123px repeat-x;
+	animation: chargeAnimLeft4 1.2s infinite linear;
+	opacity: 0;
+}
+
+.EcoStatusCtrl_anim5
+{
+	position: absolute;
+ 	top: 185px;
+  	left: 272px;
+ 	width: 110px;
+ 	height:41px;
+ 	background: url(../images/ChargeFlow-Left.png) 0px -164px repeat-x;
+	animation: chargeAnimLeft5 0.8s infinite linear;
+	opacity: 0;
+}
+
+.EcoStatusCtrl_animRight1
+{
+	position: absolute;
+	top: 185px;
+  	left: 409px;
+	width: 110px;
+	height:41px;
+	background: url(../images/ChargeFlow-Right.png) 0px 0px repeat-x;
+	animation: chargeAnimRight1 2.2s infinite linear;
+	opacity: 0;
+} 
+
+.EcoStatusCtrl_animRight2
+{
+	position: absolute;
+	top: 185px;
+  	left: 409px;
+	width: 110px;
+	height:41px;
+	background: url(../images/ChargeFlow-Right.png) 0px -41px repeat-x;
+	animation: chargeAnimRight2 2.0s infinite linear;
+	opacity: 0;
+}
+
+.EcoStatusCtrl_animRight3
+{
+	position: absolute;
+	top: 185px;
+  	left: 409px;
+	width: 110px;
+	height:41px;
+	background: url(../images/ChargeFlow-Right.png) 0px -82px repeat-x;
+	animation: chargeAnimRight3 1.6s infinite linear;
+	opacity: 0;
+}
+
+.EcoStatusCtrl_animRight4
+{
+	position: absolute;
+	top: 185px;
+  	left: 409px;
+	width: 110px;
+	height:41px;
+	background: url(../images/ChargeFlow-Right.png) 0px -123px repeat-x;
+	animation: chargeAnimRight4 1.2s infinite linear;
+	opacity: 0;
+}
+
+.EcoStatusCtrl_animRight5
+{
+	position: absolute;
+ 	top: 185px;
+  	left: 409px;
+ 	width: 110px;
+ 	height:41px;
+ 	background: url(../images/ChargeFlow-Right.png) 0px -164px repeat-x;
+	animation: chargeAnimRight5 0.8s infinite linear;
+	opacity: 0;
+}
+
+.EcoStatusCtrl_animTop1
+{
+	position: absolute;
+	top: 147px;
+  	left: 377px;
+  	width: 48px;
+  	height: 40px;
+	background-position: 0px 0px;
+	background: url(../images/charge_new_1.png) center repeat-y;
+	animation: chargeAnimTop1 1.1s infinite linear;
+	opacity: 0;
+} 
+
+.EcoStatusCtrl_animTop2
+{
+	position: absolute;
+	top: 147px;
+  	left: 377px;
+  	width: 48px;
+  	height: 40px;
+	background: url(../images/charge_new_2.png) center repeat-y;
+	background-position: 0px 0px;
+	animation: chargeAnimTop2 1.0s infinite linear;
+	opacity: 0;
+}
+
+.EcoStatusCtrl_animTop3
+{ 
+	position: absolute;
+	top: 147px;
+  left: 377px;
+  width: 48px;
+  height: 40px;
+	background: url(../images/charge_new_3.png) center repeat-y;
+	background-position: 0px 0px;
+	animation: chargeAnimTop3 0.8s infinite linear;
+	opacity: 0;
+}
+
+.EcoStatusCtrl_animTop4
+{
+	position: absolute;
+	top: 147px;
+  left: 377px;
+  width: 48px;
+  height: 40px;
+  background: url(../images/charge_new_4.png) center repeat-y;
+  background-position: 0px 0px;
+	animation: chargeAnimTop4 0.6s infinite linear;
+	opacity: 0;
+}
+
+.EcoStatusCtrl_animTop5
+{
+	position: absolute;
+ 	top: 147px;
+	left: 377px;
+	width: 48px;
+	height: 40px;
+ 	background: url(../images/charge_new_5.png) center repeat-y;
+ 	background-position: 0px 0px;
+	animation: chargeAnimTop5 0.4s infinite linear;
+	opacity: 0;
+}
+
+.EcoStatusCtrl_iEloop_BatteryToCarDischargeLeft {
+  position: absolute;
+  top: 111px;
+  left: 256px;
+  width: 141px;
+  height: 27px;
+  background: url(../images/iELOOPDegenerating_left.png) center repeat-x;
+  opacity: 0;
+  overflow: hidden;
+  animation: DischargeAnimLeft 1.8s infinite linear;
+  z-index:9;
+  }
+  
+ .EcoStatusCtrl_iEloop_BatteryToCarDischargeRight {
+  position: absolute;
+  top: 111px;
+  left: 397px;
+  width: 141px;
+  height: 27px;
+  background: url(../images/iELOOPDegenerating_right.png) center repeat-x;
+  opacity: 0;
+  overflow: hidden;
+  animation: DischargeAnimRight 1.8s infinite linear;
+  z-index:9;
+  }
+
+
+  /*J12 starts here*/
+ .EcoStatusCtrl_iEloop_CarBottomLayer_J12 {
+  position: absolute;
+  top: -8px;
+  left: 45px;
+  width: 709px;
+  height: 371px;
+  background: url(../images/EcoStatus_J12A_Assets/HEV_car_under.png) no-repeat; }
+
+.EcoStatusCtrl_iEloopOnly_iEloop_CarBottomLayer_J12 {
+  position: absolute;
+  top: -8px;
+  left: 45px;
+  width: 709px;
+  height: 371px;
+  background: url(../images/EcoStatus_J12A_Assets/HEV_car_under.png) no-repeat; }
+  
+  .EcoStatusCtrl_iEloop_CarGlow_J12 {
+  position: absolute;
+  top: -8px;
+  left: 45px;
+  width: 709px;
+  height: 371px;
+  background: url(../images/EcoStatus_J12A_Assets/HEV_car_glow.png) no-repeat; }
+  
+  .EcoStatusCtrl_iEloop_CarTopLayer_J12 {
+  position: absolute;
+  top: -8px;
+  left: 45px;
+  width: 709px;
+  height: 371px;
+  background: url(../images/EcoStatus_J12A_Assets/HEV_car_outline.png) no-repeat; }
+  
+  .EcoStatusCtrl_iEloop_FrontWheelsGlow_J12 {
+  position: absolute;
+  top: 72px;
+  left: 520px;
+  width: 124px;
+  height: 250px;
+  background: url(../images/EcoStatus_J12A_Assets/HEV_tyres_blue.png) center no-repeat; }
+  
+  .EcoStatusCtrl_iStop_Status_Engine_J12 {
+  position: inherit;
+  top: 1px;
+  left: 525px;
+  width: 112px;
+  height: 86px;
+  background: url(../images/EcoStatus_J12A_Assets/Engine.png); }
+
+.EcoStatusCtrl_iStop_Status_Engine_Glow_J12 {
+  position: inherit;
+  top: 1px;
+  left: 525px;
+  width: 112px;
+  height: 86px;
+  background: url(../images/EcoStatus_J12A_Assets/Engine_Glow.png); }
+  
+  .EcoStatusCtrl_iEloop_Engine_J12 {
+  position: absolute;
+  top: 109px;
+  left: 205px;
+  width: 392px;
+  height: 117px;
+  background: url(../images/EcoStatus_J12A_Assets/HEV_engine.png); }
+
+.EcoStatusCtrl_iEloop_EngineGlow_J12 {
+  position: absolute;
+  top: 109px;
+  left: 205px;
+  width: 392px;
+  height: 117px;
+  background: url(../images/EcoStatus_J12A_Assets/HEV_engine_Working.png); }
+  
+ .EcoStatusCtrl_J12 {
+  position: inherit;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 416px;
+  }
+  
+.EcoStatusCtrl_iEloop_Container_J12 {
+  position: inherit;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 416px;
+  }
+  
+  
+.EcoStatusCtrlCarBattery_J12 {
+  position: absolute;
+  width:168px;
+  height:135px;
+  left: 223px;
+  top:114px;
+  background: url('../images/EcoStatus_J12A_Assets/BatterySprite.png') no-repeat;
+  background-position:  0px -816px;
+  z-index: 8;
+  }
+ 
+.EcoStatusCtrlCarBattery_J12_01 {
+  position: absolute;
+  width:168px;
+  height:135px;
+  left: 223px;
+  top:114px;
+  background: url('../images/EcoStatus_J12A_Assets/BatterySprite.png') no-repeat;
+  background-position:  0px -680px;
+  z-index: 8;
+  }
+ 
+.EcoStatusCtrlCarBattery_J12_02 {
+  position: absolute;
+  width:168px;
+  height:135px;
+  left: 223px;
+  top:114px;
+  background: url('../images/EcoStatus_J12A_Assets/BatterySprite.png') no-repeat;
+  background-position:  0px -544px;
+  z-index: 8;
+  }
+    
+.EcoStatusCtrlCarBattery_J12_03 {
+  position: absolute;
+  width:168px;
+  height:135px;
+  left: 223px;
+  top:114px;
+  background: url('../images/EcoStatus_J12A_Assets/BatterySprite.png') no-repeat;
+  background-position:  0px -408px;
+  z-index: 8;
+  }
+    
+.EcoStatusCtrlCarBattery_J12_04 {
+  position: absolute;
+  width:168px;
+  height:135px;
+  left: 223px;
+  top:114px;
+  background: url('../images/EcoStatus_J12A_Assets/BatterySprite.png') no-repeat;
+  background-position:  0px -272px;
+  z-index: 8;
+  }
+    
+.EcoStatusCtrlCarBattery_J12_05 {
+  position: absolute;
+  width:168px;
+  height:135px;
+  left: 223px;
+  top:114px;
+  background: url('../images/EcoStatus_J12A_Assets/BatterySprite.png') no-repeat;
+  background-position:  0px -136px;
+  z-index: 8;
+  }
+    
+.EcoStatusCtrlCarBattery_J12_06 {
+  position: absolute;
+  width:168px;
+  height:135px;
+  left: 223px;
+  top:114px;
+  background: url('../images/EcoStatus_J12A_Assets/BatterySprite.png') no-repeat;
+  background-position:  0px 0px;
+  z-index: 8;
+  }
+  
+.EcoStatusCtrl_iEloop_Battery_Glow_J12 {
+  position: absolute;
+  width:168px;
+  height:135px;
+  left: 223px;
+  top:114px;
+  background: url(../images/EcoStatus_J12A_Assets/HEV_battery_charging.png); 
+  z-index: 8; 
+  }
+  
+.EcoStatusCtrl_iEloop_Alternator_On_J12 {
+  position: absolute;
+  top: 155px;
+  left: 424px;
+  width: 65px;
+  height: 52px;
+  background: url(../images/AlternatorOn.png); 
+  z-index: 10;
+  }
+
+.EcoStatusCtrl_iEloop_Alternator_Off_J12 {
+  position: absolute;
+  top: 155px;
+  left: 424px;
+  width: 65px;
+  height: 52px;
+  background: url(../images/AlternatorOff.png); }
+  
+.EcoStatusCtrl_iEloop_Title_J12 {
+  position: inherit;
+  top: 24px;
+  left: 41px;
+  width: 165px;
+  height: 27px;
+  background: url(../images/iEloopLogo.png); text-indent: -9999px;}
+  
+@keyframes DischargeAnimRight_J12
+{
+    from {background-position: 0px 64px;}
+    to  {background-position: 0px 0px;}
+}
+ 
+.TyresJ12 {
+    position: absolute;
+    width: 481px;
+    height:67px;
+    left:156px;
+    top: 251px;
+    background: url('../images/EcoStatus_J12A_Assets/TyresJ12.png') no-repeat;
+    background-position: 0px 0px;
+ }
+ 
+/*J12 arrow animation*/
+.EcoStatusCtrl_animFlow1Charge1
+{ 
+  position: absolute;
+  top: 134px;
+  left: 334px;
+  width: 304px;
+  height: 95px;
+  background: url(../images/EcoStatus_J12A_Assets/ArrowCharge01_Flow1_Sprite.png) center repeat-y;
+  background-position: 0px 0px;
+  visibility:hidden;
+}
+.EcoStatusCtrl_animFlow1Charge2
+{ 
+  position: absolute;
+  top: 134px;
+  left: 334px;
+  width: 304px;
+  height: 95px;
+  background: url(../images/EcoStatus_J12A_Assets/ArrowCharge02_Flow1_Sprite.png) center repeat-y;
+  background-position: 0px 0px;
+  visibility:hidden;
+}
+.EcoStatusCtrl_animFlow1Charge3
+{ 
+  position: absolute;
+  top: 134px;
+  left: 334px;
+  width: 304px;
+  height: 95px;
+  background: url(../images/EcoStatus_J12A_Assets/ArrowCharge03_Flow1_Sprite.png) center repeat-y;
+  background-position: 0px 0px;
+  visibility:hidden;
+}
+.EcoStatusCtrl_animFlow1Charge4
+{ 
+  position: absolute;
+  top: 134px;
+  left: 334px;
+  width: 304px;
+  height: 95px;
+  background: url(../images/EcoStatus_J12A_Assets/ArrowCharge04_Flow1_Sprite.png) center repeat-y;
+  background-position: 0px 0px;
+  visibility:hidden;
+}
+.EcoStatusCtrl_animFlow1Charge5
+{ 
+  position: absolute;
+  top: 134px;
+  left: 334px;
+  width: 304px;
+  height: 95px;
+  background: url(../images/EcoStatus_J12A_Assets/ArrowCharge05_Flow1_Sprite.png) center repeat-y;
+  background-position: 0px 0px;  
+  visibility:hidden;
+}
+.EcoStatusCtrl_animFlow2Charge1
+{ 
+  position: absolute;
+  top: 62px;
+  left: 511px;
+  width: 126px;
+  height: 210px;
+  background: url(../images/EcoStatus_J12A_Assets/ArrowCharge01_Flow2_Sprite.png) center repeat-y;
+  background-position: 0px 0px; 
+  visibility:hidden;
+}
+.EcoStatusCtrl_animFlow2Charge2
+{ 
+  position: absolute;
+  top: 62px;
+  left: 511px;
+  width: 126px;
+  height: 210px;
+  background: url(../images/EcoStatus_J12A_Assets/ArrowCharge02_Flow2_Sprite.png) center repeat-y;
+  background-position: 0px 0px;
+  visibility:hidden;
+}
+.EcoStatusCtrl_animFlow2Charge3
+{ 
+  position: absolute;
+  top: 62px;
+  left: 511px;
+  width: 126px;
+  height: 210px;
+  background: url(../images/EcoStatus_J12A_Assets/ArrowCharge03_Flow2_Sprite.png) center repeat-y;
+  background-position: 0px 0px;
+  visibility:hidden;
+}
+.EcoStatusCtrl_animFlow2Charge4
+{ 
+  position: absolute;
+  top: 62px;
+  left: 511px;
+  width: 126px;
+  height: 210px;
+  background: url(../images/EcoStatus_J12A_Assets/ArrowCharge04_Flow2_Sprite.png) center repeat-y;
+  background-position: 0px 0px;
+  visibility:hidden;
+}
+.EcoStatusCtrl_animFlow2Charge5
+{ 
+  position: absolute;
+  top: 62px;
+  left: 511px;
+  width: 126px;
+  height: 210px;
+  background: url(../images/EcoStatus_J12A_Assets/ArrowCharge05_Flow2_Sprite.png) center repeat-y;
+  background-position: 0px 0px;
+  visibility:hidden;
+}
+
+.EcoStatusCtrl_iEloop_BatteryToCarDischarge_J12 {
+    position: absolute;
+    width: 60px;
+    height: 250px;
+    left:279px;
+    top: 52px;
+    background: url('../images/EcoStatus_J12A_Assets/ArrowGray_Flow.png') no-repeat;
+    background-position: 0px 0px;
+	visibility:hidden;
+ }

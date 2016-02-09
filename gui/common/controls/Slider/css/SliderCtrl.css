@@ -1,0 +1,66 @@
+/* CSS for "default" appearance. Will be overriden by Control properties. */
+/*
+ * Debug classes used for slider testing
+ */
+.SliderCtrl {
+  position: absolute;
+  top: 15px;
+  left: 75px;
+  width: 569px;
+  height: 35px;
+  background-color: black;
+  border: gray 1px solid;
+}
+
+.SliderCtrlFill {
+  position: absolute;
+  background-color: gray;
+  left: 0px;
+  width: 284.5px;
+  height: 2px;
+  top: 17px;
+}
+
+.SliderCtrlHandle {
+  position: absolute;
+  background-color: gray;
+  width: 41px;
+  height: 41px;
+  top: -3px;
+  left: 264px;
+}
+
+.SliderCtrlFocusedWrapper {
+  background-color: #f0f0f0;
+}
+
+.SliderCtrlFocusedFill {
+  background-color: red;
+}
+
+.SliderCtrlFocusedHandle {
+  background-color: red;
+}
+
+.SliderCtrlDisabledWrapper {
+  background-color: #f0f0f0;
+}
+
+.SliderCtrlDisabledFill {
+  background-color: gray;
+}
+
+.SliderCtrlDisabledHandle {
+  background-color: gray;
+}
+
+/*
+ * Applicable classes for slider in real environment
+ */
+.SliderCtrlPivotFillLeft {
+  -o-transform: scaleX(-1);
+}
+
+.SliderCtrlFillNoCenter {
+  background-position: 0% 0% !important;
+}

@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_zh_CN = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "开始记录驱动器日志",
+    "StopRecording" : "停止记录驱动器日志",
+    "DeleteButton" : "删除",
+    "BackButton" : "返回",
+    "ClearButton" : "清除",
+    "RetryButton" : "重试",
+    "CancelButton" : "取消",
+    "USBTransferTitle" : "USB 数据传输",
+    "ClearAllData" : "清除所有数据",
+    "SelectCopyData" : "将数据复制到 USB",
+    "ConfirmClearAllDataDialogText" : "您确定要清除所有数据吗？",
+    "ClearDataRetryDialogText" : "无法清除所有数据。您是否希望重试？",
+    "SendDataRetryDialogText" : "无法将数据复制到 USB。您是否希望重试？",
+    "ConfirmCleariDMDataDialogText" : "是否要删除所选驱动器日志？",
+    "USBMemoryFullDialogText" : "无法将数据复制到 USB。USB 存储器已满。您是否希望重试？",
+    "InsertUSBDialogText" : "无法将数据复制到 USB。插入 USB 驱动器，然后重试。",
+    "ClearDataSuccess" : "数据清除成功",
+    "ClearDataFailure" : "无法清除数据",
+    "CopyDataSuccess" : "成功将数据复制到 USB",
+    "CopyDataFailure" : "无法复制数据",
+    "CopyDataFailureUSBFull" : "USB 存储器已满",
+    "CopyDataFailureUSBRemoved" : "插入 USB 驱动器",
+    "ProtectionErrorDialogText" : "",
+    "CopyingDialogText1" : "",
+    "CopyingDialogText2" : "",
+};
+
+framework.registerAppDictLoaded("vdt", "zh_CN");

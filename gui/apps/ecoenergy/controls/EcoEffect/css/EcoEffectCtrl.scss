@@ -1,0 +1,487 @@
+/* CSS Document */
+
+/* Declare variables */
+$fontFamily: Tipperary-Regular, Arial, Helvetica, sans-serif;
+
+$colorRed: #FF7F7F;
+$colorBlue: #7F7FFF;
+$colorGreen: #7FFF7F;
+$colorWhite: #FFFFFF;
+$colorOffWhite: #F0EEED;
+$defaultBackground: none;
+
+$space: 25px;
+
+$controlTop: 0px;
+$controlLeft: 5px;
+$controlWidth: 780px;
+$controlHeight: 420px;
+$controlTopIndent: $controlTop + 5px;
+$controlLeftIndent: $controlLeft + 75px;
+
+$titleLargeFontSize: 28px;
+$titleMediumFontSize: 24px;
+$titleSmallFontSize: 18px;
+
+$fieldLargeFontSize: 24px;
+$fieldMediumFontSize: 20px;
+
+$buttonMediumFontSize: 22px;
+
+$iEloopTitleTop: $controlTopIndent;
+$iEloopTitleLeft: $controlLeftIndent;
+$iEloopTitleWidth: 150px;
+$iEloopTitleHeight: 50px;
+
+$iEloopDataLabelWidth: 265px;
+$iEloopDataLineHeight: 50px;
+$iEloopDataValueWidth: 50px;
+$iEloopArrowWidth: 75px;
+
+$iEloopDataFrameTop: 0px;
+$iEloopDataFrameLeft: $iEloopArrowWidth;
+$iEloopDataFrameWidth: $iEloopDataLabelWidth + $iEloopDataValueWidth;
+$iEloopDataFrameHeight: $iEloopDataLineHeight * 4;
+$iEloopDataValueLeft: $iEloopDataLabelWidth;
+
+$iEloopArrowHeight: $iEloopDataLineHeight;
+$iEloopLeftArrowLeft: 0px;
+$iEloopRighttArrowLeft: $iEloopArrowWidth + $iEloopDataFrameWidth;
+$iEloopArrowTop: ($iEloopDataFrameHeight - $iEloopArrowHeight) / 2;
+
+$iEloopDataHeight: $iEloopDataFrameHeight;
+$iEloopDataWidth: $iEloopDataLabelWidth + $iEloopDataValueWidth + ($iEloopArrowWidth * 2);
+$iEloopDataLeft: ($controlWidth - $iEloopDataWidth) / 2;
+$iEloopDataTop: ($controlHeight - $iEloopDataHeight) / 2;
+
+$iStopTitleTop: $controlTopIndent + 350px;
+$iStopTitleLeft: $controlLeftIndent;
+$iStopTitleWidth: 100px;
+$iStopTitleHeight: 50px;
+
+$statusIconTop: $iStopTitleTop;
+$statusIconLeft: $iStopTitleLeft + 150px;
+$statusIconLeftShift: 75px;
+$statusIconWidth: 50px;
+$statusIconHeight: 50px;
+
+$timeTop: $iStopTitleTop;
+$timeTopShift: 25px;
+$timeLeft: $iStopTitleLeft + $iStopTitleWidth + 100px;
+$timeTitleWidth: 150px;
+$timeTitleHeight: $timeTopShift;
+$timeWidth: $timeTitleWidth;
+$timeHeight: $timeTitleHeight;
+
+
+
+// Control
+
+.EcoEffectCtrl
+{
+  position: inherit;
+  top: $controlTop;
+  left: $controlLeft;
+  width: $controlWidth;
+  height: $controlHeight;
+}
+
+.EcoEffectCtrlHidden
+{
+  display: none;
+}
+
+
+
+// Titles
+
+.EcoEffectCtrliEloopTitle
+{
+  position: absolute;
+  top: $iEloopTitleTop;
+  left: $iEloopTitleLeft;
+  width: $iEloopTitleWidth;
+  height: $iEloopTitleHeight;
+  background: $defaultBackground;
+   
+  text-align: left;
+  white-space: nowrap;
+  font-family: $fontFamily;
+  font-size: $titleLargeFontSize;
+  color: $colorWhite;
+}
+
+.EcoEffectCtrlfuelEfficiencyTitle
+{
+  position: absolute;
+  top: 5px;
+  left: 600px;
+  width: 175px;
+  height: 50px;
+  background: $defaultBackground;
+  
+  text-align: right;
+  white-space: nowrap;
+  font-family: $fontFamily;
+  font-size: $titleMediumFontSize;
+  color: $colorWhite;
+}
+
+.EcoEffectCtrl_iEloopOnly_fuelEfficiencyTitle // alternate sytle for i-ELOOP only
+{
+  position: absolute;
+  top: $iStopTitleTop;
+  left: $iStopTitleLeft;
+  width: 250px;
+  height: 50px;
+  background: $defaultBackground;
+  
+  text-align: left;
+  white-space: nowrap;
+  font-family: $fontFamily;
+  font-size: $titleMediumFontSize;
+  color: $colorWhite;
+}
+
+.EcoEffectCtrliStopTitle
+{
+  position: absolute;
+  top: $iStopTitleTop;
+  left: $iStopTitleLeft;
+  width: $iStopTitleWidth;
+  height: $iStopTitleHeight;
+  background: $defaultBackground;
+  
+  text-align: left;
+  white-space: nowrap;
+  font-family: $fontFamily;
+  font-size: $titleLargeFontSize;
+  color: $colorWhite;
+}  
+   
+.EcoEffectCtrliStopTimeTitle
+{
+  position: absolute;
+  top: $timeTop;
+  left: $timeLeft;
+  width: $timeTitleWidth;
+  height: $timeTitleHeight;
+  background: $defaultBackground;
+  
+  text-align: left;
+  white-space: nowrap;
+  font-family: $fontFamily;
+  font-size: $titleSmallFontSize;
+  color: $colorWhite;
+}
+
+.EcoEffectCtrliStopTotalTitle
+{
+  position: absolute;
+  top: $timeTop;
+  left: $timeLeft + $timeTitleWidth + $space;
+  width: $timeTitleWidth;
+  height: $timeTitleHeight;
+  background: $defaultBackground;
+
+  text-align: left;
+  white-space: nowrap;
+  font-family: $fontFamily;
+  font-size: $titleSmallFontSize;
+  color: $colorWhite;
+}
+
+// Text fields
+
+.EcoEffectCtrlfuelEfficiency
+{
+  position: absolute;
+  top: 70px;
+  left: 600px;
+  width: 175px;
+  height: 50px;
+  background: $defaultBackground;
+
+  text-align: center;
+  font-family: $fontFamily;
+  font-size: $fieldMediumFontSize;
+  color: $colorWhite;
+}
+  
+.EcoEffectCtrl_iEloopOnly_fuelEfficiency // alternate sytle for i-ELOOP only
+{
+  position: absolute;
+  top: $iStopTitleTop;
+  left: $iStopTitleLeft + 300px;
+  width: 200px;
+  height: 50px;
+  background: $defaultBackground;
+
+  text-align: center;
+  font-family: $fontFamily;
+  font-size: $fieldLargeFontSize;
+  color: $colorWhite;
+}
+
+.EcoEffectCtrliStopStatus
+{
+  position: absolute;
+  top: $iStopTitleTop;
+  left: 450px;
+  width: 150px;
+  height: 50px;
+  background: $defaultBackground;
+  
+  text-align: center;
+  font-family: $fontFamily;
+  font-size: $fieldMediumFontSize;
+  color: $colorWhite;
+} 
+   
+.EcoEffectCtrliStopTime
+{
+  position: absolute;
+  top: $timeTop + $timeTopShift;
+  left: $timeLeft;
+  width: $timeWidth;
+  height: $timeHeight;
+  background: $defaultBackground;
+  
+  text-align: center;
+  font-family: $fontFamily;
+  font-size: $fieldMediumFontSize;
+  color: $colorWhite;
+}
+   
+.EcoEffectCtrliStopTotal
+{
+  position: absolute;
+  top: $timeTop + $timeTopShift;
+  left: $timeLeft + $timeWidth + $space;
+  width: $timeWidth;
+  height: $timeHeight;
+  background: $defaultBackground;
+  
+  text-align: center;
+  font-family: $fontFamily;
+  font-size: $fieldMediumFontSize;
+  color: $colorWhite;
+}
+   
+.EcoEffectCtrliStopError
+{
+  position: absolute;
+  top: $iStopTitleTop;
+  left: $iStopTitleLeft + $iStopTitleWidth + 25;
+  width: 400px;
+  height: 50px;
+  background: $defaultBackground;
+  
+  text-align: center;
+  font-family: $fontFamily;
+  font-size: $fieldMediumFontSize;
+  color: $colorWhite;
+}
+
+// TODO: replace these image placeholders with images
+
+.EcoEffectCtrliEloopFrame
+{
+  position: absolute;
+  top: $iEloopDataTop;
+  left: $iEloopDataLeft;
+  width: $iEloopDataWidth;
+  height: $iEloopDataHeight;
+  background: $defaultBackground;
+  
+  text-align: center;
+
+  line-height: $iEloopDataLineHeight;
+  font-family: $fontFamily;
+  font-size: $fieldLargeFontSize;
+}
+
+.EcoEffectCtrliEloopDataFrame
+{
+  position: inherit;
+  top: $iEloopDataFrameTop;
+  left: $iEloopDataFrameLeft;
+  width: $iEloopDataFrameWidth;
+  height: $iEloopDataFrameHeight;
+  border-color: $colorWhite;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.EcoEffectCtrlCurrentCapacitorLevelLabel
+{
+  position: inherit;
+  top: 0px;
+  left: 0px;
+  width: $iEloopDataLabelWidth;
+  height: $iEloopDataLineHeight;
+  text-align: right;
+  color: $colorRed;
+}
+
+.EcoEffectCtrlCurrentCapacitorLevel
+{
+  position: inherit;
+  top: 0px;
+  left: $iEloopDataValueLeft;
+  width: $iEloopDataValueWidth;
+  height: $iEloopDataLineHeight;
+  color: $colorRed;
+}
+
+.EcoEffectCtrlTargetCapacitorLevelLabel
+{
+  position: inherit;
+  top: $iEloopDataLineHeight;
+  left: 0px;
+  width: $iEloopDataLabelWidth;
+  height: $iEloopDataLineHeight;
+  text-align: right;
+  color: $colorRed;
+}
+
+.EcoEffectCtrlTargetCapacitorLevel
+{
+  position: inherit;
+  top: $iEloopDataLineHeight;
+  left: $iEloopDataValueLeft;
+  width: $iEloopDataValueWidth;
+  height: $iEloopDataLineHeight;
+  color: $colorRed;
+}
+
+.EcoEffectCtrlRegenPowerLevelLabel
+{
+  position: inherit;
+  top: $iEloopDataLineHeight * 2;
+  left: 0px;
+  width: $iEloopDataLabelWidth;
+  height: $iEloopDataLineHeight;
+  text-align: right;
+  color: $colorWhite;
+}
+
+.EcoEffectCtrlRegenPowerLevel
+{
+  position: inherit;
+  top: $iEloopDataLineHeight * 2;
+  left: $iEloopDataValueLeft;
+  width: $iEloopDataValueWidth;
+  height: $iEloopDataLineHeight;
+  color: $colorWhite;
+}
+
+.EcoEffectCtrlElectricLoadUsageLevelLabel
+{
+  position: inherit;
+  top: $iEloopDataLineHeight * 3;
+  left: 0px;
+  width: $iEloopDataLabelWidth;
+  height: $iEloopDataLineHeight;
+  text-align: right;
+  color: $colorGreen;
+}
+
+.EcoEffectCtrlElectricLoadUsageLevel
+{
+  position: inherit;
+  top:  $iEloopDataLineHeight * 3;
+  left: $iEloopDataValueLeft;
+  width: $iEloopDataValueWidth;
+  height: $iEloopDataLineHeight;
+  color: $colorGreen;
+}
+
+.EcoEffectCtrliEloopLeftArrows
+{
+  position: inherit;
+  top: $iEloopArrowTop;
+  left: $iEloopLeftArrowLeft;
+  width: $iEloopArrowWidth;
+  height: $iEloopArrowHeight;
+  color: $colorBlue;
+}
+
+.EcoEffectCtrliEloopRightArrows
+{
+  position: inherit;
+  top: $iEloopArrowTop;
+  left: $iEloopRighttArrowLeft;
+  width: $iEloopArrowWidth;
+  height: $iEloopArrowHeight;
+  color: $colorBlue;
+}
+
+.EcoEffectCtrlbatteryStatus
+{
+  position: absolute;
+  top: $statusIconTop;
+  left: $statusIconLeft + (0 * $statusIconLeftShift);
+  width: $statusIconWidth;
+  height: $statusIconHeight;
+  background: $defaultBackground;
+  
+  text-align: center;
+
+  white-space: nowrap;
+  font-family: $fontFamily;
+  font-size: $fieldLargeFontSize;
+  color: $colorWhite;
+}
+   
+.EcoEffectCtrlengineStatus
+{
+  position: absolute;
+  top: $statusIconTop;
+  left: $statusIconLeft + (1 * $statusIconLeftShift);
+  width: $statusIconWidth;
+  height: $statusIconHeight;
+  background: $defaultBackground;
+  
+  text-align: center;
+
+  white-space: nowrap;
+  font-family: $fontFamily;
+  font-size: $fieldLargeFontSize;
+  color: $colorWhite;
+}
+   
+.EcoEffectCtrlacStatus
+{
+  position: absolute;
+  top: $statusIconTop;
+  left: $statusIconLeft + (2 * $statusIconLeftShift);
+  width: $statusIconWidth;
+  height: $statusIconHeight;
+  background: $defaultBackground;
+  
+  text-align: center;
+
+  white-space: nowrap;
+  font-family: $fontFamily;
+  font-size: $fieldLargeFontSize;
+  color: $colorWhite;
+} 
+
+// Buttons
+   
+.EcoEffectCtrlswitchView
+{
+  position: absolute;
+  top: $iStopTitleTop;
+  left: 625px;
+  width: 150px;
+  height: 50px;
+  background: $defaultBackground;
+  
+  text-align: center;
+
+  font-family: $fontFamily;
+  font-size: $buttonMediumFontSize;
+  color: $colorWhite;
+}

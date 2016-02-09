@@ -1,0 +1,21 @@
+/* KeyboardCtrl.css */
+/*
+ * This mixin changes all of the layout specific variables
+ * according to the passed parameter $layout.
+ * $layout can be: five-ten, six-ten, six-twelve, sugg-five-ten, sugg-seven-ten
+ */
+.KeyboardCtrl .inputDiv {
+  display: block;
+  position: absolute;
+  height: 35px;
+  width: 656px;
+  top: 6px;
+  left: 6px;
+  padding: 12px 16px;
+  outline: none;
+  overflow: hidden;
+  text-align: left;
+  white-space: pre;
+  color: white;
+  direction: rtl;
+}

@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_pl_PL = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Przerwij nagryw. dziennika jazdy",
+    "StopRecording" : "Zatrzymaj nagrywanie dziennika jazdy",
+    "DeleteButton" : "Usuń",
+    "BackButton" : "Wstecz",
+    "ClearButton" : "Wyczyść",
+    "RetryButton" : "Spróbuj ponownie",
+    "CancelButton" : "Anuluj",
+    "USBTransferTitle" : "Transfer danych USB",
+    "ClearAllData" : "Wyczyść wszystkie dane",
+    "SelectCopyData" : "Skopiuj dane do pamięci USB",
+    "ConfirmClearAllDataDialogText" : "Jesteś pewien, że chcesz wyczyścić wszystkie dane?",
+    "ClearDataRetryDialogText" : "Nie można wyczyścić wszystkich danych. Chcesz spróbować ponownie?",
+    "SendDataRetryDialogText" : "Nie można skopiować danych do pamięci USB. Chcesz spróbować ponownie?",
+    "ConfirmCleariDMDataDialogText" : "Chcesz wykasować wybrany dziennik jazdy?",
+    "USBMemoryFullDialogText" : "Nie można skopiować danych do pamięci USB. Pamięć USB pełna. Chcesz spróbować ponownie?",
+    "InsertUSBDialogText" : "Nie można skopiować danych do pamięci USB. Włóż pamięć USB i spróbuj ponownie.",
+    "ClearDataSuccess" : "Udane czyszczenie danych",
+    "ClearDataFailure" : "Dane nie mogą być wyczyszczone",
+    "CopyDataSuccess" : "Udane kopiowanie danych do USB",
+    "CopyDataFailure" : "Nie można skopiować danych",
+    "CopyDataFailureUSBFull" : "Pamięć USB pełna",
+    "CopyDataFailureUSBRemoved" : "Włóż pamięć USB",
+    "ProtectionErrorDialogText" : "Dostępny jest tylko jeden chroniony plik na identyfikator kierowcy. Usuń plik lub wyłącz ochronę.",
+    "CopyingDialogText1" : "Kopiowanie na USB. Nie wyjmować USB ani nie wyłączać samochodu.",
+    "CopyingDialogText2" : "Przesłano {noOfFilesCopied} z {totalFiles} plików",
+};
+
+framework.registerAppDictLoaded("vdt", "pl_PL");

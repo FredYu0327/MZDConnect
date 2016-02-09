@@ -1,0 +1,137 @@
+// CoordinatesCtrl.scss
+/* CoordinatesCtrl.css */
+
+@import "../../../../../common/src/css/commonVariables";
+
+$title-width : 640px;
+$title-height : 50px;
+$title-left : 50px;
+$title-top : 40px;
+
+$container-width : 320px;
+$container-height : 180px;
+
+$text-width : 640px;
+$text-height : 120px;
+
+$box-background : #222;
+
+$box-border-t : #000;
+$box-border-r : #2F2F2F;
+$box-border-b : #2F2F2F;
+$box-border-l: #000;
+
+@mixin box_value {
+  font-size : 35px;
+  font-weight : bold;
+}
+
+.CoordinatesCtrl {
+  font-family: $common-fontFamily;
+  text-align:left;
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+
+  .CoordinatesCtrlTitle {
+    $padding : 5px;
+    $border : 1px;
+
+    border : $border  solid;
+    border-top-color : $box-border-t;
+    border-right-color : $box-border-r;
+    border-bottom-color : $box-border-b;
+    border-left-color : $box-border-l;
+
+    width : $title-width - 2 * $padding - 2 * $border;
+    height : $title-height - 2 * $padding - 2 * $border;
+    padding: $padding;
+
+    position : absolute;
+    left : $title-left;
+    top : $title-top;
+    background : $box-background;
+
+    line-height : $title-height - 2 * $padding - 2 * $border;
+    font-size : 26px;
+  }
+
+  .latLongContainer {
+    $padding : 10px;
+    $border : 1px;
+
+    border : $border  solid;
+    border-top-color : $box-border-t;
+    border-right-color : $box-border-r;
+    border-bottom-color : $box-border-b;
+    border-left-color : $box-border-l;
+
+    width : $container-width - 4 * $padding - 2 * $border;
+    height : $container-height - 2 * $padding - 2 * $border;
+    padding: $padding 2 * $padding;
+
+    position : absolute;
+    top : 90px;
+    left : 50px;
+    background : $box-background;
+
+    font-size : 24px;
+
+    .latitudeValue {
+      @include box_value;
+    }
+
+    .longitudeTitle {
+      margin-top : 10px;
+    }
+
+    .longitudeValue {
+      @include box_value;
+    }
+  }
+
+  .elevationContainer {
+    $padding : 10px;
+    $border : 1px;
+
+    border : $border  solid;
+    border-top-color : $box-border-t;
+    border-right-color : $box-border-r;
+    border-bottom-color : $box-border-b;
+    border-left-color : $box-border-l;
+
+    width : $container-width - 4 * $padding - 2 * $border;
+    height : $container-height - 2 * $padding - 2 * $border;
+    padding: $padding 2 * $padding;
+
+    position : absolute;
+    top : 90px;
+    left : 370px;
+    background : $box-background;
+
+    font-size : 24px;
+
+    .elevationValue {
+      @include box_value;
+    }
+  }
+
+  .additionalText {
+    $padding : 10px;
+
+    width : $text-width - 2 * $padding;
+    height : $text-height - 2 * $padding;
+    padding: $padding;
+
+    position : absolute;
+    top : 270px;
+    left : 50px;
+    background : transparent;
+
+    text-align : center;
+    font-size : 22px;
+    line-height : 1.5em;
+  }
+
+}

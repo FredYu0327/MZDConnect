@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_en_UK = {
+    //"stringId" : "localString"
+    "VDT" : "Vehicle Data Transfer",
+    "StartRecording" : "Start Recording Drive Log",
+    "StopRecording" : "Stop Recording Drive Log",
+    "DeleteButton" : "Delete",
+    "BackButton" : "Back",
+    "ClearButton" : "Clear",
+    "RetryButton" : "Retry",
+    "CancelButton" : "Cancel",
+    "USBTransferTitle" : "USB Data Transfer",
+    "ClearAllData" : "Clear All Data",
+    "SelectCopyData" : "Copy Data to USB",
+    "ConfirmClearAllDataDialogText" : "Are you sure you would you like to Clear All Data?",
+    "ClearDataRetryDialogText" : "Could not Clear All Data. Would you like to try again?",
+    "SendDataRetryDialogText" : "Could not Copy Data to USB. Would you like to try again?",
+    "ConfirmCleariDMDataDialogText" : "Would you like to delete the selected Drive Log?",
+    "USBMemoryFullDialogText" : "Could not Copy Data to USB. USB Memory Full. Would you like to try again?",
+    "InsertUSBDialogText" : "Could not Copy Data to USB. Insert USB Drive and try again.",
+    "ClearDataSuccess" : "Successful Data Clear",
+    "ClearDataFailure" : "Data Could Not Be Cleared",
+    "CopyDataSuccess" : "Copy Data to USB Successful",
+    "CopyDataFailure" : "Data Could Not Be Copied",
+    "CopyDataFailureUSBFull" : "USB Memory Full",
+    "CopyDataFailureUSBRemoved" : "Insert USB Drive",
+    "ProtectionErrorDialogText" : "Only 1 protected file per Driver ID is allowed. Delete a file or turn off protection.",
+    "CopyingDialogText1" : "Copying data to USB. Do not remove the USB drive or turn the car Off.",
+    "CopyingDialogText2" : "{noOfFilesCopied} of {totalFiles} files transferred.",
+};
+
+framework.registerAppDictLoaded("vdt", "en_UK");

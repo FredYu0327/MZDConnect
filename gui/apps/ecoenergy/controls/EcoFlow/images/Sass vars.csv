@@ -1,0 +1,61 @@
+width,height,screenLeft,screenTop,relLeft,relTop,container,contained,name,type,font,screenBaseline,relBaseline,alignment,fontSize,color
+800,480,0,0,,,,,Screen,window
+800,88,0,392,0,328,EnergyFlow,yes,EnergyFlow_Footer,div,,,,,
+800,416,0,64,0,0,EnergyFlow,yes,EnergyFlow,div,,,,,
+360,41,220,420,220,28,EnergyFlow_Footer,yes,EnergyFlow_Footer_TextBox01,textbox,,,,,
+86,50,600,416,600,24,EnergyFlow_Footer,yes,EnergyFlow_Footer_TextBox02,textbox,,,,,
+64,50,686,416,686,24,EnergyFlow_Footer,yes,EnergyFlow_Footer_TextBox03,textbox,,,,,
+84,24,463,169,463,105,EnergyFlow,yes,EnergyFlow_TextBox04,textbox,,,,,
+74,24,304,179,304,115,EnergyFlow,yes,EnergyFlow_TextBox03,textbox,,,,,
+74,24,143,157,143,93,EnergyFlow,yes,EnergyFlow_TextBox02,textbox,,,,,
+193,40,41,85,41,21,EnergyFlow,yes,EnergyFlow_TextBox01,textbox,,,,,
+60,70,8,403,8,11,EnergyFlow_Footer,yes,EnergyFlow_Footer_Image01,imagebox,,,,,
+639,383,80,80,80,16,EnergyFlow,yes,EnergyFlow_Image01,imagebox,,,,,
+93,120,116,176,116,112,EnergyFlow,yes,EnergyFlow_Image02,imagebox,,,,,
+55,116,187,180,187,116,EnergyFlow,yes,EnergyFlow_Image03,imagebox,,,,,
+93,29,225,212,225,148,EnergyFlow,yes,EnergyFlow_Image04,imagebox,,,,,
+103,115,211,183,211,119,EnergyFlow,yes,EnergyFlow_Image05,imagebox,,,,,
+72,29,362,227,362,163,EnergyFlow,yes,EnergyFlow_Image07,imagebox,,,,,
+62,91,307,195,307,131,EnergyFlow,yes,EnergyFlow_Image06,imagebox,,,,,
+174,104,427,187,427,123,EnergyFlow,yes,EnergyFlow_Image08,imagebox,,,,,
+492,96,151,279,151,215,EnergyFlow,yes,EnergyFlow_Image09,imagebox,,,,,
+60,70,8,403,8,11,EnergyFlow_Footer,yes,AdjustBtn3_Focus.png,image,,,,,
+778,88,11,391,11,-1,EnergyFlow_Footer,no,EcoEnergy_IstopBannerBg.png,image,,,,,
+639,383,80,80,80,16,EnergyFlow,yes,HEV_car_outline.png,image,,,,,
+92,28,225,212,225,148,EnergyFlow,yes,HEV_FlowRed_02.png,image,,,,,
+55,115,187,180,187,116,EnergyFlow,yes,HEV_FlowRed_01.png,image,,,,,
+103,114,211,182,211,118,EnergyFlow,yes,HEV_FlowBlue_01.png,image,,,,,
+72,28,361,228,361,164,EnergyFlow,yes,HEV_FlowBlue_02.png,image,,,,,
+100,110,213,184,213,120,EnergyFlow,yes,HEV_FlowWhite_01.png,image,,,,,
+72,28,361,228,361,164,EnergyFlow,yes,HEV_FlowWhite_02.png,image,,,,,
+173,104,428,187,428,123,EnergyFlow,yes,HEV_battery01.png,image,,,,,
+173,104,428,187,428,123,EnergyFlow,yes,HEV_battery02.png,image,,,,,
+173,104,428,187,428,123,EnergyFlow,yes,HEV_battery03.png,image,,,,,
+173,104,428,187,428,123,EnergyFlow,yes,HEV_battery04.png,image,,,,,
+173,104,428,187,428,123,EnergyFlow,yes,HEV_battery05.png,image,,,,,
+173,104,428,187,428,123,EnergyFlow,yes,HEV_battery06.png,image,,,,,
+173,104,428,187,428,123,EnergyFlow,yes,HEV_battery07.png,image,,,,,
+173,104,428,187,428,123,EnergyFlow,yes,HEV_battery08.png,image,,,,,
+173,104,428,187,428,123,EnergyFlow,yes,HEV_batteryBG.png,image,,,,,
+173,104,428,187,428,123,EnergyFlow,yes,HEV_battery_charging.png,image,,,,,
+61,91,308,195,308,131,EnergyFlow,yes,HEV_motor.png,image,,,,,
+93,120,116,176,116,112,EnergyFlow,yes,HEV_engine.png,image,,,,,
+93,120,116,176,116,112,EnergyFlow,yes,HEV_engine_working.png,image,,,,,
+491,96,151,279,151,215,EnergyFlow,yes,HEV_tyres01.png,image,,,,,
+491,96,151,279,151,215,EnergyFlow,yes,HEV_tyres02.png,image,,,,,
+491,96,151,279,151,215,EnergyFlow,yes,HEV_tyres03.png,image,,,,,
+491,96,151,279,151,215,EnergyFlow,yes,HEV_tyres04.png,image,,,,,
+491,96,151,279,151,215,EnergyFlow,yes,HEV_tyres05.png,image,,,,,
+491,96,151,279,151,215,EnergyFlow,yes,HEV_tyres06.png,image,,,,,
+491,96,151,279,151,215,EnergyFlow,yes,HEV_tyres07.png,image,,,,,
+491,96,151,279,151,215,EnergyFlow,yes,HEV_tyres08.png,image,,,,,
+639,383,81,80,81,16,EnergyFlow,yes,HEV_car_under.png,image,,,,,
+317,39,241,421,241,29,EnergyFlow_Footer,yes,"Average (Since Reset)",text,TipperarySemibold,451,59,CENTER,35,255 255 255
+41,24,689,431,689,39,EnergyFlow_Footer,yes,"mpg",text,Tipperary,449,57,LEFT,21,255 255 255
+78,45,607,419,607,27,EnergyFlow_Footer,yes,"24.2",text,TipperarySemibold,453,61,RIGHT,40,255 255 255
+73,24,304,179,304,115,EnergyFlow,yes,"MOTOR",text,TipperarySemibold,197,133,CENTER,21,255 255 255
+73,24,143,157,143,93,EnergyFlow,yes,"ENGINE",text,TipperarySemibold,175,111,CENTER,21,255 255 255
+84,24,463,169,463,105,EnergyFlow,yes,"BATTERY",text,TipperarySemibold,187,123,CENTER,21,255 255 255
+192,39,41,85,41,21,EnergyFlow,yes,"Energy Flow",text,TipperarySemibold,116,52,LEFT,35,255 255 255
+404,45,126,13,,,,,"Fuel Economy Monitor",text,TipperarySemibold,47,,LEFT,40,255 255 255
+98,45,691,13,,,,,"23:50 ",text,Tipperary,48,,LEFT,40.0214309692383,255 255 255

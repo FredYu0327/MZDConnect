@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_sv_SE = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Börja spela in körlogg",
+    "StopRecording" : "Sluta spela in körlogg",
+    "DeleteButton" : "Radera",
+    "BackButton" : "Tillbaka",
+    "ClearButton" : "Rensa",
+    "RetryButton" : "Prova igen",
+    "CancelButton" : "Avbryt",
+    "USBTransferTitle" : "USB-dataöverföring",
+    "ClearAllData" : "Rensa all data",
+    "SelectCopyData" : "Kopiera data till USB",
+    "ConfirmClearAllDataDialogText" : "Vill du verkligen rensa all data?",
+    "ClearDataRetryDialogText" : "Kunde inte rensa all data. Vill du prova igen?",
+    "SendDataRetryDialogText" : "Kunde inte kopiera data till USB. Vill du prova igen?",
+    "ConfirmCleariDMDataDialogText" : "Vill du radera den markerade körloggen?",
+    "USBMemoryFullDialogText" : "Kunde inte kopiera data till USB. USB-minnet fullt. Vill du prova igen?",
+    "InsertUSBDialogText" : "Kunde inte kopiera data till USB. Sätt i USB-enhet och prova igen.",
+    "ClearDataSuccess" : "Data har rensats",
+    "ClearDataFailure" : "Data kunde inte rensas",
+    "CopyDataSuccess" : "Kopierat data till USB",
+    "CopyDataFailure" : "Data kunde inte kopieras",
+    "CopyDataFailureUSBFull" : "USB-minnet fullt",
+    "CopyDataFailureUSBRemoved" : "Sätt i USB-enhet",
+    "ProtectionErrorDialogText" : "Enbart en skyddad fil per förar-ID. Radera fil eller stäng av skydd.",
+    "CopyingDialogText1" : "Kopierar till USB. Ta inte bort USB, stäng inte av bilen.",
+    "CopyingDialogText2" : "{noOfFilesCopied} av {totalFiles} filer överförda.",
+};
+
+framework.registerAppDictLoaded("vdt", "sv_SE");

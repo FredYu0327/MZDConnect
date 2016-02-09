@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_tr_TR = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Kayıt Sürücü Kaydını Başlat",
+    "StopRecording" : "Kayıt Sürücü Kaydını Durdur",
+    "DeleteButton" : "Sil",
+    "BackButton" : "Geri",
+    "ClearButton" : "Temizle",
+    "RetryButton" : "Yeniden Dene",
+    "CancelButton" : "İptal",
+    "USBTransferTitle" : "USB Veri Aktarma",
+    "ClearAllData" : "Tüm Verileri Sıfırla",
+    "SelectCopyData" : "Verileri USB'ye Kopyala",
+    "ConfirmClearAllDataDialogText" : "Tüm Verileri Sıfırlamak istediğinizden emin misiniz?",
+    "ClearDataRetryDialogText" : "Tüm Veriler Sıfırlanamadı. Tekrar denemek ister misiniz?",
+    "SendDataRetryDialogText" : "Veriler USB'ye Kopyalanamadı. Tekrar denemek ister misiniz?",
+    "ConfirmCleariDMDataDialogText" : "Seçilen Sürüş Kaydını silmek istiyor musunuz?",
+    "USBMemoryFullDialogText" : "Veriler USB'ye kopyalanamıyor. USB Belleği Dolu. Tekrar denemek ister misiniz?",
+    "InsertUSBDialogText" : "Veriler USB'ye kopyalanamıyor. USB Sürücüsünü takın ve tekrar deneyin.",
+    "ClearDataSuccess" : "Veriler Başarıyla Temizlendi",
+    "ClearDataFailure" : "Veriler Temizlenemiyor",
+    "CopyDataSuccess" : "Veriler Başarıyla USB'ye Kopyalandı",
+    "CopyDataFailure" : "Veriler Kopyalanamıyor",
+    "CopyDataFailureUSBFull" : "USB Belleği Dolu",
+    "CopyDataFailureUSBRemoved" : "USB Sürücüyü Tak",
+    "ProtectionErrorDialogText" : "Sürücü Kimliği başına yalnızca 1 korumalı dosyaya izin verilir. Bir dosyayı silin veya korumayı kapalı konuma getirin.",
+    "CopyingDialogText1" : "Veriler USB'ye kopyalanıyor. USB sürücüsünü çıkarmayın veya aracı Kapalı konuma getirmeyin.",
+    "CopyingDialogText2" : "{noOfFilesCopied} / {totalFiles} dosya aktarıldı.",
+};
+
+framework.registerAppDictLoaded("vdt", "tr_TR");

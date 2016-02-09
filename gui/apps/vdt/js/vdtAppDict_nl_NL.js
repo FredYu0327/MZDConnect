@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_nl_NL = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Start opname Drive Log",
+    "StopRecording" : "Stop opname Drive Log",
+    "DeleteButton" : "Verwijderen",
+    "BackButton" : "Terug",
+    "ClearButton" : "Wissen",
+    "RetryButton" : "Opnieuw proberen",
+    "CancelButton" : "Annuleren",
+    "USBTransferTitle" : "USB datatransfer",
+    "ClearAllData" : "Alle data wissen",
+    "SelectCopyData" : "Data naar USB kopiëren",
+    "ConfirmClearAllDataDialogText" : "Weet u zeker dat u alle data wilt wissen?",
+    "ClearDataRetryDialogText" : "Wissen alle data mislukt. Wilt u het opnieuw proberen?",
+    "SendDataRetryDialogText" : "Data kopiëren naar USB mislukt. Wilt u het opnieuw proberen?",
+    "ConfirmCleariDMDataDialogText" : "Wilt u de geselecteerde Drive Log verwijderen?",
+    "USBMemoryFullDialogText" : "Data kopiëren naar USB mislukt. USB-geheugen vol. Wilt u het opnieuw proberen?",
+    "InsertUSBDialogText" : "Data kopiëren naar USB mislukt. Plaats USB-stick en probeer het opnieuw.",
+    "ClearDataSuccess" : "Data gewist",
+    "ClearDataFailure" : "Data kon niet worden gewist",
+    "CopyDataSuccess" : "Data gekopieerd naar USB",
+    "CopyDataFailure" : "Data kon niet worden gekopieerd",
+    "CopyDataFailureUSBFull" : "USB-geheugen vol",
+    "CopyDataFailureUSBRemoved" : "Plaats USB-stick",
+    "ProtectionErrorDialogText" : "Slechts 1 beveiligd bestand per bestuurders-ID toegestaan. Verwijder een bestand of schakel beveiliging uit.",
+    "CopyingDialogText1" : "Gegevens worden naar USB geschreven. Verwijder de USB-drive niet en zet de motor van de auto niet af.",
+    "CopyingDialogText2" : "{noOfFilesCopied} of {totalFiles} bestanden overgezet.",
+};
+
+framework.registerAppDictLoaded("vdt", "nl_NL");

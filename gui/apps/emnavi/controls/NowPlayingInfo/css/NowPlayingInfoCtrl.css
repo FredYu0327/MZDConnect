@@ -1,0 +1,133 @@
+.infoContainer {
+    font-family: "Tipperary", Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 50%;
+    height: 244px; /*changed from 65% */
+    top: 64px;
+    left: 400px;
+    position: relative;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    visibility: visible;
+}
+
+.nowPlayingInfoTitle {
+    position: relative;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:50px; /*changed from 60 px */
+}
+
+.nowPlayingInfoTitleImage {
+    position: relative;
+    background-image: url('../images/IcnSbnEnt.png');
+    background-repeat: no-repeat;
+    width: 15%;
+    height: 35px; /*changed from 100% */
+    top: 20px;
+    left: 20px;
+}
+
+.titleFieldText {
+    position: absolute; /*changed from relative */
+    background-color: transparent;
+    background-repeat: no-repeat;
+    font-family: "Tipperary", Arial, Helvetica, sans-serif;
+    font-size: 35px; 
+    text-align: left;
+    width: 278px; /*changed from 250px */
+    height: 43px; /*changed from 70% */
+    top: 15px; /*changed from -50 */
+    left: 80px; /*changed  from 20% */
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.textGeneric {
+    position: absolute;/*changed from relative */
+    width: 278px; /*changed from 250px*/
+    height: 43px; /* changed from 40px*/
+    background-color: transparent;
+    text-align: left;
+    font-family: "Tipperary", Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    top: 58px; /*changed from 35px */
+    left: 80px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.imageTitle {
+    position: absolute;
+    width: 37px;
+    height: 37px; /*changed  from 37px */
+    background-image: url('../images/IcnListSong.png');
+    top: 104px; /*changed from 180px */
+    left: 20px;
+}
+.imageArtist {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    background-image: url('../images/IcnListContact_En.png');
+    top: 146px; /*changed from 220px */
+    left: 20px;
+}
+.imageAlbum {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    background-image: url('../images/IcnListCdPlayer_En.png');
+    top: 193px; /*changed from 260px */
+    left: 20px;
+}
+
+.textTitle { 
+    position: absolute;
+    width: 278px; /* changed from 250px*/
+    height: 43px; /*changed from 37px */
+    text-align: left;
+    font-family: "Tipperary", Arial, Helvetica, sans-serif;
+    font-size: 35px; 
+    background-color: transparent;
+    top: 101px; /*changed from 180px */
+    left: 80px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.textArtist { 
+    position: absolute;
+    width: 278px; /* changed from 250px*/
+    height: 35px; /*changed from 37px */
+    text-align: left;
+    font-family: "Tipperary", Arial, Helvetica, sans-serif;
+    font-size: 28px; 
+    background-color: transparent;
+    top: 149px; /* changed from 225px*/
+    left: 80px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.textAlbum { 
+    position: absolute;
+    width: 278px; /* changed from 250px*/
+    height: 35px; /*changed from 37px */
+    text-align: left;
+    font-family: "Tipperary", Arial, Helvetica, sans-serif;
+    font-size: 28px; 
+    background-color: transparent;
+    top: 193px; /* changed from 260px */
+    left: 80px;
+    text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+

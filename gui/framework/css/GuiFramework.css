@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    /* default background */
+	background: transparent;
+}
+
+#GuiFrameworkOffscreenTemplate {
+	position:absolute; 
+	left:805px; 
+	top:485px;
+}

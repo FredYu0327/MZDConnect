@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_ja_JP = {
+    //"stringId" : "localString"
+    "VDT" : "ドライブログ",
+    "StartRecording" : "ドライブログの記録を開始",
+    "StopRecording" : "ドライブログの記録を停止",
+    "DeleteButton" : "削除",
+    "BackButton" : "戻る",
+    "ClearButton" : "クリア",
+    "RetryButton" : "リトライ",
+    "CancelButton" : "キャンセル",
+    "USBTransferTitle" : "ドライブログの転送・削除",
+    "ClearAllData" : "ドライブログを削除",
+    "SelectCopyData" : "ドライブログをUSBメモリへ転送",
+    "ConfirmClearAllDataDialogText" : "ドライブログを全て削除しますか？",
+    "ClearDataRetryDialogText" : "削除できませんでした。リトライしますか？",
+    "SendDataRetryDialogText" : "転送できませんでした。リトライしますか？",
+    "ConfirmCleariDMDataDialogText" : "選択したドライブログを削除しますか？",
+    "USBMemoryFullDialogText" : "転送できませんでした。USBメモリが一杯です。リトライしますか？",
+    "InsertUSBDialogText" : "転送できませんでした。USBメモリを挿入してからリトライしてください。",
+    "ClearDataSuccess" : "ドライブログを削除しました。",
+    "ClearDataFailure" : "削除できませんでした。",
+    "CopyDataSuccess" : "USBメモリへ転送しました。",
+    "CopyDataFailure" : "転送できませんでした。",
+    "CopyDataFailureUSBFull" : "USBメモリが一杯です。",
+    "CopyDataFailureUSBRemoved" : "USBメモリを挿入してください。",
+    "ProtectionErrorDialogText" : "",
+    "CopyingDialogText1" : "",
+    "CopyingDialogText2" : "",
+};
+
+framework.registerAppDictLoaded("vdt", "ja_JP");

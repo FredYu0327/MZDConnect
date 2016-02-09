@@ -1,0 +1,910 @@
+/* CSS Document */
+/* Declare variables */
+/* Text-only title style centered */
+/* Contact Name */
+/* Contact Source */
+/* style05 no longer uses text 3 */
+/* One Button */
+/* Two Button */
+/* Three button */
+/* Four button */
+/* Text-only title style */
+.Dialog3Ctrl_TitleStyle01_Text1 {
+  position: absolute;
+  top: 16px;
+  left: 18px;
+  width: 664px;
+  height: 44px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+/* Icon plus title text */
+.Dialog3Ctrl_TitleStyle02_Text1 {
+  position: absolute;
+  top: 14px;
+  left: 66px;
+  width: 615px;
+  height: 46px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+/* Text-only title style centered */
+.Dialog3Ctrl_TitleStyle03_Text1 {
+  position: absolute;
+  top: 16px;
+  left: 18px;
+  width: 664px;
+  height: 44px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style02_Item {
+  position: absolute;
+  display: block;
+  white-space: nowrap;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style02_Wrap {
+  display: block;
+  white-space: normal;
+  width: 646px;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style02_Nowrap {
+  width: 646px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style02_Text1 {
+  top: 0px;
+  left: 0px;
+  line-height: 42px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style03_Text1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 646px;
+  height: 45px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style03_Text1_determinate {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 646px;
+  height: 80px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  line-height: 38px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style03_Text2 {
+  position: absolute;
+  top: 164px;
+  left: 0px;
+  width: 646px;
+  height: 45px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+/* Contact Name */
+.Dialog3Ctrl_Style04_Text1 {
+  position: absolute;
+  top: 0px;
+  left: 167px;
+  width: 479px;
+  height: 43px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 38px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+/* Contact Source */
+.Dialog3Ctrl_Style04_Text2 {
+  position: absolute;
+  top: 47px;
+  left: 167px;
+  width: 479px;
+  height: 40px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 34px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style05_Text1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 646px;
+  height: 120px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  letter-spacing: -1px;
+  color: white;
+  text-align: center;
+  line-height: 110%;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style05_Text2 {
+  position: absolute;
+  top: 138px;
+  left: 0px;
+  width: 646px;
+  height: 48px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 44px;
+  letter-spacing: -2px;
+  color: white;
+  text-align: center;
+  line-height: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+/* style05 no longer uses text 3 */
+.Dialog3Ctrl_Style05_Text3 {
+  position: absolute;
+  top: 207px;
+  left: 0px;
+  width: 646px;
+  height: 31px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 19pt;
+  letter-spacing: -1px;
+  color: white;
+  text-align: center;
+  line-height: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style10_Text1 {
+  width: 646px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 94px;
+  color: white;
+  display: table-cell;
+  min-width: 646px;
+  max-width: 646px;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style13_Item {
+  position: absolute;
+  display: block;
+  height: 117px;
+  white-space: nowrap;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style13_Wrap {
+  display: block;
+  white-space: normal;
+  width: 646px;
+  height: 97px;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  line-height: 42px;
+  padding-top: 20px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style13_Nowrap {
+  width: 646px;
+  line-height: 120px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style13_Text1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style13_Text2 {
+  position: absolute;
+  top: 117px;
+  left: 0px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style14_Text1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 646px;
+  height: 81px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  line-height: 38px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style16_Text1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 646px;
+  height: 40px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 34px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style16_Pin1, .Dialog3Ctrl_Style16_Pin2, .Dialog3Ctrl_Style16_Pin3, .Dialog3Ctrl_Style16_Pin4 {
+  position: absolute;
+  top: 100px;
+  width: 55px;
+  height: 55px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style17_Text1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 646px;
+  height: 66px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 34px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style17_Text2 {
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  width: 646px;
+  height: 66px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 34px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style17_Text3 {
+  position: absolute;
+  top: 131px;
+  left: 0px;
+  width: 646px;
+  height: 102px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  line-height: 38px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style18_Text1, .Dialog3Ctrl_Style18_Text2, .Dialog3Ctrl_Style18_Text3, .Dialog3Ctrl_Style18_Text4 {
+  position: absolute;
+  width: 658px;
+  height: 40px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  line-height: 35px;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style19_Item {
+  position: absolute;
+  display: block;
+  height: 49px;
+  white-space: nowrap;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: white;
+  text-align: center;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style19_Wrap {
+  display: block;
+  white-space: normal;
+  width: 318px;
+  height: 49px;
+  overflow: hidden;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  line-height: 24px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style19_Nowrap {
+  width: 318px;
+  line-height: 46px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style19_Text1 {
+  top: 7px;
+  left: 13px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style19_Text2 {
+  top: 70px;
+  left: 13px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style19_Text3 {
+  top: 134px;
+  left: 13px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style19_Text4 {
+  top: 198px;
+  left: 13px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style19_Text5 {
+  top: 261px;
+  left: 13px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style19_Text6 {
+  top: 7px;
+  left: 352px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style19_Text7 {
+  top: 70px;
+  left: 352px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style19_Text8 {
+  top: 134px;
+  left: 352px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style19_Text9 {
+  top: 198px;
+  left: 352px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style19_Text10 {
+  top: 261px;
+  left: 352px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style20_Item {
+  position: absolute;
+  display: block;
+  white-space: nowrap;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style20_Wrap {
+  display: block;
+  white-space: normal;
+  width: 646px;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style20_Nowrap {
+  width: 646px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style20_Text1 {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  line-height: 42px;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style22_Text1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 646px;
+  height: 83px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  line-height: 38px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style22_Text2 {
+  position: absolute;
+  top: 110px;
+  left: 0px;
+  width: 646px;
+  height: 40px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 34px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style22_Text3 {
+  position: absolute;
+  top: 176px;
+  left: 0px;
+  width: 646px;
+  height: 40px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 34px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style23_Text1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 646px;
+  height: 83px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  line-height: 38px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style23_Text2 {
+  position: absolute;
+  top: 92px;
+  left: 0px;
+  width: 646px;
+  height: 83px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  line-height: 38px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Style23_Text3 {
+  position: absolute;
+  top: 186px;
+  left: 0px;
+  width: 646px;
+  height: 40px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 34px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+/* One Button */
+.Dialog3Ctrl_ButtonStyle01_En, .Dialog3Ctrl_ButtonStyle01_Ds, .Dialog3Ctrl_ButtonStyle01_focused, .Dialog3Ctrl_ButtonStyle01_down, .Dialog3Ctrl_ButtonStyle01_held {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 54pt;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  font-size: 35px;
+  letter-spacing: -1px;
+  top: 0px;
+  /* left set conditionally */
+  height: 80px;
+  /* width set conditionally */
+  left: 0px;
+  width: 662px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+/* Two Button */
+.Dialog3Ctrl_ButtonStyle02_En, .Dialog3Ctrl_ButtonStyle02_Red_En, .Dialog3Ctrl_ButtonStyle02_Green_En, .Dialog3Ctrl_ButtonStyle02_Ds, .Dialog3Ctrl_ButtonStyle02_focused, .Dialog3Ctrl_ButtonStyle02_down, .Dialog3Ctrl_ButtonStyle02_held {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 54pt;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  font-size: 35px;
+  letter-spacing: -1px;
+  top: 0px;
+  /* left set conditionally */
+  height: 80px;
+  /* width set conditionally */
+  /* left set conditionally */
+  width: 330px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+/* Three button */
+.Dialog3Ctrl_ButtonStyle03_En, .Dialog3Ctrl_ButtonStyle03_Red_En, .Dialog3Ctrl_ButtonStyle03_Green_En, .Dialog3Ctrl_ButtonStyle03_Ds, .Dialog3Ctrl_ButtonStyle03_focused, .Dialog3Ctrl_ButtonStyle03_down, .Dialog3Ctrl_ButtonStyle03_held {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 54pt;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  font-size: 35px;
+  letter-spacing: -1px;
+  top: 0px;
+  /* left set conditionally */
+  height: 80px;
+  /* width set conditionally */
+  /* left set conditionally */
+  width: 220px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+/* Four button */
+.Dialog3Ctrl_ButtonStyle04_En, .Dialog3Ctrl_ButtonStyle04_Red_En, .Dialog3Ctrl_ButtonStyle04_Green_En, .Dialog3Ctrl_ButtonStyle04_Ds, .Dialog3Ctrl_ButtonStyle04_focused, .Dialog3Ctrl_ButtonStyle04_down, .Dialog3Ctrl_ButtonStyle04_held {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 54pt;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  font-size: 35px;
+  letter-spacing: -1px;
+  top: 0px;
+  /* left set conditionally */
+  height: 80px;
+  /* width set conditionally */
+  /* left set conditionally */
+  width: 165px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_CheckboxText {
+  position: absolute;
+  top: 26px;
+  left: 66px;
+  width: 319px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Determinate_Meter_01_LeftLabel {
+  position: absolute;
+  top: 110px;
+  left: 2px;
+  width: 100px;
+  height: 31px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  font-size: 28px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Determinate_Meter_01_RightLabel {
+  position: absolute;
+  top: 110px;
+  left: 542px;
+  width: 100px;
+  height: 31px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  font-size: 28px;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Determinate_Meter_02_LeftLabel {
+  position: absolute;
+  top: 110px;
+  left: 2px;
+  width: 100px;
+  height: 31px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  font-size: 28px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.Dialog3Ctrl_Determinate_Meter_02_RightLabel {
+  position: absolute;
+  top: 110px;
+  left: 542px;
+  width: 100px;
+  height: 31px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  font-size: 28px;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}

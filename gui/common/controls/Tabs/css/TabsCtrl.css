@@ -1,0 +1,220 @@
+/* CSS Document */
+.TabsCtrlStyle2 {
+  top: 0px;
+  left: -16px;
+  position: absolute;
+  width: 747px;
+  height: 70px;
+  background-repeat: no-repeat;
+}
+
+.TabsCtrlStyle3 {
+  top: 0px;
+  left: -20px;
+  position: absolute;
+  width: 747px;
+  height: 70px;
+  background-repeat: no-repeat;
+}
+
+.TabsCtrlStyle4 {
+  top: 0px;
+  left: -16px;
+  position: absolute;
+  width: 747px;
+  height: 70px;
+  background-repeat: no-repeat;
+}
+
+.TabsCtrlStyle2ButtonEnabled {
+  position: inherit;
+  top: 10px;
+  width: 354px;
+  height: 60px;
+  text-align: center;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/Tab_Style02.png);
+  color: #000;
+}
+
+.TabsCtrlStyle2ButtonDisabled {
+  color: #929497;
+}
+
+.TabsCtrlStyle2ButtonDown {
+  background-image: url(../images/TabPress_Style02.png), url(../images/Tab_Style02.png);
+}
+
+.TabsCtrlStyle2ButtonEnabledCurrent {
+  position: inherit;
+  top: 10px;
+  width: 354px;
+  height: 60px;
+  text-align: center;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/TabHighlight_Style02.png);
+  color: white;
+}
+
+.TabsCtrlStyle2ButtonDownCurrent {
+  background-image: url(../images/TabPress_Style02.png), url(../images/TabHighlight_Style02.png);
+}
+
+.TabsCtrlStyle3ButtonEnabled {
+  position: inherit;
+  top: 10px;
+  width: 238px;
+  height: 60px;
+  text-align: center;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/Tab_Style03.png);
+  color: #000;
+}
+
+.TabsCtrlStyle3ButtonDisabled {
+  color: #929497;
+}
+
+.TabsCtrlStyle3ButtonDown {
+  background-image: url(../images/TabPress_Style03.png), url(../images/Tab_Style03.png);
+}
+
+.TabsCtrlStyle3ButtonEnabledCurrent {
+  position: inherit;
+  top: 10px;
+  width: 238px;
+  height: 60px;
+  text-align: center;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/TabHighlight_Style03.png);
+  color: white;
+}
+
+.TabsCtrlStyle3ButtonDownCurrent {
+  background-image: url(../images/TabPress_Style03.png), url(../images/TabHighlight_Style03.png);
+}
+
+.TabsCtrlStyle4ButtonEnabled {
+  position: inherit;
+  top: 10px;
+  width: 143px;
+  height: 60px;
+  text-align: center;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/Tab_Style04.png);
+  color: #000;
+}
+
+.TabsCtrlStyle4ButtonDisabled {
+  color: #929497;
+}
+
+.TabsCtrlStyle4ButtonDown {
+  background-image: url(../images/TabPress_Style04.png), url(../images/Tab_Style04.png);
+}
+
+.TabsCtrlStyle4ButtonEnabledCurrent {
+  position: inherit;
+  top: 10px;
+  width: 143px;
+  height: 60px;
+  text-align: center;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 1px;
+  background-image: url(../images/TabHighlight_Style04.png);
+  color: white;
+}
+
+.TabsCtrlStyle4ButtonDownCurrent {
+  background-image: url(../images/TabPress_Style04.png), url(../images/TabHighlight_Style04.png);
+}
+
+.TabsCtrlStyle4PrevBtn {
+  position: inherit;
+  overflow: hidden;
+  top: 8px;
+  width: 86px;
+  height: 62px;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 0px;
+  background-image: url(../images/Tab_StyleArrow.png);
+}
+
+.TabsCtrlStyle4NextBtn {
+  position: inherit;
+  overflow: hidden;
+  top: 8px;
+  width: 86px;
+  height: 62px;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 656px;
+  background-image: url(../images/Tab_StyleArrow.png);
+}
+
+.TabsCtrlStyle4PrevNextBtnHit {
+  background-image: url(../images/TabPress_Arrow.png), url(../images/Tab_StyleArrow.png);
+}
+
+.TabsCtrlSmallerFontSize {
+  font-size: 28px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.TabsCtrlBottomMask {
+  top: 69px;
+  left: 0px;
+  position: absolute;
+  width: 741px;
+  height: 1px;
+  background-repeat: no-repeat;
+  background-image: url(../images/TabBottomMask.png);
+}
+
+.TabsCtrlLabelSpan {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.TabsCtrlOverflowCheckHelper {
+  position: absolute;
+}

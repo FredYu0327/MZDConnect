@@ -1,0 +1,196 @@
+$controlDraggableWidth :     800px;
+$controlDraggableHeight :    416px;
+
+$controlWidth :              182px;
+$controlHeight :             224px;
+
+$dvdMenuBottomTabWidth :     52px;
+$dvdMenuBottomTabHeight :    38px;
+$dvdMenuBottomTabTop :       185px;
+$dvdMenuBottomTabLeft :      65px;
+
+$dvdMenuSelectButtonWidth :  90px;
+$dvdMenuSelectButtonHeight : 96px;
+$dvdMenuSelectButtonTop :    48px;
+$dvdMenuSelectButtonLeft :   46px;
+
+$dvdMenuDirBtnLeftWidth:     86px;
+$dvdMenuDirBtnLeftHeight:    131px;
+$dvdMenuDirBtnLeftTop:       31px;
+$dvdMenuDirBtnLeftLeft:      2px;
+
+$dvdMenuDirBtnRightWidth:    86px;
+$dvdMenuDirBtnRightHeight:   131px;
+$dvdMenuDirBtnRightTop:      31px;
+$dvdMenuDirBtnRightLeft:     94px;
+
+$dvdMenuDirBtnUpWidth:       122px;
+$dvdMenuDirBtnUpHeight:      93px;
+$dvdMenuDirBtnUpTop:         1px;
+$dvdMenuDirBtnUpLeft:        30px;
+
+$dvdMenuDirBtnDownWidth:     122px;
+$dvdMenuDirBtnDownHeight:    93px;
+$dvdMenuDirBtnDownTop:       100px;
+$dvdMenuDirBtnDownLeft:      30px;
+
+$dvdMenuSelectTextTop :      37px;
+$dvdMenuSelectTextHeight :   24px;
+$dvdMenuSelectTextLeft :     16px;
+$dvdMenuSelectTextFontSize : 21px;
+
+// MIXINS
+@mixin backgroundBottomTabNormal {
+  background-image: url(../images/DVD_Ctrl_Tag.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin backgroundBottomTabFocussed {
+  background-image: url(../images/DVD_Ctrl_Tag_Focus.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin backgroundBottomTabHit {
+  background-image: url(../images/DVD_Ctrl_Tag_Hit.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.controlDraggableAreaCtrl{
+   position: absolute;
+   width: $controlDraggableWidth;
+   height: $controlDraggableHeight;
+}
+
+.dvdMenuCtrl{
+   position: absolute;
+   width: $controlWidth;
+   height: $controlHeight;
+   z-index: 10;
+
+   -o-transition-property: opacity;
+   -o-transition-duration: 300ms;
+   -o-transition-timing-function: ease-out;
+}
+
+.dvdMenuCtrl.hidden {
+  // fading
+  opacity: 0;
+}
+
+.dvdMenuBottomTabCtrl{
+   position: absolute;
+   top: $dvdMenuBottomTabTop;
+   left: $dvdMenuBottomTabLeft;
+   width: $dvdMenuBottomTabWidth;
+   height: $dvdMenuBottomTabHeight;
+   @include backgroundBottomTabNormal;
+}
+
+.dvdMenuBottomTabCtrl_focused{
+  @include backgroundBottomTabFocussed;
+}
+
+.dvdMenuBottomTabCtrl_hit{
+  @include backgroundBottomTabHit;
+}
+
+.dvdMenuBottomTabCtrl_normal{
+  @include backgroundBottomTabNormal;
+}
+
+.dvdMenuDirButton_select{
+   position: absolute;
+   width: $dvdMenuSelectButtonWidth;
+   height: $dvdMenuSelectButtonHeight;
+   left: $dvdMenuSelectButtonLeft;
+   top: $dvdMenuSelectButtonTop;
+   font-family : "Tipperary", Arial, Helvetica, sans-serif;
+   font-size: $dvdMenuSelectTextFontSize;
+   z-index: 1;
+}
+
+.dvdMenuDirButton_select img {
+   position: absolute;
+   width: $dvdMenuSelectButtonWidth;
+   height: $dvdMenuSelectButtonHeight;
+   left: 0;
+   top: 0;
+   z-index: 1;
+}
+
+.dvdMenuDirButtonSelectText{
+   position: absolute;
+   height: $dvdMenuSelectTextHeight;
+   left: $dvdMenuSelectTextLeft;
+   top: $dvdMenuSelectTextTop;
+   z-index: 2;
+   font-family : "Tipperary", Arial, Helvetica, sans-serif;
+   font-size: $dvdMenuSelectTextFontSize;
+}
+
+.dvdMenuDirButton_right{
+   position: absolute;
+   height: $dvdMenuDirBtnRightHeight;
+   width: $dvdMenuDirBtnRightWidth;
+   left: $dvdMenuDirBtnRightLeft;
+   top: $dvdMenuDirBtnRightTop;
+}
+
+.dvdMenuDirButton_right img {
+   position: absolute;
+   height: $dvdMenuDirBtnRightHeight;
+   width: $dvdMenuDirBtnRightWidth;
+   left: 0;
+   top: 0;
+}
+
+.dvdMenuDirButton_up{
+   position: absolute;
+   height: $dvdMenuDirBtnUpHeight;
+   width: $dvdMenuDirBtnUpWidth;
+   left: $dvdMenuDirBtnUpLeft;
+   top: $dvdMenuDirBtnUpTop;
+}
+
+.dvdMenuDirButton_up img{
+   position: absolute;
+   height: $dvdMenuDirBtnUpHeight;
+   width: $dvdMenuDirBtnUpWidth;
+   left: 0;
+   top: 0;
+}
+
+.dvdMenuDirButton_down{
+   position: absolute;
+   height: $dvdMenuDirBtnDownHeight;
+   width: $dvdMenuDirBtnDownWidth;
+   left: $dvdMenuDirBtnDownLeft;
+   top: $dvdMenuDirBtnDownTop;
+}
+
+.dvdMenuDirButton_down img{
+   position: absolute;
+   height: $dvdMenuDirBtnDownHeight;
+   width: $dvdMenuDirBtnDownWidth;
+   left: 0;
+   top: 0;
+}
+
+.dvdMenuDirButton_left{
+   position: absolute;
+   height: $dvdMenuDirBtnLeftHeight;
+   width: $dvdMenuDirBtnLeftWidth;
+   left: $dvdMenuDirBtnLeftLeft;
+   top: $dvdMenuDirBtnLeftTop;
+}
+
+.dvdMenuDirButton_left img{
+   position: absolute;
+   height: $dvdMenuDirBtnLeftHeight;
+   width: $dvdMenuDirBtnLeftWidth;
+   left: 0;
+   top: 0;
+}

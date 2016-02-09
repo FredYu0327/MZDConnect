@@ -1,0 +1,40 @@
+body {
+	padding: 0;
+	margin: 0;
+	font: 12px Arial, Helvetica, Garuda, sans-serif;
+	
+	/* Disable scrollbars for deployment on the target */
+	width: 800px;
+	height: 480px;
+	overflow:hidden;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, em, pre, code {
+	padding: 0;
+	margin: 0;
+	line-height: 1em;
+	font-size: 100%;
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+table {
+	font-size: inherit;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	border: 0;
+}
+
+p {
+	margin: 1em 0;
+}
+
+input {
+    font: inherit;
+}

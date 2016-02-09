@@ -1,0 +1,151 @@
+/* Declare variables */
+.ClockSettings2Ctrl {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 318px;
+}
+
+.ClockSettings2CtrlHidden {
+  display: none;
+}
+
+.ClockSettings2CtrlBodyFrame {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 780px;
+  height: 416px;
+  background-image: url(../images/ClockSettingBG.png);
+  background-repeat: no-repeat;
+}
+
+.ClockSettings2CtrlTitle {
+  position: absolute;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 11px;
+  left: 80px;
+  width: 690px;
+  height: 50px;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+}
+
+.ClockSettings2CtrlHoursTensDigitFrame {
+  position: absolute;
+  top: 117px;
+  left: 164px;
+  width: 102px;
+  height: 171px;
+}
+
+.ClockSettings2CtrlHoursTensDigit {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 150px;
+  color: white;
+}
+
+.ClockSettings2CtrlHoursOnesDigitFrame {
+  position: absolute;
+  top: 117px;
+  left: 268px;
+  width: 102px;
+  height: 171px;
+}
+
+.ClockSettings2CtrlHoursOnesDigit {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 150px;
+  color: white;
+}
+
+.ClockSettings2CtrlColonSeparatorFrame {
+  position: absolute;
+  top: 177px;
+  left: 391px;
+  width: 18px;
+  height: 72px;
+  background-image: url(../images/ClockSetting_Colon_En.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.ClockSettings2CtrlMinutesTensDigitFrame {
+  position: absolute;
+  top: 117px;
+  left: 430px;
+  width: 102px;
+  height: 171px;
+}
+
+.ClockSettings2CtrlMinutesTensDigit {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 150px;
+  color: white;
+}
+
+.ClockSettings2CtrlMinutesOnesDigitFrame {
+  position: absolute;
+  top: 117px;
+  left: 534px;
+  width: 102px;
+  height: 171px;
+}
+
+.ClockSettings2CtrlMinutesOnesDigit {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 150px;
+  color: white;
+}
+
+.ClockSettings2CtrlAMPM {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: absolute;
+  top: 206px;
+  left: 657px;
+  width: 115px;
+  height: 55px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;
+  color: white;
+}

@@ -1,0 +1,1434 @@
+/**
+ * @author Brian Ensink (briane@spindance.com)
+ * @author Mike Petersen (mikep@spindance.com)
+ */
+.Tuner4CtrlHidden {
+  display: none;
+}
+
+.Tuner4Ctrl {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 416px;
+  background-image: url(../images/TunerCtrl_Bg.png);
+  background-repeat: no-repeat;
+}
+
+.Tuner4CtrlTestArea {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  width: 768px;
+  height: 57px;
+}
+
+.Tuner4CtrlBackgroundDialBg {
+  position: absolute;
+  top: 0px;
+  width: 496px;
+  height: 416px;
+  left: 152px;
+  background-image: url(../images/BgDial.png);
+  background-repeat: no-repeat;
+  z-index: -999;
+}
+
+.Tuner4CtrlDialBg {
+  position: absolute;
+  top: 0px;
+  width: 496px;
+  height: 416px;
+  left: 152px;
+  background-image: url(../images/BgDial.png);
+  background-repeat: no-repeat;
+}
+
+.Tuner4CtrlDialBg_Focus {
+  position: absolute;
+  top: 0px;
+  width: 496px;
+  height: 416px;
+  left: 152px;
+  background-image: url(../images/BgDial_Focus.png);
+  background-repeat: no-repeat;
+}
+
+.Tuner4CtrlDialBg_Hit {
+  position: absolute;
+  top: 0px;
+  width: 496px;
+  height: 416px;
+  left: 152px;
+  background-image: url(../images/BgDial_Hit.png);
+  background-repeat: no-repeat;
+}
+
+.Tuner4CtrlDialBg_Held {
+  position: absolute;
+  top: 0px;
+  width: 496px;
+  height: 416px;
+  left: 152px;
+  background-image: url(../images/BgDial_Held.png);
+  background-repeat: no-repeat;
+}
+
+.Tuner4CtrlDialTickMarks11 {
+  position: absolute;
+  top: 105px;
+  left: 262px;
+  width: 276px;
+  height: 250px;
+  background-image: url(../images/Ticks_Styl01.png);
+  background-repeat: no-repeat;
+}
+
+.Tuner4CtrlDialTickMarks08 {
+  position: absolute;
+  top: 110px;
+  left: 263px;
+  width: 273px;
+  height: 201px;
+  background-image: url(../images/Ticks_Style02.png);
+  background-repeat: no-repeat;
+}
+
+.Tuner4CtrlDialTickMarks13 {
+  position: absolute;
+  top: 101px;
+  left: 262px;
+  width: 278px;
+  height: 241px;
+  background-image: url(../images/Ticks_Style03.png);
+  background-repeat: no-repeat;
+}
+
+.Tuner4CtrlDialTickMarks12 {
+  position: absolute;
+  top: 105px;
+  left: 262px;
+  width: 277px;
+  height: 240px;
+  background-image: url(../images/Ticks_Style04.png);
+  background-repeat: no-repeat;
+}
+
+.Tuner4CtrlStationLabel4Digit {
+  position: absolute;
+  top: 232px;
+  left: 343px;
+  width: 114px;
+  height: 40px;
+  color: white;
+  line-height: 40px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 40px;
+}
+
+.Tuner4CtrlStationLabel5Digit {
+  position: absolute;
+  top: 232px;
+  left: 343px;
+  width: 114px;
+  height: 40px;
+  color: white;
+  line-height: 40px;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 35px;
+}
+
+.Tuner4CtrlCenterXGuide {
+  position: inherit;
+  top: 253px;
+  left: 336px;
+  width: 128px;
+  height: 1px;
+  background-color: #FF0000;
+}
+
+.Tuner4CtrlCenterYGuide {
+  position: inherit;
+  top: 189px;
+  left: 400px;
+  width: 1px;
+  height: 128px;
+  background-color: #FF0000;
+}
+
+.Tuner4CtrlNeedle {
+  position: absolute;
+  top: 101px;
+  left: 337px;
+  width: 126px;
+  height: 130px;
+}
+
+.Tuner4CtrlNeedleGuide {
+  position: absolute;
+  top: 101px;
+  left: 400px;
+  width: 0px;
+  height: 130px;
+  border: 1px solid blue;
+}
+
+.Tuner4CtrlSelectionMask {
+  position: absolute;
+  top: 21px;
+  left: 184px;
+  width: 432px;
+  height: 395px;
+}
+
+.Tuner4Ctrl_Style01_FreqLabel1 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 310px;
+  left: 192px;
+}
+
+.Tuner4Ctrl_Style01_FreqLabel2 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 241px;
+  left: 179px;
+}
+
+.Tuner4Ctrl_Style01_FreqLabel3 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 169px;
+  left: 195px;
+}
+
+.Tuner4Ctrl_Style01_FreqLabel4 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 108px;
+  left: 231px;
+}
+
+.Tuner4Ctrl_Style01_FreqLabel5 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 67px;
+  left: 291px;
+}
+
+.Tuner4Ctrl_Style01_FreqLabel6 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 55px;
+  left: 358px;
+}
+
+.Tuner4Ctrl_Style01_FreqLabel7 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 66px;
+  left: 428px;
+}
+
+.Tuner4Ctrl_Style01_FreqLabel8 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 109px;
+  left: 490px;
+}
+
+.Tuner4Ctrl_Style01_FreqLabel9 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 168px;
+  left: 527px;
+}
+
+.Tuner4Ctrl_Style01_FreqLabel10 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 241px;
+  left: 536px;
+}
+
+.Tuner4Ctrl_Style01_FreqLabel11 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 310px;
+  left: 523px;
+}
+
+.Tuner4Ctrl_Style02_FreqLabel1 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 308px;
+  left: 192px;
+}
+
+.Tuner4Ctrl_Style02_FreqLabel2 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 204px;
+  left: 183px;
+}
+
+.Tuner4Ctrl_Style02_FreqLabel3 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 113px;
+  left: 227px;
+}
+
+.Tuner4Ctrl_Style02_FreqLabel4 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 57px;
+  left: 306px;
+}
+
+.Tuner4Ctrl_Style02_FreqLabel5 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 57px;
+  left: 405px;
+}
+
+.Tuner4Ctrl_Style02_FreqLabel6 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 113px;
+  left: 485px;
+}
+
+.Tuner4Ctrl_Style02_FreqLabel7 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 203px;
+  left: 530px;
+}
+
+.Tuner4Ctrl_Style02_FreqLabel8 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 308px;
+  left: 519px;
+}
+
+.Tuner4Ctrl_Style03_FreqLabel1 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 338px;
+  left: 216px;
+}
+
+.Tuner4Ctrl_Style03_FreqLabel2 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 271px;
+  left: 188px;
+}
+
+.Tuner4Ctrl_Style03_FreqLabel3 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 208px;
+  left: 185px;
+}
+
+.Tuner4Ctrl_Style03_FreqLabel4 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 156px;
+  left: 197px;
+}
+
+.Tuner4Ctrl_Style03_FreqLabel5 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 115px;
+  left: 228px;
+}
+
+.Tuner4Ctrl_Style03_FreqLabel6 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 80px;
+  left: 279px;
+}
+
+.Tuner4Ctrl_Style03_FreqLabel7 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 66px;
+  left: 358px;
+}
+
+.Tuner4Ctrl_Style03_FreqLabel8 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 80px;
+  left: 444px;
+}
+
+.Tuner4Ctrl_Style03_FreqLabel9 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 115px;
+  left: 495px;
+}
+
+.Tuner4Ctrl_Style03_FreqLabel10 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 161px;
+  left: 521px;
+}
+
+.Tuner4Ctrl_Style03_FreqLabel11 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 208px;
+  left: 534px;
+}
+
+.Tuner4Ctrl_Style03_FreqLabel12 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 259px;
+  left: 536px;
+}
+
+.Tuner4Ctrl_Style03_FreqLabel13 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 314px;
+  left: 523px;
+}
+
+.Tuner4Ctrl_Style04_FreqLabel1 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 298px;
+  left: 185px;
+}
+
+.Tuner4Ctrl_Style04_FreqLabel2 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 234px;
+  left: 180px;
+}
+
+.Tuner4Ctrl_Style04_FreqLabel3 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 175px;
+  left: 187px;
+}
+
+.Tuner4Ctrl_Style04_FreqLabel4 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 126px;
+  left: 211px;
+}
+
+.Tuner4Ctrl_Style04_FreqLabel5 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 88px;
+  left: 247px;
+}
+
+.Tuner4Ctrl_Style04_FreqLabel6 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 57px;
+  left: 314px;
+}
+
+.Tuner4Ctrl_Style04_FreqLabel7 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 57px;
+  left: 401px;
+}
+
+.Tuner4Ctrl_Style04_FreqLabel8 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 88px;
+  left: 469px;
+}
+
+.Tuner4Ctrl_Style04_FreqLabel9 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 126px;
+  left: 504px;
+}
+
+.Tuner4Ctrl_Style04_FreqLabel10 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 175px;
+  left: 528px;
+}
+
+.Tuner4Ctrl_Style04_FreqLabel11 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 234px;
+  left: 538px;
+}
+
+.Tuner4Ctrl_Style04_FreqLabel12 {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  color: white;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-user-select: none;
+  user-select: none;
+  top: 298px;
+  left: 531px;
+}
+
+.Tuner4CtrlHdIconFrame {
+  position: absolute;
+  top: 370px;
+  left: 309px;
+  width: 182px;
+  height: 40px;
+}
+
+.Tuner4CtrlHdIconImage {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: auto;
+  margin-left: 0px;
+  margin-right: auto;
+  margin-bottom: auto;
+  max-width: 182px;
+  max-height: 40px;
+}
+
+.Tuner4CtrlHdSubst1 {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #999999;
+}
+
+.Tuner4CtrlHdSubst2 {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #999999;
+}
+
+.Tuner4CtrlHdSubst3 {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #999999;
+}
+
+.Tuner4CtrlHdSubst4 {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #999999;
+}
+
+.Tuner4CtrlHdSubst5 {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #999999;
+}
+
+.Tuner4CtrlHdSubst6 {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #999999;
+}
+
+.Tuner4CtrlHdSubst7 {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #999999;
+}
+
+.Tuner4CtrlHdSubst8 {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #999999;
+}
+
+.Tuner4CtrlHdSubst1Active {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #f89c1e;
+}
+
+.Tuner4CtrlHdSubst2Active {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #f89c1e;
+}
+
+.Tuner4CtrlHdSubst3Active {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #f89c1e;
+}
+
+.Tuner4CtrlHdSubst4Active {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #f89c1e;
+}
+
+.Tuner4CtrlHdSubst5Active {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #f89c1e;
+}
+
+.Tuner4CtrlHdSubst6Active {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #f89c1e;
+}
+
+.Tuner4CtrlHdSubst7Active {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #f89c1e;
+}
+
+.Tuner4CtrlHdSubst8Active {
+  position: absolute;
+  top: 0px;
+  width: 13px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  color: #f89c1e;
+}
+
+.Tuner4CtrlPrevButtonDisabled {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  width: 384px;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Tuner4CtrlPrevButtonEnabled {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  width: 384px;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/TunerCtrl_Button.png);
+}
+
+.Tuner4CtrlPrevButtonFocused {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  width: 384px;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/TunerCtrl_ButtonFocus.png);
+}
+
+.Tuner4CtrlPrevButtonDown {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  width: 384px;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/TunerCtrl_ButtonFocus.png);
+}
+
+.Tuner4CtrlPrevButtonHeld {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  width: 384px;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/TunerCtrl_ButtonFocus.png);
+}
+
+.Tuner4CtrlNextButtonDisabled {
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  width: 384px;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Tuner4CtrlNextButtonEnabled {
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  width: 384px;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/TunerCtrl_Button.png);
+}
+
+.Tuner4CtrlNextButtonFocused {
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  width: 384px;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/TunerCtrl_ButtonFocus.png);
+}
+
+.Tuner4CtrlNextButtonDown {
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  width: 384px;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/TunerCtrl_ButtonFocus.png);
+}
+
+.Tuner4CtrlNextButtonHeld {
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  width: 384px;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/TunerCtrl_ButtonFocus.png);
+}
+
+.Tuner4CtrlLeftButtonEnabled {
+  position: absolute;
+  top: 100px;
+  left: 00px;
+  width: 90px;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/BtnLeft_En.png);
+}
+
+.Tuner4CtrlLeftButtonFocused {
+  position: absolute;
+  top: 100px;
+  left: 00px;
+  width: 90px;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/BtnLeft_Focus.png);
+}
+
+.Tuner4CtrlLeftButtonDown {
+  position: absolute;
+  top: 100px;
+  left: 00px;
+  width: 90px;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/BtnLeft_Press.png);
+}

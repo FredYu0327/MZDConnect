@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_et_EE = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "Käivita sõidulogi salvestamine",
+    "StopRecording" : "Peata sõidulogi salvestamine",
+    "DeleteButton" : "Kustuta",
+    "BackButton" : "Tagasi",
+    "ClearButton" : "Kustuta",
+    "RetryButton" : "Proovi uuesti",
+    "CancelButton" : "Tühista",
+    "USBTransferTitle" : "USB-andmeedastus",
+    "ClearAllData" : "Kustuta kõik andmed",
+    "SelectCopyData" : "Kopeeri andmed USB-le",
+    "ConfirmClearAllDataDialogText" : "Kas soovite kindlasti kõik andmed kustutada?",
+    "ClearDataRetryDialogText" : "Kõigi andmete kustutamine nurjus. Kas soovite uuesti proovida?",
+    "SendDataRetryDialogText" : "Andmeid ei saanud USB-le kopeerida. Kas soovite uuesti proovida?",
+    "ConfirmCleariDMDataDialogText" : "Kas soovite valitud sõidulogi kustutada?",
+    "USBMemoryFullDialogText" : "Andmeid ei saanud USB-le kopeerida. USB-mälu on täis. Kas soovite uuesti proovida?",
+    "InsertUSBDialogText" : "Andmeid ei saanud USB-le kopeerida. Sisestage USB-seade ja proovige uuesti.",
+    "ClearDataSuccess" : "Andmete kustutamine õnnestus",
+    "ClearDataFailure" : "Andmeid ei saanud kustutada",
+    "CopyDataSuccess" : "Andmed on USB-le kopeeritud",
+    "CopyDataFailure" : "Andmeid ei saanud kopeerida",
+    "CopyDataFailureUSBFull" : "USB-mälu on täis",
+    "CopyDataFailureUSBRemoved" : "Sisestage USB-seade",
+    "ProtectionErrorDialogText" : "Iga juhitunnuse kohta on lubatud ainult üks kaitstud fail. Kustutage fail või lülitage kaitse välja.",
+    "CopyingDialogText1" : "Andmeid kopeeritakse USB-le. Ärge eemaldage USB-seadet ega keerake auto süüdet välja.",
+    "CopyingDialogText2" : "{noOfFilesCopied} faili {totalFiles}-st on edastatud.",
+};
+
+framework.registerAppDictLoaded("vdt", "et_EE");

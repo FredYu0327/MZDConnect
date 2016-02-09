@@ -1,0 +1,20 @@
+/* CSS Document */
+.StatusBarCtrlAppName {
+  position: absolute;
+  left: 117px;
+  top: 1px;
+  height: 62px;
+  width: 420px;
+  line-height: 62px;
+  font-size: 40px;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-repeat: no-repeat;
+  background-position: left center;
+  direction: rtl;
+}

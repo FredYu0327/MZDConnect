@@ -1,0 +1,36 @@
+/* Declare variables */
+.ClockSettings2CtrlTitle {
+  position: absolute;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 11px;
+  left: 80px;
+  width: 690px;
+  height: 50px;
+  font-family: "Tipperary Semibold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+  direction: rtl;
+}
+
+.ClockSettings2CtrlAMPM {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: absolute;
+  top: 206px;
+  left: 657px;
+  width: 115px;
+  height: 55px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Tipperary", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;
+  color: white;
+  direction: rtl;
+}

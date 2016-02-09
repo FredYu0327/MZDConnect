@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_th_TH = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "เริ่มบันทึกข้อมูลการขับรถ",
+    "StopRecording" : "หยุดบันทึกข้อมูลการขับรถ",
+    "DeleteButton" : "ลบ",
+    "BackButton" : "ย้อนกลับ",
+    "ClearButton" : "ล้าง",
+    "RetryButton" : "ลองใหม่",
+    "CancelButton" : "ยกเลิก",
+    "USBTransferTitle" : "การโอนย้ายข้อมูล USB",
+    "ClearAllData" : "ล้างข้อมูลทั้งหมด",
+    "SelectCopyData" : "คัดลอกข้อมูลไปยัง USB",
+    "ConfirmClearAllDataDialogText" : "แน่ใจหรือไม่ว่าต้องการล้างข้อมูลทั้งหมด",
+    "ClearDataRetryDialogText" : "ไม่สามารถล้างข้อมูลทั้งหมดได้ คุณต้องการลองอีกครั้งหรือไม่",
+    "SendDataRetryDialogText" : "ไม่สามารถคัดลอกข้อมูลไปยัง USB คุณต้องการลองอีกครั้งหรือไม่",
+    "ConfirmCleariDMDataDialogText" : "คุณต้องการลบข้อมูลการขับรถหรือไม่",
+    "USBMemoryFullDialogText" : "ไม่สามารถคัดลอกข้อมูลไปยัง USB หน่วยความจำ USB เต็ม คุณต้องการลองอีกครั้งหรือไม่",
+    "InsertUSBDialogText" : "ไม่สามารถคัดลอกข้อมูลไปยัง USB เสียบไดรฟ์ USB และลองอีกครั้ง",
+    "ClearDataSuccess" : "ล้างข้อมูลเรียบร้อยแล้ว",
+    "ClearDataFailure" : "ไม่สามารถล้างข้อมูลได้",
+    "CopyDataSuccess" : "คัดลอกข้อมูลไปยัง USB เรียบร้อยแล้ว",
+    "CopyDataFailure" : "ไม่สามารถคัดลอกข้อมูลได้",
+    "CopyDataFailureUSBFull" : "หน่วยความจำ USB เต็ม",
+    "CopyDataFailureUSBRemoved" : "เสียบไดรฟ์ USB",
+    "ProtectionErrorDialogText" : "",
+    "CopyingDialogText1" : "",
+    "CopyingDialogText2" : "",
+};
+
+framework.registerAppDictLoaded("vdt", "th_TH");

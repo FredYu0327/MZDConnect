@@ -1,0 +1,31 @@
+var Localization_vdtAppDict_he_IL = {
+    //"stringId" : "localString"
+    "VDT" : "VDT",
+    "StartRecording" : "הפעל הקלטת יומן נהיגה",
+    "StopRecording" : "הפסק הקלטת יומן נהיגה",
+    "DeleteButton" : "מחק",
+    "BackButton" : "אחרוה",
+    "ClearButton" : "נקה",
+    "RetryButton" : "נסה שנית",
+    "CancelButton" : "בטל",
+    "USBTransferTitle" : "העברת נתונים ב-USB",
+    "ClearAllData" : "נקה את כל הנתונים",
+    "SelectCopyData" : "העתק נתונים ל-USB",
+    "ConfirmClearAllDataDialogText" : "האם אתה בטוח שברצונך למחוק את כל הנתונים?",
+    "ClearDataRetryDialogText" : "לא ניתן למחק נתונים. האם תרצה לנסות שנית?",
+    "SendDataRetryDialogText" : "לא ניתן להעתיק נתונים ל-USB. האם תרצה לנסות שנית?",
+    "ConfirmCleariDMDataDialogText" : "האם תרצה למחוק את יומן הנהיגה הנבחר?",
+    "USBMemoryFullDialogText" : "לא ניתן להעתיק נתונים ל-USB. זכרון ה-USB מלא. האם תרצה לנסות שנית?",
+    "InsertUSBDialogText" : "לא ניתן להעתיק נתונים ל-USB. הכנס כונן USB ונסה שנית.",
+    "ClearDataSuccess" : "הנתונים נוקו בהצלחה",
+    "ClearDataFailure" : "לא ניתן היה לנקות נתונים",
+    "CopyDataSuccess" : "הנתונים הועתקו ל-USB בהצלחה",
+    "CopyDataFailure" : "לא ניתן היה להעתיק נתונים",
+    "CopyDataFailureUSBFull" : "זכרון USB מלא",
+    "CopyDataFailureUSBRemoved" : "הכנס כונן USB",
+    "ProtectionErrorDialogText" : "רק קובץ מוגן 1 מותר עבור כל נהג. מחק קובץ או הסר הגנה.",
+    "CopyingDialogText1" : "מעתיק נתונים ל-USB. אל תוציא את כונן ה-USB ואל תכבה את הרכב.",
+    "CopyingDialogText2" : "{noOfFilesCopied} מתוך {totalFiles} קבצים הועברו.",
+};
+
+framework.registerAppDictLoaded("vdt", "he_IL");

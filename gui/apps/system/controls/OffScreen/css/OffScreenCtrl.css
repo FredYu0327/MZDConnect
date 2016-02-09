@@ -1,0 +1,12 @@
+.OffScreenCtrl {
+  width: 800px;
+  height: 480px;
+  background: url(../images/OffScreenBackground.png);
+  background-repeat: no-repeat;
+  left: 0px;
+  top: 0px; }
+
+/*.OffScreenCtrlClock {
+	color: white;
+}
+*/

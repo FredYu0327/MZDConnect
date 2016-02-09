@@ -1,0 +1,188 @@
+/* TrafficCtrl.css */
+
+
+.trafficCtrl
+{
+    width: 800px;
+    height: 420px;
+    margin-top: 60px;
+    z-index: 9999;
+    border-bottom: 2px solid #111;
+}
+
+#maparea
+{
+    /* WIP */
+}
+
+.mapArea
+{
+    width: 800px;
+    height:370px; 
+    background: url(../common/images/background.png) 100% 100% no-repeat;
+    overflow : hidden;
+    overflow-x:hidden;
+}
+.TrafficCtrlScrollIndicatorWrapper {
+  float:right;
+  margin-top: -370px;
+  margin-right:35px;
+  width: 28px;
+  height:370px;
+  background: url(../images/ScrollbarBg.png) 100% 100% no-repeat;
+  
+}
+
+.TrafficCtrlScrollIndicator {
+  width: 28px;
+  transform: rotate(0deg);
+  height: 370px;  
+  margin-right:5px;
+  margin-top:0px;
+  margin-bottom:0px;
+  position:absolute;	
+  clip: rect(0px, 28px, 125px, 0px);
+  background: url(../images/Scrollbar.png) 100% 100% no-repeat;
+}
+
+.TrafficCtrlArc {
+float:right;
+  margin-top: -370px;
+  margin-right:15px;
+  width: 28px;
+  height:370px;
+  background: url(../images/ChromeArcRight.png) 100% 100% no-repeat;
+ 
+} 
+.gpsMarkerArea
+{
+    background-repeat: no-repeat;
+}
+
+.gpsMarkerImage
+{
+    background-image: url('../images/gpsMarker.png');
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    display: none;
+    clear: both;
+    float: left;
+}
+.gpsMarkerPoorImage
+{
+    background-image: url('../images/gpsPoorSignal.png');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    display: none;
+    clear: both;
+    float: left;
+}
+
+.mapImage
+{
+    text-align:center;
+    margin-left:110px;
+    width:650px;
+    height:605px;
+}
+
+.footerArea
+{
+    width: 800px;
+    height:50px;
+    border-top:2px solid #000;
+    clear:both;
+}
+
+.trafficLogo
+{
+    width:257px;
+    height:40px;
+    margin-top:-30px;
+    margin-left:270px;
+}
+
+.testModeText
+{
+    width:260px;
+    height:20px;
+    margin-top:15px;
+    margin-left:140px;	
+    text-align:left;
+    color: #eee;
+    font-size:17px;
+    font-weight:900;
+}
+
+.updatedText
+{
+    width:260px;
+    height:20px;
+    margin-top:-30px;
+    margin-left:510px;
+    text-align:center;
+    color: #eee;
+    font-size:18px;
+    font-weight:900;
+    position: absolute;
+}
+
+.tile
+{
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+.imageTile
+{
+    width:200px;
+    height:200px;
+    text-align: center;
+}
+
+.columnMarginLeft
+{
+    margin-left:25px;
+}
+
+
+.bannerImage
+{
+    float :left;
+    width:600px;
+    height:60px;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+
+.HDLogoDisabledImage
+{
+    float :left;
+    width:44px;
+    height:36px;
+    position: absolute;
+    left: 90px;
+    top: 440px;
+    background: url('../images/hd_disabled.png');
+}
+
+.HDLogoBrightImage
+{
+    float :left;
+    width:44px;
+    height:36px;
+    position: absolute;
+    left: 90px;
+    top: 440px;
+    background: url('../images/hd_bright.png');
+}
+
+.disableBannerImage
+{
+    display: none;
+}
+/************ End ****************/

@@ -1,0 +1,5 @@
+/*
+ * This mixin changes all of the layout specific variables
+ * according to the passed parameter $layout.
+ * $layout can be: five-ten, six-ten, six-twelve, sugg-five-ten, sugg-seven-ten
+ */

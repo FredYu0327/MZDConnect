@@ -1,0 +1,12 @@
+::beginJSON
+{
+	"activeTextColor": {
+		"Default": "rgb(255, 40, 0)",
+		"J03G": "rgb(124,170,237)"
+	}
+}
+::endJSON
+
+//Temporary SCSS file generated based on vehicle type
+
+$common-activeTextColor: %%activeTextColor%%;
